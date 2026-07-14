@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+.pytest_cache/
+*.db
+*.sqlite
+*.sqlite3
+
+# Node / Frontend
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Logs & Environment
+*.log
+.env
+.DS_Store
+Thumbs.db
+
+# User media and trained vision artifacts
+backend/uploads/*
+!backend/uploads/.gitkeep
+backend/ml/vision/*.pth
+backend/ml/vision/vision_metrics.json
