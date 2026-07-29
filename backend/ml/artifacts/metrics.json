@@ -1,0 +1,299 @@
+{
+  "warning": "Synthetic showcase data only. Held-out metrics describe this generated dataset and must not be treated as real-world accuracy or deployment evidence.",
+  "dataset": "showcase_complaints.csv",
+  "rows": 839,
+  "category": {
+    "macro_f1": 0.8388637372213665,
+    "labels": [
+      "drainage",
+      "electricity",
+      "food",
+      "healthcare",
+      "road_transport",
+      "waste",
+      "water"
+    ],
+    "confusion_matrix": [
+      [
+        18,
+        0,
+        0,
+        0,
+        0,
+        5,
+        2
+      ],
+      [
+        0,
+        24,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        25,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        23,
+        0,
+        0,
+        0
+      ],
+      [
+        3,
+        3,
+        0,
+        0,
+        17,
+        0,
+        2
+      ],
+      [
+        0,
+        5,
+        3,
+        1,
+        0,
+        16,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        20
+      ]
+    ],
+    "classification_report": {
+      "drainage": {
+        "precision": 0.8571428571428571,
+        "recall": 0.72,
+        "f1-score": 0.782608695652174,
+        "support": 25.0
+      },
+      "electricity": {
+        "precision": 0.75,
+        "recall": 0.96,
+        "f1-score": 0.8421052631578947,
+        "support": 25.0
+      },
+      "food": {
+        "precision": 0.8333333333333334,
+        "recall": 1.0,
+        "f1-score": 0.9090909090909091,
+        "support": 25.0
+      },
+      "healthcare": {
+        "precision": 0.9583333333333334,
+        "recall": 0.92,
+        "f1-score": 0.9387755102040817,
+        "support": 25.0
+      },
+      "road_transport": {
+        "precision": 1.0,
+        "recall": 0.68,
+        "f1-score": 0.8095238095238095,
+        "support": 25.0
+      },
+      "waste": {
+        "precision": 0.7272727272727273,
+        "recall": 0.64,
+        "f1-score": 0.6808510638297872,
+        "support": 25.0
+      },
+      "water": {
+        "precision": 0.8333333333333334,
+        "recall": 1.0,
+        "f1-score": 0.9090909090909091,
+        "support": 20.0
+      },
+      "accuracy": 0.8411764705882353,
+      "macro avg": {
+        "precision": 0.8513450834879406,
+        "recall": 0.8457142857142855,
+        "f1-score": 0.8388637372213665,
+        "support": 170.0
+      },
+      "weighted avg": {
+        "precision": 0.8518748408454291,
+        "recall": 0.8411764705882353,
+        "f1-score": 0.8367982321663798,
+        "support": 170.0
+      }
+    },
+    "per_model": {
+      "word_logistic": {
+        "name": "Word Logistic Regression",
+        "macro_f1": 0.6987810437679516
+      },
+      "char_linear_svc": {
+        "name": "Calibrated Character SVM",
+        "macro_f1": 0.8621294381923954
+      },
+      "word_multinomial_nb": {
+        "name": "Word Multinomial NB",
+        "macro_f1": 0.5969321034395791
+      },
+      "char_complement_nb": {
+        "name": "Character Complement NB",
+        "macro_f1": 0.8760547761633501
+      },
+      "hybrid_sgd": {
+        "name": "Hybrid SGD Log-Loss",
+        "macro_f1": 0.8264920547586387
+      },
+      "svd_random_forest": {
+        "name": "SVD Random Forest",
+        "macro_f1": 0.47179482094773123
+      }
+    },
+    "validation_f1": {
+      "word_logistic": 0.4184279534882262,
+      "char_linear_svc": 0.5481399988383775,
+      "word_multinomial_nb": 0.2991907833943238,
+      "char_complement_nb": 0.47683685808438014,
+      "hybrid_sgd": 0.5414442855963016,
+      "svd_random_forest": 0.29556242193739374
+    },
+    "weights": {
+      "word_logistic": 0.16220638091035636,
+      "char_linear_svc": 0.21249011855581482,
+      "word_multinomial_nb": 0.11598329837084648,
+      "char_complement_nb": 0.18484898150263968,
+      "hybrid_sgd": 0.20989448075591044,
+      "svd_random_forest": 0.11457673990443222
+    },
+    "split": {
+      "method": "stratified_group_by_template",
+      "train": 499,
+      "validation": 170,
+      "test": 170,
+      "train_groups": 100,
+      "validation_groups": 34,
+      "test_groups": 34
+    }
+  },
+  "severity": {
+    "macro_f1": 1.0,
+    "labels": [
+      "high",
+      "low",
+      "medium"
+    ],
+    "confusion_matrix": [
+      [
+        56,
+        0,
+        0
+      ],
+      [
+        0,
+        60,
+        0
+      ],
+      [
+        0,
+        0,
+        54
+      ]
+    ],
+    "classification_report": {
+      "high": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 56.0
+      },
+      "low": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 60.0
+      },
+      "medium": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 54.0
+      },
+      "accuracy": 1.0,
+      "macro avg": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 170.0
+      },
+      "weighted avg": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 170.0
+      }
+    },
+    "per_model": {
+      "word_logistic": {
+        "name": "Word Logistic Regression",
+        "macro_f1": 0.9529700017731354
+      },
+      "char_linear_svc": {
+        "name": "Calibrated Character SVM",
+        "macro_f1": 1.0
+      },
+      "word_multinomial_nb": {
+        "name": "Word Multinomial NB",
+        "macro_f1": 0.8941822941822942
+      },
+      "char_complement_nb": {
+        "name": "Character Complement NB",
+        "macro_f1": 0.9534502429631839
+      },
+      "hybrid_sgd": {
+        "name": "Hybrid SGD Log-Loss",
+        "macro_f1": 1.0
+      },
+      "svd_random_forest": {
+        "name": "SVD Random Forest",
+        "macro_f1": 0.6888888888888888
+      }
+    },
+    "validation_f1": {
+      "word_logistic": 0.9700446655433416,
+      "char_linear_svc": 1.0,
+      "word_multinomial_nb": 0.9103446109876651,
+      "char_complement_nb": 0.9134070789110901,
+      "hybrid_sgd": 1.0,
+      "svd_random_forest": 0.7089845900231424
+    },
+    "weights": {
+      "word_logistic": 0.1762826242143513,
+      "char_linear_svc": 0.18172629619648686,
+      "word_multinomial_nb": 0.16543355441722002,
+      "char_complement_nb": 0.1659900853701646,
+      "hybrid_sgd": 0.18172629619648686,
+      "svd_random_forest": 0.12884114360529036
+    },
+    "split": {
+      "method": "stratified_group_by_template",
+      "train": 505,
+      "validation": 164,
+      "test": 170,
+      "train_groups": 101,
+      "validation_groups": 33,
+      "test_groups": 34
+    }
+  }
+}
