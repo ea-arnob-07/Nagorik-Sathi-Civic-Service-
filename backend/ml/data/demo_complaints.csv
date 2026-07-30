@@ -1,0 +1,840 @@
+﻿text,category,severity,language,source,scenario_group
+"A small service issue: since this morning, The health centre in Chandgaon is short of essential vaccines and medicines.",healthcare,low,en,synthetic_showcase,healthcare:en:4
+"এলাকাবাসী ভোগান্তিতে আছেন: এক সপ্তাহ ধরে, মোহাম্মদপুর এলাকার রেস্তোরাঁয় অস্বাস্থ্যকর পরিবেশে খাবার প্রস্তুত ও পরিবেশন করা হচ্ছে।",food,medium,bn,synthetic_showcase,food:bn:0
+"Bar bar problem hocche: aj shokal theke, Gulshan 2 er street light koyek rat dhore jole na, road ondhokar.",electricity,medium,bl,synthetic_showcase,electricity:bl:1
+"বিপজ্জনক অবস্থা: বৃষ্টির পর থেকে, খিলগাঁও এলাকায় খোলা জায়গায় অবৈধভাবে আবর্জনা ফেলা হচ্ছে।",waste,high,bn,synthetic_showcase,waste:bn:2
+"Bar bar problem hocche: goto rat theke, Panchlaish er food vendor-ra price list o weight rules follow korche na.",food,medium,bl,synthetic_showcase,food:bl:7
+"এলাকাবাসী ভোগান্তিতে আছেন: গতকাল রাত থেকে, মিরপুর ১০ এলাকায় নষ্ট ল্যাম্পপোস্ট ও বাল্ব বদলানো প্রয়োজন।",electricity,medium,bn,synthetic_showcase,electricity:bn:5
+"Ongoing service disruption: every day, A complaint reports food adulteration and harmful chemical use in Dhanmondi 27.",food,medium,en,synthetic_showcase,food:en:2
+"Recurring issue: since this morning, Expired packaged food is being sold in the market near Banani.",food,medium,en,synthetic_showcase,food:en:1
+"Part of the service is affected: since this morning, Waste collection has not happened for several days outside the market in Chandgaon.",waste,low,en,synthetic_showcase,waste:en:1
+"Minor issue: since last night, Emergency service conditions and hospital cleanliness in Banani need inspection.",healthcare,low,en,synthetic_showcase,healthcare:en:7
+"Dangerous situation: for the last three days, A pile of rotting municipal waste beside the road in Uttara Sector 7 is causing a foul smell.",waste,high,en,synthetic_showcase,waste:en:3
+"ছোট একটি সমস্যা: গত তিন দিন ধরে, মতিঝিল এলাকার রেস্তোরাঁয় অস্বাস্থ্যকর পরিবেশে খাবার প্রস্তুত ও পরিবেশন করা হচ্ছে।",food,low,bn,synthetic_showcase,food:bn:0
+"তাৎক্ষণিক ব্যবস্থা প্রয়োজন: বৃষ্টির পর থেকে, মোহাম্মদপুর এলাকায় ভোল্টেজ ওঠানামা করছে এবং বিদ্যুৎ সংযোগ অনিরাপদ।",electricity,high,bn,synthetic_showcase,electricity:bn:7
+"A small service issue: for a week, The transformer near Dhanmondi 27 is sparking and producing a burning smell.",electricity,low,en,synthetic_showcase,electricity:en:2
+"Residents are repeatedly affected: for a week, A damaged highway surface near Khilgaon is increasing the risk of road accidents.",road_transport,medium,en,synthetic_showcase,road_transport:en:5
+"Immediate action is required: since last night, A large pothole has formed on the main road near Banani, making traffic unsafe.",road_transport,high,en,synthetic_showcase,road_transport:en:0
+"ছোট একটি সমস্যা: আজ সকাল থেকে, মোহাম্মদপুর এলাকার পানির সংযোগ থেকে অবিরাম পানি ঝরছে এবং অপচয় হচ্ছে।",water,low,bn,synthetic_showcase,water:bn:7
+"Joruri issue: bristir por theke, Panchlaish bazar-e expired packaged food sell kora hocche.",food,high,bl,synthetic_showcase,food:bl:1
+"Minor issue: protodin, Dhanmondi 27 bazar-e expired packaged food sell kora hocche.",food,low,bl,synthetic_showcase,food:bl:1
+"Joruri issue: aj shokal theke, Mirpur 10 er traffic signal kaj korche na, gari atke jacche.",road_transport,high,bl,synthetic_showcase,road_transport:bl:6
+"জরুরি সমস্যা: বৃষ্টির পর থেকে, চান্দগাঁও এলাকার দোকানে পচা মাংস ও বাসি খাবার বিক্রি হচ্ছে।",food,high,bn,synthetic_showcase,food:bn:3
+"নিয়মিত সমস্যা: প্রতিদিন, ধানমন্ডি ২৭ এর কমিউনিটি বিন ভরে গেছে, পরিচ্ছন্নতা কর্মীরা ময়লা সরাননি।",waste,medium,bn,synthetic_showcase,waste:bn:4
+"Elakar manush bhugchhen: protodin, Mirpur 10 elakay voltage up-down korche, connection safe na.",electricity,medium,bl,synthetic_showcase,electricity:bl:7
+"Minor issue: since last night, The sewer line near Uttara Sector 7 is blocked and wastewater is flowing over the footpath.",drainage,low,en,synthetic_showcase,drainage:en:5
+"তাৎক্ষণিক ব্যবস্থা প্রয়োজন: গত তিন দিন ধরে, উত্তরা সেক্টর ৭ এলাকায় ওয়াসার পানির মূল পাইপে লিকেজ হয়েছে, রাস্তার পাশে পানি বের হচ্ছে।",water,high,bn,synthetic_showcase,water:bn:0
+"Ektu shomossha hocche: koyek ghonta dhore, Mirpur 10 er traffic signal kaj korche na, gari atke jacche.",road_transport,low,bl,synthetic_showcase,road_transport:bl:6
+"Minor issue: ek shoptaho dhore, Uttara Sector 7 elakay damaged lamp post o bulb replace kora dorkar.",electricity,low,bl,synthetic_showcase,electricity:bl:5
+"Part of the service is affected: every day, A broken drain cover in Mohammadpur exposes the open sewer and causes a foul smell.",drainage,low,en,synthetic_showcase,drainage:en:3
+"Ektu shomossha hocche: last three days dhore, Mirpur 10 elakay electric pole theke live wire jhule pedestrian risk hocche.",electricity,low,bl,synthetic_showcase,electricity:bl:0
+"Immediate action dorkar: ek shoptaho dhore, Dhanmondi 27 bazar-er food-e formalin ba artificial colour use-er shondeho.",food,high,bl,synthetic_showcase,food:bl:5
+"Urgent issue: after the rainfall, A service connection near Khilgaon is continuously leaking and wasting water.",water,high,en,synthetic_showcase,water:en:7
+"আংশিকভাবে সমস্যা হচ্ছে: গতকাল রাত থেকে, মোহাম্মদপুর এলাকায় ট্রান্সফরমার থেকে স্পার্ক হচ্ছে এবং পোড়া গন্ধ বের হচ্ছে।",electricity,low,bn,synthetic_showcase,electricity:bn:2
+"A small service issue: since last night, A damaged highway surface near Uttara Sector 7 is increasing the risk of road accidents.",road_transport,low,en,synthetic_showcase,road_transport:en:5
+"Bar bar problem hocche: protodin, Gulshan 2 er transformer theke spark hocche, pora gondho asche.",electricity,medium,bl,synthetic_showcase,electricity:bl:2
+"ছোট একটি সমস্যা: আজ সকাল থেকে, চান্দগাঁও এলাকার মহাসড়কে ভাঙা অংশ ও অসমান পৃষ্ঠের কারণে দুর্ঘটনার ঝুঁকি আছে।",road_transport,low,bn,synthetic_showcase,road_transport:bn:5
+"Urgent issue: for several hours, Sanitation in the toilets and wards of the public hospital in Chandgaon is inadequate.",healthcare,high,en,synthetic_showcase,healthcare:en:1
+"Dangerous obostha: ek shoptaho dhore, Banani te illegal parking-er jonno road narrow hoye traffic jam hocche.",road_transport,high,bl,synthetic_showcase,road_transport:bl:3
+"Dangerous situation: since last night, Food is being prepared and served in unhygienic conditions at a restaurant in Banani.",food,high,en,synthetic_showcase,food:en:0
+"তাৎক্ষণিক ব্যবস্থা প্রয়োজন: বৃষ্টির পর থেকে, গুলশান ২ এলাকায় ডেঙ্গু নিয়ন্ত্রণে মশক নিধন ও ফগিং কার্যক্রম প্রয়োজন।",healthcare,high,bn,synthetic_showcase,healthcare:bn:3
+"আংশিকভাবে সমস্যা হচ্ছে: প্রতিদিন, উত্তরা সেক্টর ৭ এলাকার রেস্তোরাঁয় অস্বাস্থ্যকর পরিবেশে খাবার প্রস্তুত ও পরিবেশন করা হচ্ছে।",food,low,bn,synthetic_showcase,food:bn:0
+"Elakar manush bhugchhen: bristir por theke, Chandgaon elakay voltage up-down korche, connection safe na.",electricity,medium,bl,synthetic_showcase,electricity:bl:7
+"এলাকাবাসী ভোগান্তিতে আছেন: প্রতিদিন, পাঁচলাইশ এলাকার মহাসড়কে ভাঙা অংশ ও অসমান পৃষ্ঠের কারণে দুর্ঘটনার ঝুঁকি আছে।",road_transport,medium,bn,synthetic_showcase,road_transport:bn:5
+"Part of the service is affected: every day, Illegal parking is narrowing the road around Gulshan 2 and causing severe congestion.",road_transport,low,en,synthetic_showcase,road_transport:en:3
+"Elakar manush bhugchhen: koyek ghonta dhore, Uttara Sector 7 er dustbin overflow kore garbage rastay choriye poreche.",waste,medium,bl,synthetic_showcase,waste:bl:0
+"Minor issue: aj shokal theke, Mohammadpur er manhole theke sewage overflow hocche.",drainage,low,bl,synthetic_showcase,drainage:bl:7
+"নিয়মিত সমস্যা: আজ সকাল থেকে, মিরপুর ১০ এলাকায় ট্রান্সফরমার থেকে স্পার্ক হচ্ছে এবং পোড়া গন্ধ বের হচ্ছে।",electricity,medium,bn,synthetic_showcase,electricity:bn:2
+"Regular issue: koyek ghonta dhore, Motijheel bazar-er food-e formalin ba artificial colour use-er shondeho.",food,medium,bl,synthetic_showcase,food:bl:5
+"নিয়মিত সমস্যা: প্রতিদিন, মোহাম্মদপুর এলাকার খোলা ম্যানহোলের ঢাকনা নেই, পথচারীদের দুর্ঘটনার ঝুঁকি।",drainage,medium,bn,synthetic_showcase,drainage:bn:2
+"আংশিকভাবে সমস্যা হচ্ছে: গত তিন দিন ধরে, মোহাম্মদপুর এলাকায় বৃষ্টির পানি নিষ্কাশন না হওয়ায় জলাবদ্ধতা তৈরি হয়েছে।",drainage,low,bn,synthetic_showcase,drainage:bn:4
+"Dangerous obostha: aj shokal theke, Panchlaish elakay dengue control-er jonno mosquito fogging dorkar.",healthcare,high,bl,synthetic_showcase,healthcare:bl:3
+"Dangerous obostha: koyek ghonta dhore, Gulshan 2 elakay power supply bondho, load shedding cholche.",electricity,high,bl,synthetic_showcase,electricity:bl:3
+"Choto ekta problem: bristir por theke, Mohammadpur er hospital-er emergency service o cleanliness inspect kora dorkar.",healthcare,low,bl,synthetic_showcase,healthcare:bl:7
+"Residents are repeatedly affected: for a week, Tap water around Banani smells unpleasant and contains visible dirt, making it unsafe to drink.",water,medium,en,synthetic_showcase,water:en:2
+"তাৎক্ষণিক ব্যবস্থা প্রয়োজন: এক সপ্তাহ ধরে, পাঁচলাইশ বাজারে মেয়াদোত্তীর্ণ প্যাকেটজাত খাবার বিক্রি করা হচ্ছে।",food,high,bn,synthetic_showcase,food:bn:1
+"Ongoing service disruption: after the rainfall, Emergency service conditions and hospital cleanliness in Dhanmondi 27 need inspection.",healthcare,medium,en,synthetic_showcase,healthcare:en:7
+"Dangerous situation: since last night, Sewage is overflowing from a manhole near Dhanmondi 27 onto the public street.",drainage,high,en,synthetic_showcase,drainage:en:7
+"জরুরি সমস্যা: গত কয়েক ঘণ্টা ধরে, মতিঝিল এলাকার দোকানে পচা মাংস ও বাসি খাবার বিক্রি হচ্ছে।",food,high,bn,synthetic_showcase,food:bn:3
+"Dangerous obostha: bristir por theke, Mohammadpur er khabar-e adulteration o harmful chemical use-er complaint ache.",food,high,bl,synthetic_showcase,food:bl:2
+"Minor issue: for several hours, An uncovered manhole in Mirpur 10 has no safety lid and poses a serious fall hazard.",drainage,low,en,synthetic_showcase,drainage:en:2
+"Urgent issue: since this morning, Water pressure is very low in Chandgaon, leaving residents without enough supply.",water,high,en,synthetic_showcase,water:en:3
+"Dangerous obostha: aj shokal theke, Mirpur 10 elakay electric pole theke live wire jhule pedestrian risk hocche.",electricity,high,bl,synthetic_showcase,electricity:bl:0
+"Recurring issue: for the last three days, A sewer overflow near Mirpur 10 is spreading dirty wastewater onto the road.",drainage,medium,en,synthetic_showcase,drainage:en:1
+"নিয়মিত সমস্যা: গত কয়েক ঘণ্টা ধরে, উত্তরা সেক্টর ৭ এলাকায় পাইপলাইন ফেটে ফুটপাত ও রাস্তা ভিজে যাচ্ছে, ওয়াসার মেরামত দরকার।",water,medium,bn,synthetic_showcase,water:bn:4
+"ছোট একটি সমস্যা: গতকাল রাত থেকে, খিলগাঁও এলাকার সরকারি হাসপাতালে টয়লেট ও ওয়ার্ডের স্বাস্থ্যবিধি মানা হচ্ছে না।",healthcare,low,bn,synthetic_showcase,healthcare:bn:1
+"Regular issue: goto rat theke, Mirpur 10 er pipeline fete footpath vije jacche, WASA repair dorkar.",water,medium,bl,synthetic_showcase,water:bl:4
+"ছোট একটি সমস্যা: এক সপ্তাহ ধরে, গুলশান ২ এলাকায় পানির লাইনে চাপ খুব কম, বাসিন্দারা প্রয়োজনীয় পানি পাচ্ছেন না।",water,low,bn,synthetic_showcase,water:bn:3
+"Dangerous obostha: goto rat theke, Gulshan 2 er dustbin overflow kore garbage rastay choriye poreche.",waste,high,bl,synthetic_showcase,waste:bl:0
+"Dangerous obostha: aj shokal theke, Panchlaish er main road-e boro pothole hoyeche, gari cholachol risky.",road_transport,high,bl,synthetic_showcase,road_transport:bl:0
+"Joruri issue: goto rat theke, Banani elakay pani pressure onek kom, residents-ra pani pachhen na.",water,high,bl,synthetic_showcase,water:bl:3
+"Elakar manush bhugchhen: protodin, Chandgaon elakay road repair o footpath maintenance dorkar.",road_transport,medium,bl,synthetic_showcase,road_transport:bl:7
+"Urgent issue: for a week, Illegal parking is narrowing the road around Uttara Sector 7 and causing severe congestion.",road_transport,high,en,synthetic_showcase,road_transport:en:3
+"Dangerous situation: every day, Rainwater is not draining in Panchlaish, causing severe street waterlogging.",drainage,high,en,synthetic_showcase,drainage:en:4
+"Immediate action dorkar: bristir por theke, Gulshan 2 er community clinic-e hygiene kharap, medical waste jome ache.",healthcare,high,bl,synthetic_showcase,healthcare:bl:0
+"Regular issue: bristir por theke, Mirpur 10 er food vendor-ra price list o weight rules follow korche na.",food,medium,bl,synthetic_showcase,food:bl:7
+"বিপজ্জনক অবস্থা: গত তিন দিন ধরে, মোহাম্মদপুর এলাকার ফুটওভারব্রিজের সিঁড়ি ও রেলিং ক্ষতিগ্রস্ত হয়েছে।",road_transport,high,bn,synthetic_showcase,road_transport:bn:2
+"Joruri issue: bristir por theke, Banani elakay open place-e illegal garbage dumping hocche.",waste,high,bl,synthetic_showcase,waste:bl:2
+"বিপজ্জনক অবস্থা: এক সপ্তাহ ধরে, খিলগাঁও বাজারের সামনে কয়েক দিন ধরে পৌরসভার বর্জ্য সংগ্রহ করা হয়নি।",waste,high,bn,synthetic_showcase,waste:bn:1
+"Part of the service is affected: since this morning, Streetlights have been out for several nights around Mirpur 10, leaving the road dark.",electricity,low,en,synthetic_showcase,electricity:en:1
+"আংশিকভাবে সমস্যা হচ্ছে: বৃষ্টির পর থেকে, মোহাম্মদপুর এলাকার খাবারে ভেজাল ও ক্ষতিকর রাসায়নিক ব্যবহারের অভিযোগ রয়েছে।",food,low,bn,synthetic_showcase,food:bn:2
+"Choto ekta problem: protodin, Chandgaon er open dumping point-e household waste jome poribesh noshto hocche.",waste,low,bl,synthetic_showcase,waste:bl:6
+"Recurring issue: every day, The clinic in Uttara Sector 7 needs safe medical-waste handling and disinfection.",healthcare,medium,en,synthetic_showcase,healthcare:en:5
+"Ongoing service disruption: since this morning, Waste collection has not happened for several days outside the market in Gulshan 2.",waste,medium,en,synthetic_showcase,waste:en:1
+"সামান্য সমস্যা: গতকাল রাত থেকে, ধানমন্ডি ২৭ এর কমিউনিটি বিন ভরে গেছে, পরিচ্ছন্নতা কর্মীরা ময়লা সরাননি।",waste,low,bn,synthetic_showcase,waste:bn:4
+"সামান্য সমস্যা: গতকাল রাত থেকে, বনানী এলাকায় রাস্তা ঝাড়ু দেওয়া হচ্ছে না এবং প্লাস্টিক জমে আছে।",waste,low,bn,synthetic_showcase,waste:bn:5
+"জরুরি সমস্যা: আজ সকাল থেকে, পাঁচলাইশ এলাকায় ট্রান্সফরমার থেকে স্পার্ক হচ্ছে এবং পোড়া গন্ধ বের হচ্ছে।",electricity,high,bn,synthetic_showcase,electricity:bn:2
+"Part of the service is affected: every day, Water pressure is very low in Khilgaon, leaving residents without enough supply.",water,low,en,synthetic_showcase,water:en:3
+"Choto ekta problem: protodin, Panchlaish elakay voltage up-down korche, connection safe na.",electricity,low,bl,synthetic_showcase,electricity:bl:7
+"Dangerous situation: since last night, A large pothole has formed on the main road near Gulshan 2, making traffic unsafe.",road_transport,high,en,synthetic_showcase,road_transport:en:0
+"আংশিকভাবে সমস্যা হচ্ছে: গত তিন দিন ধরে, গুলশান ২ এলাকার দোকানে পচা মাংস ও বাসি খাবার বিক্রি হচ্ছে।",food,low,bn,synthetic_showcase,food:bn:3
+"Ongoing service disruption: after the rainfall, A footpath slab is broken in Panchlaish, creating a fall risk for pedestrians.",road_transport,medium,en,synthetic_showcase,road_transport:en:1
+"Ektu shomossha hocche: bristir por theke, Mirpur 10 elakay street sweeping hocche na, plastic jome ache.",waste,low,bl,synthetic_showcase,waste:bl:5
+"জরুরি সমস্যা: গত কয়েক ঘণ্টা ধরে, বনানী এলাকার হাসপাতালের জরুরি সেবা ও পরিচ্ছন্নতা পরীক্ষা করা প্রয়োজন।",healthcare,high,bn,synthetic_showcase,healthcare:bn:7
+"Urgent issue: for several hours, Several homes in Khilgaon are facing a shortage of safe drinking water.",water,high,en,synthetic_showcase,water:en:6
+"Joruri issue: goto rat theke, Motijheel er water tank-e dirty pani, supply check korte hobe.",water,high,bl,synthetic_showcase,water:bl:5
+"Immediate action is required: since this morning, Expired packaged food is being sold in the market near Dhanmondi 27.",food,high,en,synthetic_showcase,food:en:1
+"বিপজ্জনক অবস্থা: প্রতিদিন, উত্তরা সেক্টর ৭ এলাকার পানির ট্যাংকে দূষিত পানি জমেছে, সরবরাহ পরীক্ষা করা প্রয়োজন।",water,high,bn,synthetic_showcase,water:bn:5
+"Bar bar problem hocche: ek shoptaho dhore, Panchlaish er hotel-e food cover kora hoy na, insects ache.",food,medium,bl,synthetic_showcase,food:bl:6
+"বারবার সমস্যা হচ্ছে: গত তিন দিন ধরে, পাঁচলাইশ এলাকায় ফুটপাতের স্ল্যাব ভেঙে গেছে, পথচারীরা পড়ে যেতে পারেন।",road_transport,medium,bn,synthetic_showcase,road_transport:bn:1
+"আংশিকভাবে সমস্যা হচ্ছে: এক সপ্তাহ ধরে, ধানমন্ডি ২৭ এলাকায় নিয়মিত বর্জ্য অপসারণ ও ডাস্টবিন খালি করা প্রয়োজন।",waste,low,bn,synthetic_showcase,waste:bn:7
+"Part of the service is affected: since last night, The asphalt has peeled off on the access road near Uttara Sector 7, leaving multiple potholes.",road_transport,low,en,synthetic_showcase,road_transport:en:4
+"Elakar manush bhugchhen: bristir por theke, Dhanmondi 27 er clinic-e medical waste handling o disinfection dorkar.",healthcare,medium,bl,synthetic_showcase,healthcare:bl:5
+"Choto ekta problem: aj shokal theke, Panchlaish te illegal parking-er jonno road narrow hoye traffic jam hocche.",road_transport,low,bl,synthetic_showcase,road_transport:bl:3
+"Recurring issue: since last night, Damaged lamp posts and streetlight bulbs need replacement in Panchlaish.",electricity,medium,en,synthetic_showcase,electricity:en:5
+"Dangerous situation: since last night, Power supply is interrupted in Dhanmondi 27, with prolonged load shedding.",electricity,high,en,synthetic_showcase,electricity:en:3
+"বিপজ্জনক অবস্থা: এক সপ্তাহ ধরে, ধানমন্ডি ২৭ এলাকায় ট্রান্সফরমার থেকে স্পার্ক হচ্ছে এবং পোড়া গন্ধ বের হচ্ছে।",electricity,high,bn,synthetic_showcase,electricity:bn:2
+"আংশিকভাবে সমস্যা হচ্ছে: প্রতিদিন, মতিঝিল এলাকায় অবৈধ পার্কিংয়ের কারণে রাস্তা সংকীর্ণ হয়ে তীব্র যানজট হচ্ছে।",road_transport,low,bn,synthetic_showcase,road_transport:bn:3
+"ছোট একটি সমস্যা: গত তিন দিন ধরে, পাঁচলাইশ এলাকার ভাঙা ড্রেন স্ল্যাব দিয়ে নর্দমা দেখা যাচ্ছে এবং দুর্গন্ধ ছড়াচ্ছে।",drainage,low,bn,synthetic_showcase,drainage:bn:3
+"আংশিকভাবে সমস্যা হচ্ছে: গত কয়েক ঘণ্টা ধরে, ধানমন্ডি ২৭ এলাকায় ডেঙ্গু নিয়ন্ত্রণে মশক নিধন ও ফগিং কার্যক্রম প্রয়োজন।",healthcare,low,bn,synthetic_showcase,healthcare:bn:3
+"A small service issue: after the rainfall, A low-hanging live electrical wire near Mohammadpur is creating a serious pedestrian hazard.",electricity,low,en,synthetic_showcase,electricity:en:0
+"সামান্য সমস্যা: এক সপ্তাহ ধরে, গুলশান ২ এলাকার খাদ্য বিক্রেতারা মূল্যতালিকা ও ওজনের নিয়ম মানছেন না।",food,low,bn,synthetic_showcase,food:bn:7
+"সামান্য সমস্যা: গত তিন দিন ধরে, মতিঝিল এলাকায় পানির লাইনে চাপ খুব কম, বাসিন্দারা প্রয়োজনীয় পানি পাচ্ছেন না।",water,low,bn,synthetic_showcase,water:bn:3
+"Elakar manush bhugchhen: protodin, Uttara Sector 7 er rastar pashe rotten waste-er pile theke durgondho asche.",waste,medium,bl,synthetic_showcase,waste:bl:3
+"Choto ekta problem: protodin, Banani er pani connection theke nonstop leak hocche.",water,low,bl,synthetic_showcase,water:bl:7
+"Urgent issue: for a week, Food is being prepared and served in unhygienic conditions at a restaurant in Gulshan 2.",food,high,en,synthetic_showcase,food:en:0
+"তাৎক্ষণিক ব্যবস্থা প্রয়োজন: বৃষ্টির পর থেকে, খিলগাঁও এলাকার রেস্তোরাঁয় অস্বাস্থ্যকর পরিবেশে খাবার প্রস্তুত ও পরিবেশন করা হচ্ছে।",food,high,bn,synthetic_showcase,food:bn:0
+"Recurring issue: for several hours, The sewer line near Gulshan 2 is blocked and wastewater is flowing over the footpath.",drainage,medium,en,synthetic_showcase,drainage:en:5
+"জরুরি সমস্যা: এক সপ্তাহ ধরে, উত্তরা সেক্টর ৭ এলাকার স্টর্মওয়াটার ড্রেন পলি জমে বন্ধ, পানি প্রবাহ থেমে গেছে।",drainage,high,bn,synthetic_showcase,drainage:bn:6
+"Minor issue: last three days dhore, Banani er public hospital-er toilet o ward porishkar na.",healthcare,low,bl,synthetic_showcase,healthcare:bl:1
+"ছোট একটি সমস্যা: বৃষ্টির পর থেকে, মিরপুর ১০ এলাকায় কয়েকটি বাড়িতে সুপেয় পানির সংকট দেখা দিয়েছে।",water,low,bn,synthetic_showcase,water:bn:6
+"সামান্য সমস্যা: গতকাল রাত থেকে, খিলগাঁও এলাকার হোটেলে খাবার ঢেকে রাখা হয় না এবং পোকামাকড় রয়েছে।",food,low,bn,synthetic_showcase,food:bn:6
+"তাৎক্ষণিক ব্যবস্থা প্রয়োজন: গত তিন দিন ধরে, পাঁচলাইশ এলাকায় রাস্তা ঝাড়ু দেওয়া হচ্ছে না এবং প্লাস্টিক জমে আছে।",waste,high,bn,synthetic_showcase,waste:bn:5
+"জরুরি সমস্যা: বৃষ্টির পর থেকে, বনানী এলাকায় ওয়াসার পানির মূল পাইপে লিকেজ হয়েছে, রাস্তার পাশে পানি বের হচ্ছে।",water,high,bn,synthetic_showcase,water:bn:0
+"Regular issue: koyek ghonta dhore, Motijheel elakay pani pressure onek kom, residents-ra pani pachhen na.",water,medium,bl,synthetic_showcase,water:bl:3
+"বিপজ্জনক অবস্থা: প্রতিদিন, উত্তরা সেক্টর ৭ এলাকার খাদ্য প্রতিষ্ঠানে রান্নাঘর অপরিষ্কার এবং নিরাপদ সংরক্ষণ নেই।",food,high,bn,synthetic_showcase,food:bn:4
+"বিপজ্জনক অবস্থা: গতকাল রাত থেকে, মোহাম্মদপুর এলাকায় নিয়মিত বর্জ্য অপসারণ ও ডাস্টবিন খালি করা প্রয়োজন।",waste,high,bn,synthetic_showcase,waste:bn:7
+"Dangerous situation: for several hours, A low-hanging live electrical wire near Mirpur 10 is creating a serious pedestrian hazard.",electricity,high,en,synthetic_showcase,electricity:en:0
+"জরুরি সমস্যা: এক সপ্তাহ ধরে, মতিঝিল এলাকার রাস্তার পাশে পচা বর্জ্যের স্তূপ থেকে দুর্গন্ধ ছড়াচ্ছে।",waste,high,bn,synthetic_showcase,waste:bn:3
+"বারবার সমস্যা হচ্ছে: গত কয়েক ঘণ্টা ধরে, পাঁচলাইশ এলাকায় রাস্তা ঝাড়ু দেওয়া হচ্ছে না এবং প্লাস্টিক জমে আছে।",waste,medium,bn,synthetic_showcase,waste:bn:5
+"জরুরি সমস্যা: প্রতিদিন, খিলগাঁও এলাকার নির্ধারিত ডাস্টবিন উপচে ময়লা রাস্তায় ছড়িয়ে আছে।",waste,high,bn,synthetic_showcase,waste:bn:0
+"Dangerous situation: for a week, The traffic signal near Panchlaish is not working and vehicles are getting stuck.",road_transport,high,en,synthetic_showcase,road_transport:en:6
+"নিয়মিত সমস্যা: বৃষ্টির পর থেকে, উত্তরা সেক্টর ৭ এলাকার পানির ট্যাংকে দূষিত পানি জমেছে, সরবরাহ পরীক্ষা করা প্রয়োজন।",water,medium,bn,synthetic_showcase,water:bn:5
+"এলাকাবাসী ভোগান্তিতে আছেন: বৃষ্টির পর থেকে, চান্দগাঁও এলাকার ক্লিনিকে বর্জ্য ব্যবস্থাপনা ও জীবাণুনাশক পরিষ্কার দরকার।",healthcare,medium,bn,synthetic_showcase,healthcare:bn:5
+"Joruri issue: koyek ghonta dhore, Motijheel er main road-e boro pothole hoyeche, gari cholachol risky.",road_transport,high,bl,synthetic_showcase,road_transport:bl:0
+"Immediate action is required: for several hours, A damaged highway surface near Motijheel is increasing the risk of road accidents.",road_transport,high,en,synthetic_showcase,road_transport:en:5
+"Dangerous situation: after the rainfall, Tap water around Khilgaon smells unpleasant and contains visible dirt, making it unsafe to drink.",water,high,en,synthetic_showcase,water:en:2
+"সামান্য সমস্যা: গত তিন দিন ধরে, উত্তরা সেক্টর ৭ এলাকার সড়ক সংস্কার ও ফুটপাত মেরামত জরুরি হয়ে পড়েছে।",road_transport,low,bn,synthetic_showcase,road_transport:bn:7
+"Minor issue: goto rat theke, Uttara Sector 7 elakay voltage up-down korche, connection safe na.",electricity,low,bl,synthetic_showcase,electricity:bl:7
+"ছোট একটি সমস্যা: আজ সকাল থেকে, মোহাম্মদপুর এলাকার ফুটওভারব্রিজের সিঁড়ি ও রেলিং ক্ষতিগ্রস্ত হয়েছে।",road_transport,low,bn,synthetic_showcase,road_transport:bn:2
+"আংশিকভাবে সমস্যা হচ্ছে: প্রতিদিন, মতিঝিল এলাকায় ওয়াসার পানির মূল পাইপে লিকেজ হয়েছে, রাস্তার পাশে পানি বের হচ্ছে।",water,low,bn,synthetic_showcase,water:bn:0
+"তাৎক্ষণিক ব্যবস্থা প্রয়োজন: গতকাল রাত থেকে, পাঁচলাইশ এলাকার প্রধান ড্রেনের মুখ প্লাস্টিক ও ময়লায় বন্ধ হয়ে পানি নামছে না।",drainage,high,bn,synthetic_showcase,drainage:bn:0
+"Bar bar problem hocche: aj shokal theke, Motijheel er sewer line block hoye wastewater footpath diye ber hocche.",drainage,medium,bl,synthetic_showcase,drainage:bl:5
+"Dangerous situation: after the rainfall, A complaint reports food adulteration and harmful chemical use in Dhanmondi 27.",food,high,en,synthetic_showcase,food:en:2
+"বারবার সমস্যা হচ্ছে: গত তিন দিন ধরে, চান্দগাঁও এলাকায় বিদ্যুৎ সরবরাহ বন্ধ, দীর্ঘ সময় ধরে লোডশেডিং হচ্ছে।",electricity,medium,bn,synthetic_showcase,electricity:bn:3
+"Dangerous situation: since this morning, A broken electric cable has fallen across the road near Khilgaon.",electricity,high,en,synthetic_showcase,electricity:en:4
+"Minor issue: every day, Several homes in Mirpur 10 are facing a shortage of safe drinking water.",water,low,en,synthetic_showcase,water:en:6
+"A small service issue: since this morning, A burst water pipeline is flooding the footpath near Dhanmondi 27 and needs repair.",water,low,en,synthetic_showcase,water:en:4
+"Recurring issue: every day, The food premises in Khilgaon have an unclean kitchen and unsafe storage.",food,medium,en,synthetic_showcase,food:en:4
+"বিপজ্জনক অবস্থা: আজ সকাল থেকে, উত্তরা সেক্টর ৭ এলাকায় ট্রাফিক সিগন্যাল কাজ করছে না, যানবাহন আটকে যাচ্ছে।",road_transport,high,bn,synthetic_showcase,road_transport:bn:6
+"Ektu shomossha hocche: last three days dhore, Uttara Sector 7 er broken drain slab diye open sewer dekha jacche, durgondho hocche.",drainage,low,bl,synthetic_showcase,drainage:bl:3
+"Minor issue: for several hours, Waste collection has not happened for several days outside the market in Mirpur 10.",waste,low,en,synthetic_showcase,waste:en:1
+"Urgent issue: after the rainfall, A footpath slab is broken in Panchlaish, creating a fall risk for pedestrians.",road_transport,high,en,synthetic_showcase,road_transport:en:1
+"নিয়মিত সমস্যা: প্রতিদিন, খিলগাঁও এলাকায় নর্দমা উপচে নোংরা পানি রাস্তায় ছড়িয়ে পড়ছে।",drainage,medium,bn,synthetic_showcase,drainage:bn:1
+"Ongoing service disruption: after the rainfall, Emergency service conditions and hospital cleanliness in Uttara Sector 7 need inspection.",healthcare,medium,en,synthetic_showcase,healthcare:en:7
+"জরুরি সমস্যা: বৃষ্টির পর থেকে, পাঁচলাইশ এলাকায় বিদ্যুতের খুঁটি থেকে ঝুলন্ত তার নিচু হয়ে পথচারীদের ঝুঁকিতে ফেলছে।",electricity,high,bn,synthetic_showcase,electricity:bn:0
+"Ektu shomossha hocche: last three days dhore, Dhanmondi 27 elakay regular garbage collection dorkar.",waste,low,bl,synthetic_showcase,waste:bl:7
+"Part of the service is affected: since this morning, Mosquito control and fogging are needed in Khilgaon to reduce dengue transmission.",healthcare,low,en,synthetic_showcase,healthcare:en:3
+"তাৎক্ষণিক ব্যবস্থা প্রয়োজন: গতকাল রাত থেকে, গুলশান ২ এলাকায় কয়েকটি বাড়িতে সুপেয় পানির সংকট দেখা দিয়েছে।",water,high,bn,synthetic_showcase,water:bn:6
+"Immediate action dorkar: ek shoptaho dhore, Dhanmondi 27 er sewer line block hoye wastewater footpath diye ber hocche.",drainage,high,bl,synthetic_showcase,drainage:bl:5
+"তাৎক্ষণিক ব্যবস্থা প্রয়োজন: বৃষ্টির পর থেকে, মিরপুর ১০ এলাকার স্টর্মওয়াটার ড্রেন পলি জমে বন্ধ, পানি প্রবাহ থেমে গেছে।",drainage,high,bn,synthetic_showcase,drainage:bn:6
+"Urgent issue: for a week, Streetlights have been out for several nights around Gulshan 2, leaving the road dark.",electricity,high,en,synthetic_showcase,electricity:en:1
+"Ektu shomossha hocche: last three days dhore, Khilgaon elakay moshar upodrob bereche, public health action dorkar.",healthcare,low,bl,synthetic_showcase,healthcare:bl:6
+"Immediate action is required: for several hours, The clinic in Uttara Sector 7 needs safe medical-waste handling and disinfection.",healthcare,high,en,synthetic_showcase,healthcare:en:5
+"বারবার সমস্যা হচ্ছে: এক সপ্তাহ ধরে, পাঁচলাইশ এলাকায় জমে থাকা পানিতে মশার প্রজনন হচ্ছে, ডেঙ্গুর ঝুঁকি বাড়ছে।",healthcare,medium,bn,synthetic_showcase,healthcare:bn:2
+"জরুরি সমস্যা: গত কয়েক ঘণ্টা ধরে, বনানী এলাকায় বিদ্যুতের খুঁটি থেকে ঝুলন্ত তার নিচু হয়ে পথচারীদের ঝুঁকিতে ফেলছে।",electricity,high,bn,synthetic_showcase,electricity:bn:0
+"Joruri issue: aj shokal theke, Khilgaon elakay safe drinking water shortage dekha diyeche.",water,high,bl,synthetic_showcase,water:bl:6
+"জরুরি সমস্যা: আজ সকাল থেকে, মতিঝিল এলাকার খাদ্য বিক্রেতারা মূল্যতালিকা ও ওজনের নিয়ম মানছেন না।",food,high,bn,synthetic_showcase,food:bn:7
+"Ektu shomossha hocche: bristir por theke, Uttara Sector 7 er food shop-er kitchen dirty, safe storage nei.",food,low,bl,synthetic_showcase,food:bl:4
+"Minor issue: after the rainfall, The community waste container in Dhanmondi 27 is full and has not been emptied.",waste,low,en,synthetic_showcase,waste:en:4
+"Elakar manush bhugchhen: goto rat theke, Mohammadpur er tap water-e gondho o moyla ache, drinking water safe na.",water,medium,bl,synthetic_showcase,water:bl:2
+"Immediate action is required: for a week, Mosquito infestation has increased in Chandgaon, requiring public-health action.",healthcare,high,en,synthetic_showcase,healthcare:en:6
+"Minor issue: aj shokal theke, Motijheel er dustbin overflow kore garbage rastay choriye poreche.",waste,low,bl,synthetic_showcase,waste:bl:0
+"Ektu shomossha hocche: aj shokal theke, Uttara Sector 7 bazar-er shamne koyek din dhore waste collection hoyni.",waste,low,bl,synthetic_showcase,waste:bl:1
+"আংশিকভাবে সমস্যা হচ্ছে: প্রতিদিন, চান্দগাঁও এলাকার খাদ্য বিক্রেতারা মূল্যতালিকা ও ওজনের নিয়ম মানছেন না।",food,low,bn,synthetic_showcase,food:bn:7
+"বারবার সমস্যা হচ্ছে: আজ সকাল থেকে, পাঁচলাইশ এলাকার সড়কবাতি কয়েক রাত ধরে জ্বলছে না, রাস্তা অন্ধকার।",electricity,medium,bn,synthetic_showcase,electricity:bn:1
+"Elakar manush bhugchhen: ek shoptaho dhore, Banani er health centre-e vaccine o medicine shortage ache.",healthcare,medium,bl,synthetic_showcase,healthcare:bl:4
+"জরুরি সমস্যা: এক সপ্তাহ ধরে, বনানী এলাকার ফুটওভারব্রিজের সিঁড়ি ও রেলিং ক্ষতিগ্রস্ত হয়েছে।",road_transport,high,bn,synthetic_showcase,road_transport:bn:2
+"Urgent issue: after the rainfall, A broken drain cover in Panchlaish exposes the open sewer and causes a foul smell.",drainage,high,en,synthetic_showcase,drainage:en:3
+"বারবার সমস্যা হচ্ছে: গত কয়েক ঘণ্টা ধরে, খিলগাঁও এলাকায় পানির লাইনে চাপ খুব কম, বাসিন্দারা প্রয়োজনীয় পানি পাচ্ছেন না।",water,medium,bn,synthetic_showcase,water:bn:3
+"সামান্য সমস্যা: এক সপ্তাহ ধরে, পাঁচলাইশ বাজারে মেয়াদোত্তীর্ণ প্যাকেটজাত খাবার বিক্রি করা হচ্ছে।",food,low,bn,synthetic_showcase,food:bn:1
+"Bar bar problem hocche: ek shoptaho dhore, Mohammadpur er community clinic-e hygiene kharap, medical waste jome ache.",healthcare,medium,bl,synthetic_showcase,healthcare:bl:0
+"Ongoing service disruption: for a week, Open dumping near Gulshan 2 is polluting the surrounding public space.",waste,medium,en,synthetic_showcase,waste:en:6
+"বারবার সমস্যা হচ্ছে: গত তিন দিন ধরে, মোহাম্মদপুর এলাকার দোকানে পচা মাংস ও বাসি খাবার বিক্রি হচ্ছে।",food,medium,bn,synthetic_showcase,food:bn:3
+"Urgent issue: for several hours, The transformer near Mirpur 10 is sparking and producing a burning smell.",electricity,high,en,synthetic_showcase,electricity:en:2
+"Immediate action is required: for the last three days, The main storm drain near Panchlaish is blocked by plastic and garbage, so water cannot flow.",drainage,high,en,synthetic_showcase,drainage:en:0
+"Recurring issue: for a week, A low-hanging live electrical wire near Dhanmondi 27 is creating a serious pedestrian hazard.",electricity,medium,en,synthetic_showcase,electricity:en:0
+"Minor issue: ek shoptaho dhore, Gulshan 2 er street light koyek rat dhore jole na, road ondhokar.",electricity,low,bl,synthetic_showcase,electricity:bl:1
+"A small service issue: since this morning, Regular garbage collection and bin clearance are needed in Dhanmondi 27.",waste,low,en,synthetic_showcase,waste:en:7
+"বারবার সমস্যা হচ্ছে: গতকাল রাত থেকে, খিলগাঁও এলাকার বাসাবাড়িতে পানির সরবরাহ বন্ধ, কল খুললেও পানি আসছে না।",water,medium,bn,synthetic_showcase,water:bn:1
+"সামান্য সমস্যা: এক সপ্তাহ ধরে, পাঁচলাইশ বাজারে ফল ও খাদ্যে ফরমালিন বা কৃত্রিম রং ব্যবহারের সন্দেহ রয়েছে।",food,low,bn,synthetic_showcase,food:bn:5
+"বিপজ্জনক অবস্থা: প্রতিদিন, মিরপুর ১০ এলাকায় অবৈধ পার্কিংয়ের কারণে রাস্তা সংকীর্ণ হয়ে তীব্র যানজট হচ্ছে।",road_transport,high,bn,synthetic_showcase,road_transport:bn:3
+"Joruri issue: koyek ghonta dhore, Mohammadpur er highway damaged, accident-er risk bere geche.",road_transport,high,bl,synthetic_showcase,road_transport:bl:5
+"তাৎক্ষণিক ব্যবস্থা প্রয়োজন: আজ সকাল থেকে, মিরপুর ১০ এলাকার খাবারে ভেজাল ও ক্ষতিকর রাসায়নিক ব্যবহারের অভিযোগ রয়েছে।",food,high,bn,synthetic_showcase,food:bn:2
+"বারবার সমস্যা হচ্ছে: গত কয়েক ঘণ্টা ধরে, মোহাম্মদপুর এলাকার খোলা ডাম্পিং পয়েন্টে গৃহস্থালি বর্জ্য জমে পরিবেশ নষ্ট হচ্ছে।",waste,medium,bn,synthetic_showcase,waste:bn:6
+"এলাকাবাসী ভোগান্তিতে আছেন: আজ সকাল থেকে, মোহাম্মদপুর এলাকার ফুটওভারব্রিজের সিঁড়ি ও রেলিং ক্ষতিগ্রস্ত হয়েছে।",road_transport,medium,bn,synthetic_showcase,road_transport:bn:2
+"Bar bar problem hocche: goto rat theke, Gulshan 2 er transformer theke spark hocche, pora gondho asche.",electricity,medium,bl,synthetic_showcase,electricity:bl:2
+"ছোট একটি সমস্যা: গত তিন দিন ধরে, বনানী এলাকায় ফুটপাতের স্ল্যাব ভেঙে গেছে, পথচারীরা পড়ে যেতে পারেন।",road_transport,low,bn,synthetic_showcase,road_transport:bn:1
+"নিয়মিত সমস্যা: গত কয়েক ঘণ্টা ধরে, গুলশান ২ এলাকায় অবৈধ পার্কিংয়ের কারণে রাস্তা সংকীর্ণ হয়ে তীব্র যানজট হচ্ছে।",road_transport,medium,bn,synthetic_showcase,road_transport:bn:3
+"বিপজ্জনক অবস্থা: গত কয়েক ঘণ্টা ধরে, বনানী এলাকার মহাসড়কে ভাঙা অংশ ও অসমান পৃষ্ঠের কারণে দুর্ঘটনার ঝুঁকি আছে।",road_transport,high,bn,synthetic_showcase,road_transport:bn:5
+"Urgent issue: since this morning, Mosquitoes are breeding in stagnant water around Mohammadpur, increasing dengue risk.",healthcare,high,en,synthetic_showcase,healthcare:en:2
+"Immediate action dorkar: goto rat theke, Motijheel er health centre-e vaccine o medicine shortage ache.",healthcare,high,bl,synthetic_showcase,healthcare:bl:4
+"Minor issue: bristir por theke, Banani elakay power supply bondho, load shedding cholche.",electricity,low,bl,synthetic_showcase,electricity:bl:3
+"তাৎক্ষণিক ব্যবস্থা প্রয়োজন: গত তিন দিন ধরে, খিলগাঁও এলাকায় নষ্ট ল্যাম্পপোস্ট ও বাল্ব বদলানো প্রয়োজন।",electricity,high,bn,synthetic_showcase,electricity:bn:5
+"Ongoing service disruption: for the last three days, The asphalt has peeled off on the access road near Chandgaon, leaving multiple potholes.",road_transport,medium,en,synthetic_showcase,road_transport:en:4
+"Immediate action dorkar: goto rat theke, Dhanmondi 27 er dokane rotten meat o stale food bikri hocche.",food,high,bl,synthetic_showcase,food:bl:3
+"Residents are repeatedly affected: for several hours, Damaged lamp posts and streetlight bulbs need replacement in Chandgaon.",electricity,medium,en,synthetic_showcase,electricity:en:5
+"এলাকাবাসী ভোগান্তিতে আছেন: প্রতিদিন, উত্তরা সেক্টর ৭ এলাকার মহাসড়কে ভাঙা অংশ ও অসমান পৃষ্ঠের কারণে দুর্ঘটনার ঝুঁকি আছে।",road_transport,medium,bn,synthetic_showcase,road_transport:bn:5
+"সামান্য সমস্যা: গত তিন দিন ধরে, খিলগাঁও এলাকার দোকানে পচা মাংস ও বাসি খাবার বিক্রি হচ্ছে।",food,low,bn,synthetic_showcase,food:bn:3
+"Immediate action dorkar: bristir por theke, Dhanmondi 27 elakay regular garbage collection dorkar.",waste,high,bl,synthetic_showcase,waste:bl:7
+"Minor issue: every day, The food premises in Panchlaish have an unclean kitchen and unsafe storage.",food,low,en,synthetic_showcase,food:en:4
+"আংশিকভাবে সমস্যা হচ্ছে: আজ সকাল থেকে, পাঁচলাইশ এলাকায় ট্রাফিক সিগন্যাল কাজ করছে না, যানবাহন আটকে যাচ্ছে।",road_transport,low,bn,synthetic_showcase,road_transport:bn:6
+"Dangerous obostha: koyek ghonta dhore, Banani er restaurant-e unhygienic environment-e food prepare o serve hocche.",food,high,bl,synthetic_showcase,food:bl:0
+"Urgent issue: for the last three days, Food at a hotel in Khilgaon is left uncovered and exposed to insects.",food,high,en,synthetic_showcase,food:en:6
+"Dangerous situation: for a week, The transformer near Panchlaish is sparking and producing a burning smell.",electricity,high,en,synthetic_showcase,electricity:en:2
+"Dangerous situation: for the last three days, A damaged highway surface near Motijheel is increasing the risk of road accidents.",road_transport,high,en,synthetic_showcase,road_transport:en:5
+"সামান্য সমস্যা: এক সপ্তাহ ধরে, মোহাম্মদপুর বাজারে মেয়াদোত্তীর্ণ প্যাকেটজাত খাবার বিক্রি করা হচ্ছে।",food,low,bn,synthetic_showcase,food:bn:1
+"Immediate action dorkar: last three days dhore, Gulshan 2 elakay open place-e illegal garbage dumping hocche.",waste,high,bl,synthetic_showcase,waste:bl:2
+"Dangerous situation: every day, Spoiled meat and stale meals are being sold by shops in Gulshan 2.",food,high,en,synthetic_showcase,food:en:3
+"Dangerous situation: every day, Regular garbage collection and bin clearance are needed in Uttara Sector 7.",waste,high,en,synthetic_showcase,waste:en:7
+"Elakar manush bhugchhen: goto rat theke, Uttara Sector 7 er pipeline fete footpath vije jacche, WASA repair dorkar.",water,medium,bl,synthetic_showcase,water:bl:4
+"A small service issue: since this morning, A sewer overflow near Panchlaish is spreading dirty wastewater onto the road.",drainage,low,en,synthetic_showcase,drainage:en:1
+"Immediate action dorkar: goto rat theke, Mirpur 10 er highway damaged, accident-er risk bere geche.",road_transport,high,bl,synthetic_showcase,road_transport:bl:5
+"Dangerous obostha: ek shoptaho dhore, Mohammadpur er main drain plastic o garbage diye block, pani namche na.",drainage,high,bl,synthetic_showcase,drainage:bl:0
+"ছোট একটি সমস্যা: গত তিন দিন ধরে, বনানী এলাকার খাদ্য প্রতিষ্ঠানে রান্নাঘর অপরিষ্কার এবং নিরাপদ সংরক্ষণ নেই।",food,low,bn,synthetic_showcase,food:bn:4
+"Recurring issue: since this morning, The community waste container in Mohammadpur is full and has not been emptied.",waste,medium,en,synthetic_showcase,waste:en:4
+"Residents are repeatedly affected: since last night, The clinic in Dhanmondi 27 needs safe medical-waste handling and disinfection.",healthcare,medium,en,synthetic_showcase,healthcare:en:5
+"Minor issue: ek shoptaho dhore, Banani er transformer theke spark hocche, pora gondho asche.",electricity,low,bl,synthetic_showcase,electricity:bl:2
+"আংশিকভাবে সমস্যা হচ্ছে: গতকাল রাত থেকে, মতিঝিল এলাকায় কয়েকটি বাড়িতে সুপেয় পানির সংকট দেখা দিয়েছে।",water,low,bn,synthetic_showcase,water:bn:6
+"Immediate action is required: every day, Silt has blocked the stormwater drainage channel in Dhanmondi 27, stopping runoff flow.",drainage,high,en,synthetic_showcase,drainage:en:6
+"বারবার সমস্যা হচ্ছে: বৃষ্টির পর থেকে, পাঁচলাইশ এলাকায় বৃষ্টির পানি নিষ্কাশন না হওয়ায় জলাবদ্ধতা তৈরি হয়েছে।",drainage,medium,bn,synthetic_showcase,drainage:bn:4
+"Recurring issue: for the last three days, The WASA water main is leaking near Khilgaon, and clean water is flowing onto the sidewalk.",water,medium,en,synthetic_showcase,water:en:0
+"Minor issue: ek shoptaho dhore, Mirpur 10 elakay rainwater drain hocche na, waterlogging hoyeche.",drainage,low,bl,synthetic_showcase,drainage:bl:4
+"Elakar manush bhugchhen: protodin, Mirpur 10 er manhole theke sewage overflow hocche.",drainage,medium,bl,synthetic_showcase,drainage:bl:7
+"Recurring issue: since this morning, Road resurfacing and sidewalk repairs are urgently needed in Gulshan 2.",road_transport,medium,en,synthetic_showcase,road_transport:en:7
+"এলাকাবাসী ভোগান্তিতে আছেন: প্রতিদিন, চান্দগাঁও এলাকার হাসপাতালের জরুরি সেবা ও পরিচ্ছন্নতা পরীক্ষা করা প্রয়োজন।",healthcare,medium,bn,synthetic_showcase,healthcare:bn:7
+"Bar bar problem hocche: aj shokal theke, Banani elakay sewer overflow hoye dirty water rastay choriye jacche.",drainage,medium,bl,synthetic_showcase,drainage:bl:1
+"এলাকাবাসী ভোগান্তিতে আছেন: এক সপ্তাহ ধরে, পাঁচলাইশ এলাকায় ফুটপাতের স্ল্যাব ভেঙে গেছে, পথচারীরা পড়ে যেতে পারেন।",road_transport,medium,bn,synthetic_showcase,road_transport:bn:1
+"Recurring issue: for a week, A broken electric cable has fallen across the road near Dhanmondi 27.",electricity,medium,en,synthetic_showcase,electricity:en:4
+"বারবার সমস্যা হচ্ছে: বৃষ্টির পর থেকে, গুলশান ২ এলাকার ফুটওভারব্রিজের সিঁড়ি ও রেলিং ক্ষতিগ্রস্ত হয়েছে।",road_transport,medium,bn,synthetic_showcase,road_transport:bn:2
+"আংশিকভাবে সমস্যা হচ্ছে: আজ সকাল থেকে, মিরপুর ১০ এলাকার হাসপাতালের জরুরি সেবা ও পরিচ্ছন্নতা পরীক্ষা করা প্রয়োজন।",healthcare,low,bn,synthetic_showcase,healthcare:bn:7
+"এলাকাবাসী ভোগান্তিতে আছেন: গত কয়েক ঘণ্টা ধরে, মতিঝিল এলাকায় ওয়াসার পানির মূল পাইপে লিকেজ হয়েছে, রাস্তার পাশে পানি বের হচ্ছে।",water,medium,bn,synthetic_showcase,water:bn:0
+"Ongoing service disruption: since last night, The traffic signal near Chandgaon is not working and vehicles are getting stuck.",road_transport,medium,en,synthetic_showcase,road_transport:en:6
+"Ongoing service disruption: for several hours, A complaint reports food adulteration and harmful chemical use in Panchlaish.",food,medium,en,synthetic_showcase,food:en:2
+"Regular issue: ek shoptaho dhore, Mirpur 10 er open dumping point-e household waste jome poribesh noshto hocche.",waste,medium,bl,synthetic_showcase,waste:bl:6
+"Immediate action is required: since last night, The community waste container in Motijheel is full and has not been emptied.",waste,high,en,synthetic_showcase,waste:en:4
+"ছোট একটি সমস্যা: গত তিন দিন ধরে, উত্তরা সেক্টর ৭ এলাকার বৈদ্যুতিক তার ছিঁড়ে রাস্তার ওপর পড়ে আছে।",electricity,low,bn,synthetic_showcase,electricity:bn:4
+"Dangerous situation: since this morning, Damaged lamp posts and streetlight bulbs need replacement in Mirpur 10.",electricity,high,en,synthetic_showcase,electricity:en:5
+"বারবার সমস্যা হচ্ছে: আজ সকাল থেকে, বনানী বাজারে মেয়াদোত্তীর্ণ প্যাকেটজাত খাবার বিক্রি করা হচ্ছে।",food,medium,bn,synthetic_showcase,food:bn:1
+"তাৎক্ষণিক ব্যবস্থা প্রয়োজন: গতকাল রাত থেকে, গুলশান ২ এলাকায় খোলা জায়গায় অবৈধভাবে আবর্জনা ফেলা হচ্ছে।",waste,high,bn,synthetic_showcase,waste:bn:2
+"Part of the service is affected: every day, Silt has blocked the stormwater drainage channel in Khilgaon, stopping runoff flow.",drainage,low,en,synthetic_showcase,drainage:en:6
+"তাৎক্ষণিক ব্যবস্থা প্রয়োজন: এক সপ্তাহ ধরে, মিরপুর ১০ এলাকার পানির সংযোগ থেকে অবিরাম পানি ঝরছে এবং অপচয় হচ্ছে।",water,high,bn,synthetic_showcase,water:bn:7
+"নিয়মিত সমস্যা: গত কয়েক ঘণ্টা ধরে, বনানী এলাকার পানির সংযোগ থেকে অবিরাম পানি ঝরছে এবং অপচয় হচ্ছে।",water,medium,bn,synthetic_showcase,water:bn:7
+"A small service issue: after the rainfall, Municipal bins are overflowing near Uttara Sector 7, with garbage scattered across the road.",waste,low,en,synthetic_showcase,waste:en:0
+"Recurring issue: for a week, People are illegally dumping household rubbish in an open area near Mirpur 10.",waste,medium,en,synthetic_showcase,waste:en:2
+"Residents are repeatedly affected: for a week, Sanitation in the toilets and wards of the public hospital in Motijheel is inadequate.",healthcare,medium,en,synthetic_showcase,healthcare:en:1
+"Dangerous obostha: protodin, Motijheel er broken drain slab diye open sewer dekha jacche, durgondho hocche.",drainage,high,bl,synthetic_showcase,drainage:bl:3
+"Part of the service is affected: after the rainfall, People are illegally dumping household rubbish in an open area near Uttara Sector 7.",waste,low,en,synthetic_showcase,waste:en:2
+"Urgent issue: for a week, The sewer line near Gulshan 2 is blocked and wastewater is flowing over the footpath.",drainage,high,en,synthetic_showcase,drainage:en:5
+"Ongoing service disruption: after the rainfall, Power supply is interrupted in Chandgaon, with prolonged load shedding.",electricity,medium,en,synthetic_showcase,electricity:en:3
+"বিপজ্জনক অবস্থা: গত কয়েক ঘণ্টা ধরে, চান্দগাঁও এলাকার স্যুয়ারেজ লাইন বন্ধ হয়ে নোংরা পানি ফুটপাত দিয়ে বের হচ্ছে।",drainage,high,bn,synthetic_showcase,drainage:bn:5
+"জরুরি সমস্যা: আজ সকাল থেকে, মতিঝিল এলাকার কমিউনিটি ক্লিনিকে অপরিচ্ছন্ন পরিবেশ ও চিকিৎসা বর্জ্য জমে আছে।",healthcare,high,bn,synthetic_showcase,healthcare:bn:0
+"A small service issue: every day, Sanitation in the toilets and wards of the public hospital in Gulshan 2 is inadequate.",healthcare,low,en,synthetic_showcase,healthcare:en:1
+"Ongoing service disruption: after the rainfall, A footpath slab is broken in Mohammadpur, creating a fall risk for pedestrians.",road_transport,medium,en,synthetic_showcase,road_transport:en:1
+"সামান্য সমস্যা: গতকাল রাত থেকে, মতিঝিল সংযোগ সড়কের পিচ উঠে গেছে এবং অনেক জায়গায় খানাখন্দ তৈরি হয়েছে।",road_transport,low,bn,synthetic_showcase,road_transport:bn:4
+"Elakar manush bhugchhen: aj shokal theke, Dhanmondi 27 te illegal parking-er jonno road narrow hoye traffic jam hocche.",road_transport,medium,bl,synthetic_showcase,road_transport:bl:3
+"Joruri issue: koyek ghonta dhore, Gulshan 2 er hospital-er emergency service o cleanliness inspect kora dorkar.",healthcare,high,bl,synthetic_showcase,healthcare:bl:7
+"Dangerous situation: for the last three days, Power supply is interrupted in Gulshan 2, with prolonged load shedding.",electricity,high,en,synthetic_showcase,electricity:en:3
+"Recurring issue: every day, Streetlights have been out for several nights around Dhanmondi 27, leaving the road dark.",electricity,medium,en,synthetic_showcase,electricity:en:1
+"আংশিকভাবে সমস্যা হচ্ছে: গতকাল রাত থেকে, মতিঝিল এলাকায় মশার উপদ্রব বেড়েছে, জনস্বাস্থ্য বিভাগকে ব্যবস্থা নিতে হবে।",healthcare,low,bn,synthetic_showcase,healthcare:bn:6
+"Regular issue: bristir por theke, Panchlaish er khabar-e adulteration o harmful chemical use-er complaint ache.",food,medium,bl,synthetic_showcase,food:bl:2
+"Minor issue: after the rainfall, Rainwater is not draining in Banani, causing severe street waterlogging.",drainage,low,en,synthetic_showcase,drainage:en:4
+"Bar bar problem hocche: bristir por theke, Chandgaon er water tank-e dirty pani, supply check korte hobe.",water,medium,bl,synthetic_showcase,water:bl:5
+"A small service issue: since this morning, Water pressure is very low in Mirpur 10, leaving residents without enough supply.",water,low,en,synthetic_showcase,water:en:3
+"Bar bar problem hocche: koyek ghonta dhore, Chandgaon er water tank-e dirty pani, supply check korte hobe.",water,medium,bl,synthetic_showcase,water:bl:5
+"আংশিকভাবে সমস্যা হচ্ছে: গতকাল রাত থেকে, মোহাম্মদপুর এলাকার ট্রান্সফরমারের কাছে খোলা তার ও বৈদ্যুতিক ঝুঁকি রয়েছে।",electricity,low,bn,synthetic_showcase,electricity:bn:6
+"Bar bar problem hocche: koyek ghonta dhore, Mirpur 10 er main road-e boro pothole hoyeche, gari cholachol risky.",road_transport,medium,bl,synthetic_showcase,road_transport:bl:0
+"Ongoing service disruption: since this morning, Sewage is overflowing from a manhole near Mohammadpur onto the public street.",drainage,medium,en,synthetic_showcase,drainage:en:7
+"Dangerous obostha: protodin, Motijheel er rastar pashe rotten waste-er pile theke durgondho asche.",waste,high,bl,synthetic_showcase,waste:bl:3
+"Dangerous situation: since this morning, The WASA water main is leaking near Uttara Sector 7, and clean water is flowing onto the sidewalk.",water,high,en,synthetic_showcase,water:en:0
+"Immediate action is required: for several hours, Mosquitoes are breeding in stagnant water around Uttara Sector 7, increasing dengue risk.",healthcare,high,en,synthetic_showcase,healthcare:en:2
+"Part of the service is affected: since this morning, Mosquitoes are breeding in stagnant water around Mirpur 10, increasing dengue risk.",healthcare,low,en,synthetic_showcase,healthcare:en:2
+"আংশিকভাবে সমস্যা হচ্ছে: আজ সকাল থেকে, বনানী এলাকায় বৃষ্টির পানি নিষ্কাশন না হওয়ায় জলাবদ্ধতা তৈরি হয়েছে।",drainage,low,bn,synthetic_showcase,drainage:bn:4
+"Immediate action is required: for a week, Open dumping near Gulshan 2 is polluting the surrounding public space.",waste,high,en,synthetic_showcase,waste:en:6
+"A small service issue: after the rainfall, Regular garbage collection and bin clearance are needed in Banani.",waste,low,en,synthetic_showcase,waste:en:7
+"Minor issue: protodin, Panchlaish er pipeline fete footpath vije jacche, WASA repair dorkar.",water,low,bl,synthetic_showcase,water:bl:4
+"Minor issue: bristir por theke, Motijheel elakay power supply bondho, load shedding cholche.",electricity,low,bl,synthetic_showcase,electricity:bl:3
+"আংশিকভাবে সমস্যা হচ্ছে: প্রতিদিন, উত্তরা সেক্টর ৭ এলাকায় নর্দমা উপচে নোংরা পানি রাস্তায় ছড়িয়ে পড়ছে।",drainage,low,bn,synthetic_showcase,drainage:bn:1
+"Dangerous situation: for several hours, Mosquito control and fogging are needed in Uttara Sector 7 to reduce dengue transmission.",healthcare,high,en,synthetic_showcase,healthcare:en:3
+"Minor issue: bristir por theke, Mohammadpur er hotel-e food cover kora hoy na, insects ache.",food,low,bl,synthetic_showcase,food:bl:6
+"A small service issue: since last night, The asphalt has peeled off on the access road near Uttara Sector 7, leaving multiple potholes.",road_transport,low,en,synthetic_showcase,road_transport:en:4
+"Choto ekta problem: bristir por theke, Banani bazar-er food-e formalin ba artificial colour use-er shondeho.",food,low,bl,synthetic_showcase,food:bl:5
+"এলাকাবাসী ভোগান্তিতে আছেন: বৃষ্টির পর থেকে, মোহাম্মদপুর এলাকার খাদ্য প্রতিষ্ঠানে রান্নাঘর অপরিষ্কার এবং নিরাপদ সংরক্ষণ নেই।",food,medium,bn,synthetic_showcase,food:bn:4
+"তাৎক্ষণিক ব্যবস্থা প্রয়োজন: গত তিন দিন ধরে, গুলশান ২ এলাকায় অবৈধ পার্কিংয়ের কারণে রাস্তা সংকীর্ণ হয়ে তীব্র যানজট হচ্ছে।",road_transport,high,bn,synthetic_showcase,road_transport:bn:3
+"Minor issue: for the last three days, A large pothole has formed on the main road near Dhanmondi 27, making traffic unsafe.",road_transport,low,en,synthetic_showcase,road_transport:en:0
+"Dangerous obostha: bristir por theke, Motijheel elakay WASA-r main pani pipe leak kore rastay pani porchhe.",water,high,bl,synthetic_showcase,water:bl:0
+"A small service issue: since this morning, Voltage is fluctuating in Mirpur 10, making the power connection unsafe.",electricity,low,en,synthetic_showcase,electricity:en:7
+"Ektu shomossha hocche: last three days dhore, Khilgaon er community bin full, cleaner-ra garbage remove koreni.",waste,low,bl,synthetic_showcase,waste:bl:4
+"Ektu shomossha hocche: last three days dhore, Khilgaon elakay safe drinking water shortage dekha diyeche.",water,low,bl,synthetic_showcase,water:bl:6
+"Dangerous obostha: ek shoptaho dhore, Uttara Sector 7 er tap water-e gondho o moyla ache, drinking water safe na.",water,high,bl,synthetic_showcase,water:bl:2
+"Dangerous obostha: last three days dhore, Motijheel er main drain plastic o garbage diye block, pani namche na.",drainage,high,bl,synthetic_showcase,drainage:bl:0
+"জরুরি সমস্যা: প্রতিদিন, ধানমন্ডি ২৭ এলাকার মহাসড়কে ভাঙা অংশ ও অসমান পৃষ্ঠের কারণে দুর্ঘটনার ঝুঁকি আছে।",road_transport,high,bn,synthetic_showcase,road_transport:bn:5
+"Regular issue: ek shoptaho dhore, Chandgaon er main drain plastic o garbage diye block, pani namche na.",drainage,medium,bl,synthetic_showcase,drainage:bl:0
+"আংশিকভাবে সমস্যা হচ্ছে: আজ সকাল থেকে, মোহাম্মদপুর এলাকায় বিদ্যুতের খুঁটি থেকে ঝুলন্ত তার নিচু হয়ে পথচারীদের ঝুঁকিতে ফেলছে।",electricity,low,bn,synthetic_showcase,electricity:bn:0
+"Minor issue: aj shokal theke, Chandgaon er rastar pashe rotten waste-er pile theke durgondho asche.",waste,low,bl,synthetic_showcase,waste:bl:3
+"Ektu shomossha hocche: ek shoptaho dhore, Mohammadpur elakay footpath-er slab venge geche, pedestrian pore jete pare.",road_transport,low,bl,synthetic_showcase,road_transport:bl:1
+"Bar bar problem hocche: koyek ghonta dhore, Khilgaon elakay open place-e illegal garbage dumping hocche.",waste,medium,bl,synthetic_showcase,waste:bl:2
+"Immediate action dorkar: ek shoptaho dhore, Chandgaon elakay street sweeping hocche na, plastic jome ache.",waste,high,bl,synthetic_showcase,waste:bl:5
+"Minor issue: ek shoptaho dhore, Chandgaon er sewer line block hoye wastewater footpath diye ber hocche.",drainage,low,bl,synthetic_showcase,drainage:bl:5
+"Minor issue: ek shoptaho dhore, Gulshan 2 er dokane rotten meat o stale food bikri hocche.",food,low,bl,synthetic_showcase,food:bl:3
+"Immediate action dorkar: koyek ghonta dhore, Khilgaon er manhole theke sewage overflow hocche.",drainage,high,bl,synthetic_showcase,drainage:bl:7
+"এলাকাবাসী ভোগান্তিতে আছেন: গত কয়েক ঘণ্টা ধরে, মতিঝিল এলাকার স্টর্মওয়াটার ড্রেন পলি জমে বন্ধ, পানি প্রবাহ থেমে গেছে।",drainage,medium,bn,synthetic_showcase,drainage:bn:6
+"Minor issue: for the last three days, The clinic in Chandgaon needs safe medical-waste handling and disinfection.",healthcare,low,en,synthetic_showcase,healthcare:en:5
+"Choto ekta problem: ek shoptaho dhore, Panchlaish er clinic-e medical waste handling o disinfection dorkar.",healthcare,low,bl,synthetic_showcase,healthcare:bl:5
+"Regular issue: ek shoptaho dhore, Dhanmondi 27 elakay stagnant water-e mosquito breed hocche, dengue risk barche.",healthcare,medium,bl,synthetic_showcase,healthcare:bl:2
+"Dangerous obostha: last three days dhore, Dhanmondi 27 elakay WASA-r main pani pipe leak kore rastay pani porchhe.",water,high,bl,synthetic_showcase,water:bl:0
+"আংশিকভাবে সমস্যা হচ্ছে: গত কয়েক ঘণ্টা ধরে, চান্দগাঁও এলাকার খাদ্য প্রতিষ্ঠানে রান্নাঘর অপরিষ্কার এবং নিরাপদ সংরক্ষণ নেই।",food,low,bn,synthetic_showcase,food:bn:4
+"Immediate action dorkar: protodin, Motijheel er food shop-er kitchen dirty, safe storage nei.",food,high,bl,synthetic_showcase,food:bl:4
+"বিপজ্জনক অবস্থা: এক সপ্তাহ ধরে, মতিঝিল এলাকায় কলের পানিতে দুর্গন্ধ ও ময়লা দেখা যাচ্ছে, পানীয় পানি নিরাপদ নয়।",water,high,bn,synthetic_showcase,water:bn:2
+"Bar bar problem hocche: goto rat theke, Gulshan 2 er connecting road-er asphalt uthe geche, onek gorto ache.",road_transport,medium,bl,synthetic_showcase,road_transport:bl:4
+"নিয়মিত সমস্যা: বৃষ্টির পর থেকে, ধানমন্ডি ২৭ বাজারে ফল ও খাদ্যে ফরমালিন বা কৃত্রিম রং ব্যবহারের সন্দেহ রয়েছে।",food,medium,bn,synthetic_showcase,food:bn:5
+"Recurring issue: every day, The health centre in Banani is short of essential vaccines and medicines.",healthcare,medium,en,synthetic_showcase,healthcare:en:4
+"সামান্য সমস্যা: গতকাল রাত থেকে, মিরপুর ১০ এলাকার সড়ক সংস্কার ও ফুটপাত মেরামত জরুরি হয়ে পড়েছে।",road_transport,low,bn,synthetic_showcase,road_transport:bn:7
+"Residents are repeatedly affected: every day, People are illegally dumping household rubbish in an open area near Mohammadpur.",waste,medium,en,synthetic_showcase,waste:en:2
+"Urgent issue: for the last three days, People are illegally dumping household rubbish in an open area near Uttara Sector 7.",waste,high,en,synthetic_showcase,waste:en:2
+"Recurring issue: for the last three days, Regular garbage collection and bin clearance are needed in Khilgaon.",waste,medium,en,synthetic_showcase,waste:en:7
+"Choto ekta problem: goto rat theke, Mirpur 10 bazar-e expired packaged food sell kora hocche.",food,low,bl,synthetic_showcase,food:bl:1
+"Joruri issue: bristir por theke, Panchlaish er public hospital-er toilet o ward porishkar na.",healthcare,high,bl,synthetic_showcase,healthcare:bl:1
+"Choto ekta problem: aj shokal theke, Chandgaon er main road-e boro pothole hoyeche, gari cholachol risky.",road_transport,low,bl,synthetic_showcase,road_transport:bl:0
+"জরুরি সমস্যা: এক সপ্তাহ ধরে, মিরপুর ১০ এলাকায় নষ্ট ল্যাম্পপোস্ট ও বাল্ব বদলানো প্রয়োজন।",electricity,high,bn,synthetic_showcase,electricity:bn:5
+"আংশিকভাবে সমস্যা হচ্ছে: গত কয়েক ঘণ্টা ধরে, খিলগাঁও এলাকায় বিদ্যুতের খুঁটি থেকে ঝুলন্ত তার নিচু হয়ে পথচারীদের ঝুঁকিতে ফেলছে।",electricity,low,bn,synthetic_showcase,electricity:bn:0
+"Regular issue: bristir por theke, Mirpur 10 er clinic-e medical waste handling o disinfection dorkar.",healthcare,medium,bl,synthetic_showcase,healthcare:bl:5
+"Urgent issue: after the rainfall, Illegal parking is narrowing the road around Khilgaon and causing severe congestion.",road_transport,high,en,synthetic_showcase,road_transport:en:3
+"Residents are repeatedly affected: after the rainfall, The pedestrian overpass stairs and handrails near Panchlaish are damaged.",road_transport,medium,en,synthetic_showcase,road_transport:en:2
+"Immediate action dorkar: protodin, Khilgaon er traffic signal kaj korche na, gari atke jacche.",road_transport,high,bl,synthetic_showcase,road_transport:bl:6
+"Urgent issue: since last night, Road resurfacing and sidewalk repairs are urgently needed in Gulshan 2.",road_transport,high,en,synthetic_showcase,road_transport:en:7
+"Regular issue: ek shoptaho dhore, Panchlaish er health centre-e vaccine o medicine shortage ache.",healthcare,medium,bl,synthetic_showcase,healthcare:bl:4
+"আংশিকভাবে সমস্যা হচ্ছে: প্রতিদিন, খিলগাঁও এলাকার হোটেলে খাবার ঢেকে রাখা হয় না এবং পোকামাকড় রয়েছে।",food,low,bn,synthetic_showcase,food:bn:6
+"Urgent issue: for a week, Spoiled meat and stale meals are being sold by shops in Gulshan 2.",food,high,en,synthetic_showcase,food:en:3
+"Dangerous obostha: last three days dhore, Mirpur 10 er khabar-e adulteration o harmful chemical use-er complaint ache.",food,high,bl,synthetic_showcase,food:bl:2
+"Recurring issue: after the rainfall, The sewer line near Mohammadpur is blocked and wastewater is flowing over the footpath.",drainage,medium,en,synthetic_showcase,drainage:en:5
+"Minor issue: every day, Spoiled meat and stale meals are being sold by shops in Panchlaish.",food,low,en,synthetic_showcase,food:en:3
+"A small service issue: for several hours, Illegal parking is narrowing the road around Gulshan 2 and causing severe congestion.",road_transport,low,en,synthetic_showcase,road_transport:en:3
+"Minor issue: aj shokal theke, Uttara Sector 7 er main road-e boro pothole hoyeche, gari cholachol risky.",road_transport,low,bl,synthetic_showcase,road_transport:bl:0
+"Minor issue: koyek ghonta dhore, Dhanmondi 27 elakay pani pressure onek kom, residents-ra pani pachhen na.",water,low,bl,synthetic_showcase,water:bl:3
+"Choto ekta problem: bristir por theke, Khilgaon elakay WASA-r main pani pipe leak kore rastay pani porchhe.",water,low,bl,synthetic_showcase,water:bl:0
+"A small service issue: after the rainfall, A footpath slab is broken in Banani, creating a fall risk for pedestrians.",road_transport,low,en,synthetic_showcase,road_transport:en:1
+"Bar bar problem hocche: aj shokal theke, Motijheel elakay stagnant water-e mosquito breed hocche, dengue risk barche.",healthcare,medium,bl,synthetic_showcase,healthcare:bl:2
+"Immediate action dorkar: aj shokal theke, Banani er transformer theke spark hocche, pora gondho asche.",electricity,high,bl,synthetic_showcase,electricity:bl:2
+"জরুরি সমস্যা: এক সপ্তাহ ধরে, মিরপুর ১০ এলাকার রেস্তোরাঁয় অস্বাস্থ্যকর পরিবেশে খাবার প্রস্তুত ও পরিবেশন করা হচ্ছে।",food,high,bn,synthetic_showcase,food:bn:0
+"Dangerous obostha: aj shokal theke, Gulshan 2 elakay sewer overflow hoye dirty water rastay choriye jacche.",drainage,high,bl,synthetic_showcase,drainage:bl:1
+"Residents are repeatedly affected: every day, A pile of rotting municipal waste beside the road in Motijheel is causing a foul smell.",waste,medium,en,synthetic_showcase,waste:en:3
+"আংশিকভাবে সমস্যা হচ্ছে: গত তিন দিন ধরে, মতিঝিল এলাকায় ম্যানহোল থেকে পয়ঃনিষ্কাশনের পানি উপচে পড়ছে।",drainage,low,bn,synthetic_showcase,drainage:bn:7
+"Residents are repeatedly affected: since this morning, Water supply has stopped in homes around Gulshan 2; no water comes from the taps.",water,medium,en,synthetic_showcase,water:en:1
+"Elakar manush bhugchhen: aj shokal theke, Dhanmondi 27 er hospital-er emergency service o cleanliness inspect kora dorkar.",healthcare,medium,bl,synthetic_showcase,healthcare:bl:7
+"Joruri issue: protodin, Banani elakay voltage up-down korche, connection safe na.",electricity,high,bl,synthetic_showcase,electricity:bl:7
+"Residents are repeatedly affected: every day, Exposed wiring beside the transformer in Khilgaon poses an electrical risk.",electricity,medium,en,synthetic_showcase,electricity:en:6
+"ছোট একটি সমস্যা: গতকাল রাত থেকে, ধানমন্ডি ২৭ এলাকার বৈদ্যুতিক তার ছিঁড়ে রাস্তার ওপর পড়ে আছে।",electricity,low,bn,synthetic_showcase,electricity:bn:4
+"Choto ekta problem: bristir por theke, Banani er hotel-e food cover kora hoy na, insects ache.",food,low,bl,synthetic_showcase,food:bl:6
+"তাৎক্ষণিক ব্যবস্থা প্রয়োজন: আজ সকাল থেকে, গুলশান ২ এলাকার প্রধান সড়কে বড় গর্ত তৈরি হয়েছে, যানবাহন চলাচল ঝুঁকিপূর্ণ।",road_transport,high,bn,synthetic_showcase,road_transport:bn:0
+"তাৎক্ষণিক ব্যবস্থা প্রয়োজন: বৃষ্টির পর থেকে, মোহাম্মদপুর এলাকায় কলের পানিতে দুর্গন্ধ ও ময়লা দেখা যাচ্ছে, পানীয় পানি নিরাপদ নয়।",water,high,bn,synthetic_showcase,water:bn:2
+"জরুরি সমস্যা: গত তিন দিন ধরে, মতিঝিল এলাকার স্যুয়ারেজ লাইন বন্ধ হয়ে নোংরা পানি ফুটপাত দিয়ে বের হচ্ছে।",drainage,high,bn,synthetic_showcase,drainage:bn:5
+"Dangerous situation: since this morning, The clinic in Panchlaish needs safe medical-waste handling and disinfection.",healthcare,high,en,synthetic_showcase,healthcare:en:5
+"Minor issue: bristir por theke, Gulshan 2 er highway damaged, accident-er risk bere geche.",road_transport,low,bl,synthetic_showcase,road_transport:bl:5
+"Bar bar problem hocche: ek shoptaho dhore, Banani elakay street sweeping hocche na, plastic jome ache.",waste,medium,bl,synthetic_showcase,waste:bl:5
+"A small service issue: after the rainfall, Water supply has stopped in homes around Gulshan 2; no water comes from the taps.",water,low,en,synthetic_showcase,water:en:1
+"Immediate action is required: for several hours, The traffic signal near Chandgaon is not working and vehicles are getting stuck.",road_transport,high,en,synthetic_showcase,road_transport:en:6
+"Minor issue: for the last three days, The food premises in Khilgaon have an unclean kitchen and unsafe storage.",food,low,en,synthetic_showcase,food:en:4
+"এলাকাবাসী ভোগান্তিতে আছেন: গত কয়েক ঘণ্টা ধরে, চান্দগাঁও এলাকার স্বাস্থ্যকেন্দ্রে প্রয়োজনীয় টিকা ও ওষুধের ঘাটতি রয়েছে।",healthcare,medium,bn,synthetic_showcase,healthcare:bn:4
+"Dangerous obostha: protodin, Uttara Sector 7 er pani connection theke nonstop leak hocche.",water,high,bl,synthetic_showcase,water:bl:7
+"ছোট একটি সমস্যা: আজ সকাল থেকে, খিলগাঁও এলাকার নির্ধারিত ডাস্টবিন উপচে ময়লা রাস্তায় ছড়িয়ে আছে।",waste,low,bn,synthetic_showcase,waste:bn:0
+"এলাকাবাসী ভোগান্তিতে আছেন: বৃষ্টির পর থেকে, মতিঝিল এলাকার সরকারি হাসপাতালে টয়লেট ও ওয়ার্ডের স্বাস্থ্যবিধি মানা হচ্ছে না।",healthcare,medium,bn,synthetic_showcase,healthcare:bn:1
+"A small service issue: every day, Food is being prepared and served in unhygienic conditions at a restaurant in Mohammadpur.",food,low,en,synthetic_showcase,food:en:0
+"আংশিকভাবে সমস্যা হচ্ছে: আজ সকাল থেকে, ধানমন্ডি ২৭ এলাকার প্রধান সড়কে বড় গর্ত তৈরি হয়েছে, যানবাহন চলাচল ঝুঁকিপূর্ণ।",road_transport,low,bn,synthetic_showcase,road_transport:bn:0
+"A small service issue: for a week, The traffic signal near Chandgaon is not working and vehicles are getting stuck.",road_transport,low,en,synthetic_showcase,road_transport:en:6
+"বিপজ্জনক অবস্থা: আজ সকাল থেকে, মোহাম্মদপুর এলাকার খোলা ডাম্পিং পয়েন্টে গৃহস্থালি বর্জ্য জমে পরিবেশ নষ্ট হচ্ছে।",waste,high,bn,synthetic_showcase,waste:bn:6
+"Regular issue: aj shokal theke, Panchlaish er sewer line block hoye wastewater footpath diye ber hocche.",drainage,medium,bl,synthetic_showcase,drainage:bl:5
+"এলাকাবাসী ভোগান্তিতে আছেন: গতকাল রাত থেকে, পাঁচলাইশ এর কমিউনিটি বিন ভরে গেছে, পরিচ্ছন্নতা কর্মীরা ময়লা সরাননি।",waste,medium,bn,synthetic_showcase,waste:bn:4
+"Choto ekta problem: aj shokal theke, Panchlaish er manhole theke sewage overflow hocche.",drainage,low,bl,synthetic_showcase,drainage:bl:7
+"Minor issue: for the last three days, Spoiled meat and stale meals are being sold by shops in Motijheel.",food,low,en,synthetic_showcase,food:en:3
+"এলাকাবাসী ভোগান্তিতে আছেন: আজ সকাল থেকে, মতিঝিল সংযোগ সড়কের পিচ উঠে গেছে এবং অনেক জায়গায় খানাখন্দ তৈরি হয়েছে।",road_transport,medium,bn,synthetic_showcase,road_transport:bn:4
+"Residents are repeatedly affected: for a week, Mosquitoes are breeding in stagnant water around Uttara Sector 7, increasing dengue risk.",healthcare,medium,en,synthetic_showcase,healthcare:en:2
+"বিপজ্জনক অবস্থা: এক সপ্তাহ ধরে, বনানী এলাকার সড়ক সংস্কার ও ফুটপাত মেরামত জরুরি হয়ে পড়েছে।",road_transport,high,bn,synthetic_showcase,road_transport:bn:7
+"Elakar manush bhugchhen: aj shokal theke, Uttara Sector 7 er public hospital-er toilet o ward porishkar na.",healthcare,medium,bl,synthetic_showcase,healthcare:bl:1
+"সামান্য সমস্যা: গত কয়েক ঘণ্টা ধরে, মিরপুর ১০ এলাকায় ভোল্টেজ ওঠানামা করছে এবং বিদ্যুৎ সংযোগ অনিরাপদ।",electricity,low,bn,synthetic_showcase,electricity:bn:7
+"Part of the service is affected: for the last three days, A large pothole has formed on the main road near Mohammadpur, making traffic unsafe.",road_transport,low,en,synthetic_showcase,road_transport:en:0
+"Part of the service is affected: for a week, A service connection near Gulshan 2 is continuously leaking and wasting water.",water,low,en,synthetic_showcase,water:en:7
+"Recurring issue: for several hours, Municipal bins are overflowing near Gulshan 2, with garbage scattered across the road.",waste,medium,en,synthetic_showcase,waste:en:0
+"Minor issue: since this morning, The main storm drain near Mirpur 10 is blocked by plastic and garbage, so water cannot flow.",drainage,low,en,synthetic_showcase,drainage:en:0
+"Urgent issue: for the last three days, Tap water around Mirpur 10 smells unpleasant and contains visible dirt, making it unsafe to drink.",water,high,en,synthetic_showcase,water:en:2
+"Ektu shomossha hocche: ek shoptaho dhore, Mirpur 10 er main drain plastic o garbage diye block, pani namche na.",drainage,low,bl,synthetic_showcase,drainage:bl:0
+"Joruri issue: goto rat theke, Chandgaon bazar-er food-e formalin ba artificial colour use-er shondeho.",food,high,bl,synthetic_showcase,food:bl:5
+"Minor issue: for several hours, Emergency service conditions and hospital cleanliness in Gulshan 2 need inspection.",healthcare,low,en,synthetic_showcase,healthcare:en:7
+"ছোট একটি সমস্যা: আজ সকাল থেকে, গুলশান ২ এলাকার খোলা ম্যানহোলের ঢাকনা নেই, পথচারীদের দুর্ঘটনার ঝুঁকি।",drainage,low,bn,synthetic_showcase,drainage:bn:2
+"Dangerous obostha: last three days dhore, Motijheel er dokane rotten meat o stale food bikri hocche.",food,high,bl,synthetic_showcase,food:bl:3
+"ছোট একটি সমস্যা: গতকাল রাত থেকে, বনানী এলাকায় অবৈধ পার্কিংয়ের কারণে রাস্তা সংকীর্ণ হয়ে তীব্র যানজট হচ্ছে।",road_transport,low,bn,synthetic_showcase,road_transport:bn:3
+"বারবার সমস্যা হচ্ছে: বৃষ্টির পর থেকে, মোহাম্মদপুর এলাকার হাসপাতালের জরুরি সেবা ও পরিচ্ছন্নতা পরীক্ষা করা প্রয়োজন।",healthcare,medium,bn,synthetic_showcase,healthcare:bn:7
+"বারবার সমস্যা হচ্ছে: এক সপ্তাহ ধরে, মতিঝিল সংযোগ সড়কের পিচ উঠে গেছে এবং অনেক জায়গায় খানাখন্দ তৈরি হয়েছে।",road_transport,medium,bn,synthetic_showcase,road_transport:bn:4
+"সামান্য সমস্যা: প্রতিদিন, চান্দগাঁও এলাকার ট্রান্সফরমারের কাছে খোলা তার ও বৈদ্যুতিক ঝুঁকি রয়েছে।",electricity,low,bn,synthetic_showcase,electricity:bn:6
+"বারবার সমস্যা হচ্ছে: প্রতিদিন, মোহাম্মদপুর বাজারে মেয়াদোত্তীর্ণ প্যাকেটজাত খাবার বিক্রি করা হচ্ছে।",food,medium,bn,synthetic_showcase,food:bn:1
+"Immediate action is required: for several hours, The water storage tank serving Khilgaon appears contaminated and needs inspection.",water,high,en,synthetic_showcase,water:en:5
+"Ongoing service disruption: for the last three days, Waste collection has not happened for several days outside the market in Mohammadpur.",waste,medium,en,synthetic_showcase,waste:en:1
+"Bar bar problem hocche: aj shokal theke, Chandgaon elakay footpath-er slab venge geche, pedestrian pore jete pare.",road_transport,medium,bl,synthetic_showcase,road_transport:bl:1
+"বারবার সমস্যা হচ্ছে: আজ সকাল থেকে, ধানমন্ডি ২৭ এলাকার স্বাস্থ্যকেন্দ্রে প্রয়োজনীয় টিকা ও ওষুধের ঘাটতি রয়েছে।",healthcare,medium,bn,synthetic_showcase,healthcare:bn:4
+"Bar bar problem hocche: last three days dhore, Motijheel er transformer-er pashe exposed wire dangerous.",electricity,medium,bl,synthetic_showcase,electricity:bl:6
+"Immediate action dorkar: goto rat theke, Chandgaon te illegal parking-er jonno road narrow hoye traffic jam hocche.",road_transport,high,bl,synthetic_showcase,road_transport:bl:3
+"Joruri issue: last three days dhore, Panchlaish er open dumping point-e household waste jome poribesh noshto hocche.",waste,high,bl,synthetic_showcase,waste:bl:6
+"Elakar manush bhugchhen: goto rat theke, Gulshan 2 er pani connection theke nonstop leak hocche.",water,medium,bl,synthetic_showcase,water:bl:7
+"বারবার সমস্যা হচ্ছে: আজ সকাল থেকে, বনানী এলাকার সরকারি হাসপাতালে টয়লেট ও ওয়ার্ডের স্বাস্থ্যবিধি মানা হচ্ছে না।",healthcare,medium,bn,synthetic_showcase,healthcare:bn:1
+"বারবার সমস্যা হচ্ছে: এক সপ্তাহ ধরে, খিলগাঁও এলাকার সড়কবাতি কয়েক রাত ধরে জ্বলছে না, রাস্তা অন্ধকার।",electricity,medium,bn,synthetic_showcase,electricity:bn:1
+"Ektu shomossha hocche: aj shokal theke, Chandgaon er community clinic-e hygiene kharap, medical waste jome ache.",healthcare,low,bl,synthetic_showcase,healthcare:bl:0
+"বিপজ্জনক অবস্থা: গত তিন দিন ধরে, খিলগাঁও এলাকায় কয়েকটি বাড়িতে সুপেয় পানির সংকট দেখা দিয়েছে।",water,high,bn,synthetic_showcase,water:bn:6
+"Immediate action dorkar: koyek ghonta dhore, Mohammadpur er hotel-e food cover kora hoy na, insects ache.",food,high,bl,synthetic_showcase,food:bl:6
+"তাৎক্ষণিক ব্যবস্থা প্রয়োজন: এক সপ্তাহ ধরে, গুলশান ২ বাজারে ফল ও খাদ্যে ফরমালিন বা কৃত্রিম রং ব্যবহারের সন্দেহ রয়েছে।",food,high,bn,synthetic_showcase,food:bn:5
+"Recurring issue: after the rainfall, The transformer near Panchlaish is sparking and producing a burning smell.",electricity,medium,en,synthetic_showcase,electricity:en:2
+"সামান্য সমস্যা: বৃষ্টির পর থেকে, উত্তরা সেক্টর ৭ এলাকার স্বাস্থ্যকেন্দ্রে প্রয়োজনীয় টিকা ও ওষুধের ঘাটতি রয়েছে।",healthcare,low,bn,synthetic_showcase,healthcare:bn:4
+"Residents are repeatedly affected: since last night, The asphalt has peeled off on the access road near Panchlaish, leaving multiple potholes.",road_transport,medium,en,synthetic_showcase,road_transport:en:4
+"Urgent issue: for the last three days, Mosquito infestation has increased in Khilgaon, requiring public-health action.",healthcare,high,en,synthetic_showcase,healthcare:en:6
+"Ongoing service disruption: for a week, There is suspected formalin or artificial colouring in food sold in Banani.",food,medium,en,synthetic_showcase,food:en:5
+"আংশিকভাবে সমস্যা হচ্ছে: আজ সকাল থেকে, মোহাম্মদপুর এলাকায় ওয়াসার পানির মূল পাইপে লিকেজ হয়েছে, রাস্তার পাশে পানি বের হচ্ছে।",water,low,bn,synthetic_showcase,water:bn:0
+"Elakar manush bhugchhen: aj shokal theke, Mirpur 10 bazar-er food-e formalin ba artificial colour use-er shondeho.",food,medium,bl,synthetic_showcase,food:bl:5
+"Ongoing service disruption: for the last three days, Sewage is overflowing from a manhole near Mirpur 10 onto the public street.",drainage,medium,en,synthetic_showcase,drainage:en:7
+"Regular issue: last three days dhore, Mirpur 10 er foot overbridge-er stair o railing damaged.",road_transport,medium,bl,synthetic_showcase,road_transport:bl:2
+"এলাকাবাসী ভোগান্তিতে আছেন: গত কয়েক ঘণ্টা ধরে, গুলশান ২ এলাকার নির্ধারিত ডাস্টবিন উপচে ময়লা রাস্তায় ছড়িয়ে আছে।",waste,medium,bn,synthetic_showcase,waste:bn:0
+"A small service issue: since this morning, Expired packaged food is being sold in the market near Panchlaish.",food,low,en,synthetic_showcase,food:en:1
+"বারবার সমস্যা হচ্ছে: বৃষ্টির পর থেকে, বনানী এলাকার বৈদ্যুতিক তার ছিঁড়ে রাস্তার ওপর পড়ে আছে।",electricity,medium,bn,synthetic_showcase,electricity:bn:4
+"বারবার সমস্যা হচ্ছে: এক সপ্তাহ ধরে, মোহাম্মদপুর এলাকায় ম্যানহোল থেকে পয়ঃনিষ্কাশনের পানি উপচে পড়ছে।",drainage,medium,bn,synthetic_showcase,drainage:bn:7
+"Joruri issue: aj shokal theke, Mirpur 10 er connecting road-er asphalt uthe geche, onek gorto ache.",road_transport,high,bl,synthetic_showcase,road_transport:bl:4
+"Immediate action dorkar: protodin, Gulshan 2 er stormwater drain-e silt jome water flow bondho.",drainage,high,bl,synthetic_showcase,drainage:bl:6
+"নিয়মিত সমস্যা: গত কয়েক ঘণ্টা ধরে, চান্দগাঁও বাজারের সামনে কয়েক দিন ধরে পৌরসভার বর্জ্য সংগ্রহ করা হয়নি।",waste,medium,bn,synthetic_showcase,waste:bn:1
+"Minor issue: bristir por theke, Chandgaon elakay dengue control-er jonno mosquito fogging dorkar.",healthcare,low,bl,synthetic_showcase,healthcare:bl:3
+"Choto ekta problem: koyek ghonta dhore, Khilgaon er health centre-e vaccine o medicine shortage ache.",healthcare,low,bl,synthetic_showcase,healthcare:bl:4
+"Joruri issue: aj shokal theke, Panchlaish elakay bashay pani ashe na, tap khulleo supply pachhi na.",water,high,bl,synthetic_showcase,water:bl:1
+"Elakar manush bhugchhen: protodin, Chandgaon elakay moshar upodrob bereche, public health action dorkar.",healthcare,medium,bl,synthetic_showcase,healthcare:bl:6
+"Elakar manush bhugchhen: last three days dhore, Gulshan 2 er dokane rotten meat o stale food bikri hocche.",food,medium,bl,synthetic_showcase,food:bl:3
+"Bar bar problem hocche: bristir por theke, Chandgaon er community bin full, cleaner-ra garbage remove koreni.",waste,medium,bl,synthetic_showcase,waste:bl:4
+"তাৎক্ষণিক ব্যবস্থা প্রয়োজন: গত কয়েক ঘণ্টা ধরে, চান্দগাঁও এলাকায় ডেঙ্গু নিয়ন্ত্রণে মশক নিধন ও ফগিং কার্যক্রম প্রয়োজন।",healthcare,high,bn,synthetic_showcase,healthcare:bn:3
+"Ongoing service disruption: for a week, Several homes in Mirpur 10 are facing a shortage of safe drinking water.",water,medium,en,synthetic_showcase,water:en:6
+"Joruri issue: ek shoptaho dhore, Motijheel er hotel-e food cover kora hoy na, insects ache.",food,high,bl,synthetic_showcase,food:bl:6
+"Minor issue: since last night, A low-hanging live electrical wire near Panchlaish is creating a serious pedestrian hazard.",electricity,low,en,synthetic_showcase,electricity:en:0
+"Urgent issue: every day, Several homes in Banani are facing a shortage of safe drinking water.",water,high,en,synthetic_showcase,water:en:6
+"Ongoing service disruption: for the last three days, Water supply has stopped in homes around Chandgaon; no water comes from the taps.",water,medium,en,synthetic_showcase,water:en:1
+"Joruri issue: last three days dhore, Mirpur 10 elakay footpath-er slab venge geche, pedestrian pore jete pare.",road_transport,high,bl,synthetic_showcase,road_transport:bl:1
+"ছোট একটি সমস্যা: আজ সকাল থেকে, চান্দগাঁও এলাকায় বিদ্যুৎ সরবরাহ বন্ধ, দীর্ঘ সময় ধরে লোডশেডিং হচ্ছে।",electricity,low,bn,synthetic_showcase,electricity:bn:3
+"Bar bar problem hocche: goto rat theke, Khilgaon er manhole theke sewage overflow hocche.",drainage,medium,bl,synthetic_showcase,drainage:bl:7
+"Minor issue: goto rat theke, Mohammadpur er open manhole-er cover nei, pedestrian fall hazard ache.",drainage,low,bl,synthetic_showcase,drainage:bl:2
+"Urgent issue: since this morning, The pedestrian overpass stairs and handrails near Motijheel are damaged.",road_transport,high,en,synthetic_showcase,road_transport:en:2
+"Bar bar problem hocche: ek shoptaho dhore, Dhanmondi 27 elakay footpath-er slab venge geche, pedestrian pore jete pare.",road_transport,medium,bl,synthetic_showcase,road_transport:bl:1
+"সামান্য সমস্যা: আজ সকাল থেকে, মতিঝিল এলাকায় নষ্ট ল্যাম্পপোস্ট ও বাল্ব বদলানো প্রয়োজন।",electricity,low,bn,synthetic_showcase,electricity:bn:5
+"Joruri issue: bristir por theke, Khilgaon elakay power supply bondho, load shedding cholche.",electricity,high,bl,synthetic_showcase,electricity:bl:3
+"Urgent issue: after the rainfall, Emergency service conditions and hospital cleanliness in Dhanmondi 27 need inspection.",healthcare,high,en,synthetic_showcase,healthcare:en:7
+"Minor issue: since this morning, Water supply has stopped in homes around Banani; no water comes from the taps.",water,low,en,synthetic_showcase,water:en:1
+"বিপজ্জনক অবস্থা: বৃষ্টির পর থেকে, বনানী এলাকার প্রধান ড্রেনের মুখ প্লাস্টিক ও ময়লায় বন্ধ হয়ে পানি নামছে না।",drainage,high,bn,synthetic_showcase,drainage:bn:0
+"Dangerous obostha: aj shokal theke, Banani elakay damaged lamp post o bulb replace kora dorkar.",electricity,high,bl,synthetic_showcase,electricity:bl:5
+"নিয়মিত সমস্যা: গতকাল রাত থেকে, মতিঝিল এলাকায় ডেঙ্গু নিয়ন্ত্রণে মশক নিধন ও ফগিং কার্যক্রম প্রয়োজন।",healthcare,medium,bn,synthetic_showcase,healthcare:bn:3
+"Immediate action is required: every day, The community clinic in Khilgaon has poor hygiene and accumulated medical waste.",healthcare,high,en,synthetic_showcase,healthcare:en:0
+"Dangerous situation: for a week, A broken drain cover in Mohammadpur exposes the open sewer and causes a foul smell.",drainage,high,en,synthetic_showcase,drainage:en:3
+"Residents are repeatedly affected: since last night, An uncovered manhole in Dhanmondi 27 has no safety lid and poses a serious fall hazard.",drainage,medium,en,synthetic_showcase,drainage:en:2
+"Dangerous obostha: goto rat theke, Dhanmondi 27 er stormwater drain-e silt jome water flow bondho.",drainage,high,bl,synthetic_showcase,drainage:bl:6
+"Immediate action dorkar: protodin, Mohammadpur er transformer-er pashe exposed wire dangerous.",electricity,high,bl,synthetic_showcase,electricity:bl:6
+"Part of the service is affected: for a week, A sewer overflow near Gulshan 2 is spreading dirty wastewater onto the road.",drainage,low,en,synthetic_showcase,drainage:en:1
+"Urgent issue: since last night, The sewer line near Mohammadpur is blocked and wastewater is flowing over the footpath.",drainage,high,en,synthetic_showcase,drainage:en:5
+"তাৎক্ষণিক ব্যবস্থা প্রয়োজন: গত কয়েক ঘণ্টা ধরে, উত্তরা সেক্টর ৭ এলাকায় জমে থাকা পানিতে মশার প্রজনন হচ্ছে, ডেঙ্গুর ঝুঁকি বাড়ছে।",healthcare,high,bn,synthetic_showcase,healthcare:bn:2
+"Urgent issue: for the last three days, The water storage tank serving Panchlaish appears contaminated and needs inspection.",water,high,en,synthetic_showcase,water:en:5
+"এলাকাবাসী ভোগান্তিতে আছেন: গতকাল রাত থেকে, ধানমন্ডি ২৭ এলাকার স্যুয়ারেজ লাইন বন্ধ হয়ে নোংরা পানি ফুটপাত দিয়ে বের হচ্ছে।",drainage,medium,bn,synthetic_showcase,drainage:bn:5
+"Dangerous situation: for a week, There is suspected formalin or artificial colouring in food sold in Uttara Sector 7.",food,high,en,synthetic_showcase,food:en:5
+"Immediate action is required: for a week, Exposed wiring beside the transformer in Mohammadpur poses an electrical risk.",electricity,high,en,synthetic_showcase,electricity:en:6
+"সামান্য সমস্যা: প্রতিদিন, মিরপুর ১০ এলাকায় পাইপলাইন ফেটে ফুটপাত ও রাস্তা ভিজে যাচ্ছে, ওয়াসার মেরামত দরকার।",water,low,bn,synthetic_showcase,water:bn:4
+"Urgent issue: for the last three days, Municipal bins are overflowing near Banani, with garbage scattered across the road.",waste,high,en,synthetic_showcase,waste:en:0
+"Urgent issue: since this morning, The asphalt has peeled off on the access road near Motijheel, leaving multiple potholes.",road_transport,high,en,synthetic_showcase,road_transport:en:4
+"Dangerous obostha: aj shokal theke, Banani er foot overbridge-er stair o railing damaged.",road_transport,high,bl,synthetic_showcase,road_transport:bl:2
+"বারবার সমস্যা হচ্ছে: গতকাল রাত থেকে, বনানী এলাকার কমিউনিটি ক্লিনিকে অপরিচ্ছন্ন পরিবেশ ও চিকিৎসা বর্জ্য জমে আছে।",healthcare,medium,bn,synthetic_showcase,healthcare:bn:0
+"Dangerous obostha: aj shokal theke, Uttara Sector 7 er open manhole-er cover nei, pedestrian fall hazard ache.",drainage,high,bl,synthetic_showcase,drainage:bl:2
+"Minor issue: koyek ghonta dhore, Gulshan 2 er open dumping point-e household waste jome poribesh noshto hocche.",waste,low,bl,synthetic_showcase,waste:bl:6
+"Minor issue: aj shokal theke, Gulshan 2 elakay safe drinking water shortage dekha diyeche.",water,low,bl,synthetic_showcase,water:bl:6
+"Residents are repeatedly affected: after the rainfall, A service connection near Uttara Sector 7 is continuously leaking and wasting water.",water,medium,en,synthetic_showcase,water:en:7
+"ছোট একটি সমস্যা: প্রতিদিন, মিরপুর ১০ এলাকার সরকারি হাসপাতালে টয়লেট ও ওয়ার্ডের স্বাস্থ্যবিধি মানা হচ্ছে না।",healthcare,low,bn,synthetic_showcase,healthcare:bn:1
+"Ongoing service disruption: since this morning, Rainwater is not draining in Dhanmondi 27, causing severe street waterlogging.",drainage,medium,en,synthetic_showcase,drainage:en:4
+"নিয়মিত সমস্যা: গত তিন দিন ধরে, ধানমন্ডি ২৭ এলাকায় বিদ্যুতের খুঁটি থেকে ঝুলন্ত তার নিচু হয়ে পথচারীদের ঝুঁকিতে ফেলছে।",electricity,medium,bn,synthetic_showcase,electricity:bn:0
+"এলাকাবাসী ভোগান্তিতে আছেন: এক সপ্তাহ ধরে, চান্দগাঁও এলাকায় খোলা জায়গায় অবৈধভাবে আবর্জনা ফেলা হচ্ছে।",waste,medium,bn,synthetic_showcase,waste:bn:2
+"Choto ekta problem: aj shokal theke, Khilgaon elakay sewer overflow hoye dirty water rastay choriye jacche.",drainage,low,bl,synthetic_showcase,drainage:bl:1
+"Immediate action is required: every day, An uncovered manhole in Mirpur 10 has no safety lid and poses a serious fall hazard.",drainage,high,en,synthetic_showcase,drainage:en:2
+"Minor issue: after the rainfall, The community clinic in Motijheel has poor hygiene and accumulated medical waste.",healthcare,low,en,synthetic_showcase,healthcare:en:0
+"নিয়মিত সমস্যা: বৃষ্টির পর থেকে, মোহাম্মদপুর এলাকায় নিয়মিত বর্জ্য অপসারণ ও ডাস্টবিন খালি করা প্রয়োজন।",waste,medium,bn,synthetic_showcase,waste:bn:7
+"Residents are repeatedly affected: after the rainfall, The water storage tank serving Dhanmondi 27 appears contaminated and needs inspection.",water,medium,en,synthetic_showcase,water:en:5
+"Regular issue: goto rat theke, Mirpur 10 elakay damaged lamp post o bulb replace kora dorkar.",electricity,medium,bl,synthetic_showcase,electricity:bl:5
+"জরুরি সমস্যা: আজ সকাল থেকে, পাঁচলাইশ এলাকায় পাইপলাইন ফেটে ফুটপাত ও রাস্তা ভিজে যাচ্ছে, ওয়াসার মেরামত দরকার।",water,high,bn,synthetic_showcase,water:bn:4
+"Elakar manush bhugchhen: bristir por theke, Panchlaish er pani connection theke nonstop leak hocche.",water,medium,bl,synthetic_showcase,water:bl:7
+"Ektu shomossha hocche: bristir por theke, Banani elakay rainwater drain hocche na, waterlogging hoyeche.",drainage,low,bl,synthetic_showcase,drainage:bl:4
+"জরুরি সমস্যা: বৃষ্টির পর থেকে, গুলশান ২ এলাকায় মশার উপদ্রব বেড়েছে, জনস্বাস্থ্য বিভাগকে ব্যবস্থা নিতে হবে।",healthcare,high,bn,synthetic_showcase,healthcare:bn:6
+"Residents are repeatedly affected: after the rainfall, The transformer near Uttara Sector 7 is sparking and producing a burning smell.",electricity,medium,en,synthetic_showcase,electricity:en:2
+"বারবার সমস্যা হচ্ছে: এক সপ্তাহ ধরে, চান্দগাঁও এলাকায় নর্দমা উপচে নোংরা পানি রাস্তায় ছড়িয়ে পড়ছে।",drainage,medium,bn,synthetic_showcase,drainage:bn:1
+"Recurring issue: for a week, The community clinic in Panchlaish has poor hygiene and accumulated medical waste.",healthcare,medium,en,synthetic_showcase,healthcare:en:0
+"Minor issue: koyek ghonta dhore, Banani er main drain plastic o garbage diye block, pani namche na.",drainage,low,bl,synthetic_showcase,drainage:bl:0
+"এলাকাবাসী ভোগান্তিতে আছেন: প্রতিদিন, মতিঝিল এলাকায় রাস্তা ঝাড়ু দেওয়া হচ্ছে না এবং প্লাস্টিক জমে আছে।",waste,medium,bn,synthetic_showcase,waste:bn:5
+"Minor issue: last three days dhore, Uttara Sector 7 er community clinic-e hygiene kharap, medical waste jome ache.",healthcare,low,bl,synthetic_showcase,healthcare:bl:0
+"Immediate action is required: for several hours, Waste collection has not happened for several days outside the market in Dhanmondi 27.",waste,high,en,synthetic_showcase,waste:en:1
+"Minor issue: for a week, A broken electric cable has fallen across the road near Chandgaon.",electricity,low,en,synthetic_showcase,electricity:en:4
+"Regular issue: aj shokal theke, Chandgaon er connecting road-er asphalt uthe geche, onek gorto ache.",road_transport,medium,bl,synthetic_showcase,road_transport:bl:4
+"Part of the service is affected: every day, Sewage is overflowing from a manhole near Panchlaish onto the public street.",drainage,low,en,synthetic_showcase,drainage:en:7
+"Ektu shomossha hocche: ek shoptaho dhore, Mirpur 10 elakay bashay pani ashe na, tap khulleo supply pachhi na.",water,low,bl,synthetic_showcase,water:bl:1
+"Elakar manush bhugchhen: ek shoptaho dhore, Panchlaish elakay street sweeping hocche na, plastic jome ache.",waste,medium,bl,synthetic_showcase,waste:bl:5
+"বারবার সমস্যা হচ্ছে: গতকাল রাত থেকে, বনানী এলাকায় ভোল্টেজ ওঠানামা করছে এবং বিদ্যুৎ সংযোগ অনিরাপদ।",electricity,medium,bn,synthetic_showcase,electricity:bn:7
+"A small service issue: for several hours, Several homes in Panchlaish are facing a shortage of safe drinking water.",water,low,en,synthetic_showcase,water:en:6
+"Elakar manush bhugchhen: ek shoptaho dhore, Motijheel er tap water-e gondho o moyla ache, drinking water safe na.",water,medium,bl,synthetic_showcase,water:bl:2
+"Dangerous obostha: aj shokal theke, Motijheel er street light koyek rat dhore jole na, road ondhokar.",electricity,high,bl,synthetic_showcase,electricity:bl:1
+"আংশিকভাবে সমস্যা হচ্ছে: এক সপ্তাহ ধরে, মতিঝিল এলাকায় পাইপলাইন ফেটে ফুটপাত ও রাস্তা ভিজে যাচ্ছে, ওয়াসার মেরামত দরকার।",water,low,bn,synthetic_showcase,water:bn:4
+"আংশিকভাবে সমস্যা হচ্ছে: গত কয়েক ঘণ্টা ধরে, মতিঝিল এলাকায় নিয়মিত বর্জ্য অপসারণ ও ডাস্টবিন খালি করা প্রয়োজন।",waste,low,bn,synthetic_showcase,waste:bn:7
+"ছোট একটি সমস্যা: বৃষ্টির পর থেকে, ধানমন্ডি ২৭ এলাকার খোলা ডাম্পিং পয়েন্টে গৃহস্থালি বর্জ্য জমে পরিবেশ নষ্ট হচ্ছে।",waste,low,bn,synthetic_showcase,waste:bn:6
+"Bar bar problem hocche: goto rat theke, Panchlaish elakay dengue control-er jonno mosquito fogging dorkar.",healthcare,medium,bl,synthetic_showcase,healthcare:bl:3
+"Residents are repeatedly affected: for the last three days, Voltage is fluctuating in Mirpur 10, making the power connection unsafe.",electricity,medium,en,synthetic_showcase,electricity:en:7
+"Elakar manush bhugchhen: koyek ghonta dhore, Khilgaon er foot overbridge-er stair o railing damaged.",road_transport,medium,bl,synthetic_showcase,road_transport:bl:2
+"বিপজ্জনক অবস্থা: বৃষ্টির পর থেকে, মতিঝিল এলাকায় রাস্তা ঝাড়ু দেওয়া হচ্ছে না এবং প্লাস্টিক জমে আছে।",waste,high,bn,synthetic_showcase,waste:bn:5
+"Dangerous situation: since last night, People are illegally dumping household rubbish in an open area near Mirpur 10.",waste,high,en,synthetic_showcase,waste:en:2
+"Minor issue: aj shokal theke, Panchlaish er dustbin overflow kore garbage rastay choriye poreche.",waste,low,bl,synthetic_showcase,waste:bl:0
+"A small service issue: for a week, Road resurfacing and sidewalk repairs are urgently needed in Banani.",road_transport,low,en,synthetic_showcase,road_transport:en:7
+"Recurring issue: since last night, Silt has blocked the stormwater drainage channel in Chandgaon, stopping runoff flow.",drainage,medium,en,synthetic_showcase,drainage:en:6
+"Minor issue: after the rainfall, A broken electric cable has fallen across the road near Motijheel.",electricity,low,en,synthetic_showcase,electricity:en:4
+"Urgent issue: for a week, Exposed wiring beside the transformer in Mohammadpur poses an electrical risk.",electricity,high,en,synthetic_showcase,electricity:en:6
+"Part of the service is affected: for the last three days, Exposed wiring beside the transformer in Mirpur 10 poses an electrical risk.",electricity,low,en,synthetic_showcase,electricity:en:6
+"বিপজ্জনক অবস্থা: গতকাল রাত থেকে, মিরপুর ১০ এলাকার ক্লিনিকে বর্জ্য ব্যবস্থাপনা ও জীবাণুনাশক পরিষ্কার দরকার।",healthcare,high,bn,synthetic_showcase,healthcare:bn:5
+"Minor issue: for several hours, The water storage tank serving Banani appears contaminated and needs inspection.",water,low,en,synthetic_showcase,water:en:5
+"Dangerous obostha: ek shoptaho dhore, Khilgaon elakay safe drinking water shortage dekha diyeche.",water,high,bl,synthetic_showcase,water:bl:6
+"Minor issue: since last night, The community waste container in Chandgaon is full and has not been emptied.",waste,low,en,synthetic_showcase,waste:en:4
+"Minor issue: ek shoptaho dhore, Uttara Sector 7 er restaurant-e unhygienic environment-e food prepare o serve hocche.",food,low,bl,synthetic_showcase,food:bl:0
+"Recurring issue: for a week, The food premises in Mirpur 10 have an unclean kitchen and unsafe storage.",food,medium,en,synthetic_showcase,food:en:4
+"Choto ekta problem: koyek ghonta dhore, Panchlaish elakay sewer overflow hoye dirty water rastay choriye jacche.",drainage,low,bl,synthetic_showcase,drainage:bl:1
+"Regular issue: ek shoptaho dhore, Banani elakay WASA-r main pani pipe leak kore rastay pani porchhe.",water,medium,bl,synthetic_showcase,water:bl:0
+"Joruri issue: aj shokal theke, Motijheel er community clinic-e hygiene kharap, medical waste jome ache.",healthcare,high,bl,synthetic_showcase,healthcare:bl:0
+"Immediate action dorkar: koyek ghonta dhore, Mirpur 10 elakay electric pole theke live wire jhule pedestrian risk hocche.",electricity,high,bl,synthetic_showcase,electricity:bl:0
+"বারবার সমস্যা হচ্ছে: বৃষ্টির পর থেকে, পাঁচলাইশ বাজারে ফল ও খাদ্যে ফরমালিন বা কৃত্রিম রং ব্যবহারের সন্দেহ রয়েছে।",food,medium,bn,synthetic_showcase,food:bn:5
+"Ektu shomossha hocche: ek shoptaho dhore, Dhanmondi 27 er pani connection theke nonstop leak hocche.",water,low,bl,synthetic_showcase,water:bl:7
+"Bar bar problem hocche: bristir por theke, Panchlaish bazar-e expired packaged food sell kora hocche.",food,medium,bl,synthetic_showcase,food:bl:1
+"এলাকাবাসী ভোগান্তিতে আছেন: প্রতিদিন, চান্দগাঁও এলাকায় কলের পানিতে দুর্গন্ধ ও ময়লা দেখা যাচ্ছে, পানীয় পানি নিরাপদ নয়।",water,medium,bn,synthetic_showcase,water:bn:2
+"Bar bar problem hocche: bristir por theke, Mirpur 10 er electric wire chire rastay pore ache.",electricity,medium,bl,synthetic_showcase,electricity:bl:4
+"Ektu shomossha hocche: ek shoptaho dhore, Dhanmondi 27 er foot overbridge-er stair o railing damaged.",road_transport,low,bl,synthetic_showcase,road_transport:bl:2
+"Residents are repeatedly affected: every day, A burst water pipeline is flooding the footpath near Mirpur 10 and needs repair.",water,medium,en,synthetic_showcase,water:en:4
+"আংশিকভাবে সমস্যা হচ্ছে: গতকাল রাত থেকে, চান্দগাঁও এলাকার কমিউনিটি ক্লিনিকে অপরিচ্ছন্ন পরিবেশ ও চিকিৎসা বর্জ্য জমে আছে।",healthcare,low,bn,synthetic_showcase,healthcare:bn:0
+"Residents are repeatedly affected: for a week, The main storm drain near Mohammadpur is blocked by plastic and garbage, so water cannot flow.",drainage,medium,en,synthetic_showcase,drainage:en:0
+"Residents are repeatedly affected: for several hours, A sewer overflow near Mirpur 10 is spreading dirty wastewater onto the road.",drainage,medium,en,synthetic_showcase,drainage:en:1
+"নিয়মিত সমস্যা: প্রতিদিন, মিরপুর ১০ এলাকার খাবারে ভেজাল ও ক্ষতিকর রাসায়নিক ব্যবহারের অভিযোগ রয়েছে।",food,medium,bn,synthetic_showcase,food:bn:2
+"সামান্য সমস্যা: আজ সকাল থেকে, মিরপুর ১০ এলাকার বাসাবাড়িতে পানির সরবরাহ বন্ধ, কল খুললেও পানি আসছে না।",water,low,bn,synthetic_showcase,water:bn:1
+"Minor issue: for a week, Rainwater is not draining in Mirpur 10, causing severe street waterlogging.",drainage,low,en,synthetic_showcase,drainage:en:4
+"Urgent issue: for several hours, The WASA water main is leaking near Uttara Sector 7, and clean water is flowing onto the sidewalk.",water,high,en,synthetic_showcase,water:en:0
+"Dangerous obostha: aj shokal theke, Dhanmondi 27 elakay road repair o footpath maintenance dorkar.",road_transport,high,bl,synthetic_showcase,road_transport:bl:7
+"বিপজ্জনক অবস্থা: প্রতিদিন, মতিঝিল এলাকার খোলা ডাম্পিং পয়েন্টে গৃহস্থালি বর্জ্য জমে পরিবেশ নষ্ট হচ্ছে।",waste,high,bn,synthetic_showcase,waste:bn:6
+"Joruri issue: bristir por theke, Banani er food vendor-ra price list o weight rules follow korche na.",food,high,bl,synthetic_showcase,food:bl:7
+"আংশিকভাবে সমস্যা হচ্ছে: এক সপ্তাহ ধরে, বনানী এলাকায় ফুটপাতের স্ল্যাব ভেঙে গেছে, পথচারীরা পড়ে যেতে পারেন।",road_transport,low,bn,synthetic_showcase,road_transport:bn:1
+"বিপজ্জনক অবস্থা: গত তিন দিন ধরে, উত্তরা সেক্টর ৭ এলাকায় পানির লাইনে চাপ খুব কম, বাসিন্দারা প্রয়োজনীয় পানি পাচ্ছেন না।",water,high,bn,synthetic_showcase,water:bn:3
+"A small service issue: since this morning, Streetlights have been out for several nights around Uttara Sector 7, leaving the road dark.",electricity,low,en,synthetic_showcase,electricity:en:1
+"বিপজ্জনক অবস্থা: প্রতিদিন, ধানমন্ডি ২৭ এলাকায় বৃষ্টির পানি নিষ্কাশন না হওয়ায় জলাবদ্ধতা তৈরি হয়েছে।",drainage,high,bn,synthetic_showcase,drainage:bn:4
+"তাৎক্ষণিক ব্যবস্থা প্রয়োজন: গতকাল রাত থেকে, চান্দগাঁও এর কমিউনিটি বিন ভরে গেছে, পরিচ্ছন্নতা কর্মীরা ময়লা সরাননি।",waste,high,bn,synthetic_showcase,waste:bn:4
+"Joruri issue: ek shoptaho dhore, Dhanmondi 27 elakay stagnant water-e mosquito breed hocche, dengue risk barche.",healthcare,high,bl,synthetic_showcase,healthcare:bl:2
+"A small service issue: for a week, Mosquito infestation has increased in Mirpur 10, requiring public-health action.",healthcare,low,en,synthetic_showcase,healthcare:en:6
+"A small service issue: since last night, A pile of rotting municipal waste beside the road in Dhanmondi 27 is causing a foul smell.",waste,low,en,synthetic_showcase,waste:en:3
+"আংশিকভাবে সমস্যা হচ্ছে: গত কয়েক ঘণ্টা ধরে, বনানী এলাকায় ম্যানহোল থেকে পয়ঃনিষ্কাশনের পানি উপচে পড়ছে।",drainage,low,bn,synthetic_showcase,drainage:bn:7
+"Immediate action is required: since last night, A pile of rotting municipal waste beside the road in Mirpur 10 is causing a foul smell.",waste,high,en,synthetic_showcase,waste:en:3
+"Minor issue: aj shokal theke, Motijheel er traffic signal kaj korche na, gari atke jacche.",road_transport,low,bl,synthetic_showcase,road_transport:bl:6
+"বারবার সমস্যা হচ্ছে: এক সপ্তাহ ধরে, খিলগাঁও এলাকার বৈদ্যুতিক তার ছিঁড়ে রাস্তার ওপর পড়ে আছে।",electricity,medium,bn,synthetic_showcase,electricity:bn:4
+"আংশিকভাবে সমস্যা হচ্ছে: গত কয়েক ঘণ্টা ধরে, ধানমন্ডি ২৭ এর কমিউনিটি বিন ভরে গেছে, পরিচ্ছন্নতা কর্মীরা ময়লা সরাননি।",waste,low,bn,synthetic_showcase,waste:bn:4
+"Ektu shomossha hocche: bristir por theke, Dhanmondi 27 er stormwater drain-e silt jome water flow bondho.",drainage,low,bl,synthetic_showcase,drainage:bl:6
+"Recurring issue: since last night, Food is being prepared and served in unhygienic conditions at a restaurant in Mirpur 10.",food,medium,en,synthetic_showcase,food:en:0
+"আংশিকভাবে সমস্যা হচ্ছে: গত কয়েক ঘণ্টা ধরে, গুলশান ২ এলাকার সড়কবাতি কয়েক রাত ধরে জ্বলছে না, রাস্তা অন্ধকার।",electricity,low,bn,synthetic_showcase,electricity:bn:1
+"আংশিকভাবে সমস্যা হচ্ছে: গত তিন দিন ধরে, মতিঝিল বাজারের সামনে কয়েক দিন ধরে পৌরসভার বর্জ্য সংগ্রহ করা হয়নি।",waste,low,bn,synthetic_showcase,waste:bn:1
+"জরুরি সমস্যা: গত তিন দিন ধরে, বনানী এলাকার প্রধান সড়কে বড় গর্ত তৈরি হয়েছে, যানবাহন চলাচল ঝুঁকিপূর্ণ।",road_transport,high,bn,synthetic_showcase,road_transport:bn:0
+"Dangerous obostha: bristir por theke, Panchlaish er foot overbridge-er stair o railing damaged.",road_transport,high,bl,synthetic_showcase,road_transport:bl:2
+"নিয়মিত সমস্যা: প্রতিদিন, মতিঝিল এলাকার ভাঙা ড্রেন স্ল্যাব দিয়ে নর্দমা দেখা যাচ্ছে এবং দুর্গন্ধ ছড়াচ্ছে।",drainage,medium,bn,synthetic_showcase,drainage:bn:3
+"Choto ekta problem: ek shoptaho dhore, Gulshan 2 er electric wire chire rastay pore ache.",electricity,low,bl,synthetic_showcase,electricity:bl:4
+"Regular issue: ek shoptaho dhore, Banani elakay bashay pani ashe na, tap khulleo supply pachhi na.",water,medium,bl,synthetic_showcase,water:bl:1
+"Minor issue: koyek ghonta dhore, Chandgaon er public hospital-er toilet o ward porishkar na.",healthcare,low,bl,synthetic_showcase,healthcare:bl:1
+"Dangerous situation: for the last three days, The main storm drain near Uttara Sector 7 is blocked by plastic and garbage, so water cannot flow.",drainage,high,en,synthetic_showcase,drainage:en:0
+"Bar bar problem hocche: goto rat theke, Motijheel er food shop-er kitchen dirty, safe storage nei.",food,medium,bl,synthetic_showcase,food:bl:4
+"Minor issue: after the rainfall, A footpath slab is broken in Motijheel, creating a fall risk for pedestrians.",road_transport,low,en,synthetic_showcase,road_transport:en:1
+"সামান্য সমস্যা: আজ সকাল থেকে, বনানী এলাকার ভাঙা ড্রেন স্ল্যাব দিয়ে নর্দমা দেখা যাচ্ছে এবং দুর্গন্ধ ছড়াচ্ছে।",drainage,low,bn,synthetic_showcase,drainage:bn:3
+"জরুরি সমস্যা: প্রতিদিন, বনানী এলাকায় বিদ্যুৎ সরবরাহ বন্ধ, দীর্ঘ সময় ধরে লোডশেডিং হচ্ছে।",electricity,high,bn,synthetic_showcase,electricity:bn:3
+"Elakar manush bhugchhen: goto rat theke, Motijheel er hospital-er emergency service o cleanliness inspect kora dorkar.",healthcare,medium,bl,synthetic_showcase,healthcare:bl:7
+"জরুরি সমস্যা: আজ সকাল থেকে, খিলগাঁও এলাকার ক্লিনিকে বর্জ্য ব্যবস্থাপনা ও জীবাণুনাশক পরিষ্কার দরকার।",healthcare,high,bn,synthetic_showcase,healthcare:bn:5
+"বিপজ্জনক অবস্থা: গত তিন দিন ধরে, ধানমন্ডি ২৭ এলাকার খোলা ম্যানহোলের ঢাকনা নেই, পথচারীদের দুর্ঘটনার ঝুঁকি।",drainage,high,bn,synthetic_showcase,drainage:bn:2
+"Immediate action is required: for a week, A burst water pipeline is flooding the footpath near Motijheel and needs repair.",water,high,en,synthetic_showcase,water:en:4
+"এলাকাবাসী ভোগান্তিতে আছেন: গতকাল রাত থেকে, ধানমন্ডি ২৭ এলাকার খোলা ম্যানহোলের ঢাকনা নেই, পথচারীদের দুর্ঘটনার ঝুঁকি।",drainage,medium,bn,synthetic_showcase,drainage:bn:2
+"সামান্য সমস্যা: এক সপ্তাহ ধরে, ধানমন্ডি ২৭ এলাকার পানির ট্যাংকে দূষিত পানি জমেছে, সরবরাহ পরীক্ষা করা প্রয়োজন।",water,low,bn,synthetic_showcase,water:bn:5
+"Ektu shomossha hocche: protodin, Banani er street light koyek rat dhore jole na, road ondhokar.",electricity,low,bl,synthetic_showcase,electricity:bl:1
+"আংশিকভাবে সমস্যা হচ্ছে: এক সপ্তাহ ধরে, মতিঝিল এলাকার হাসপাতালের জরুরি সেবা ও পরিচ্ছন্নতা পরীক্ষা করা প্রয়োজন।",healthcare,low,bn,synthetic_showcase,healthcare:bn:7
+"Recurring issue: since this morning, Streetlights have been out for several nights around Panchlaish, leaving the road dark.",electricity,medium,en,synthetic_showcase,electricity:en:1
+"Ektu shomossha hocche: last three days dhore, Chandgaon er restaurant-e unhygienic environment-e food prepare o serve hocche.",food,low,bl,synthetic_showcase,food:bl:0
+"Bar bar problem hocche: ek shoptaho dhore, Mohammadpur elakay regular garbage collection dorkar.",waste,medium,bl,synthetic_showcase,waste:bl:7
+"A small service issue: since this morning, A pile of rotting municipal waste beside the road in Banani is causing a foul smell.",waste,low,en,synthetic_showcase,waste:en:3
+"Residents are repeatedly affected: for the last three days, A burst water pipeline is flooding the footpath near Mohammadpur and needs repair.",water,medium,en,synthetic_showcase,water:en:4
+"Bar bar problem hocche: aj shokal theke, Mirpur 10 elakay open place-e illegal garbage dumping hocche.",waste,medium,bl,synthetic_showcase,waste:bl:2
+"বিপজ্জনক অবস্থা: এক সপ্তাহ ধরে, চান্দগাঁও এলাকায় নর্দমা উপচে নোংরা পানি রাস্তায় ছড়িয়ে পড়ছে।",drainage,high,bn,synthetic_showcase,drainage:bn:1
+"ছোট একটি সমস্যা: গত কয়েক ঘণ্টা ধরে, মিরপুর ১০ বাজারের সামনে কয়েক দিন ধরে পৌরসভার বর্জ্য সংগ্রহ করা হয়নি।",waste,low,bn,synthetic_showcase,waste:bn:1
+"Dangerous situation: for a week, Municipal bins are overflowing near Gulshan 2, with garbage scattered across the road.",waste,high,en,synthetic_showcase,waste:en:0
+"Bar bar problem hocche: protodin, Gulshan 2 elakay power supply bondho, load shedding cholche.",electricity,medium,bl,synthetic_showcase,electricity:bl:3
+"A small service issue: since this morning, Street sweeping is missing in Motijheel, leaving plastic and litter on the pavement.",waste,low,en,synthetic_showcase,waste:en:5
+"আংশিকভাবে সমস্যা হচ্ছে: প্রতিদিন, বনানী এলাকায় মশার উপদ্রব বেড়েছে, জনস্বাস্থ্য বিভাগকে ব্যবস্থা নিতে হবে।",healthcare,low,bn,synthetic_showcase,healthcare:bn:6
+"Minor issue: since this morning, Silt has blocked the stormwater drainage channel in Khilgaon, stopping runoff flow.",drainage,low,en,synthetic_showcase,drainage:en:6
+"নিয়মিত সমস্যা: গত তিন দিন ধরে, ধানমন্ডি ২৭ এলাকায় ট্রান্সফরমার থেকে স্পার্ক হচ্ছে এবং পোড়া গন্ধ বের হচ্ছে।",electricity,medium,bn,synthetic_showcase,electricity:bn:2
+"Urgent issue: since last night, Food at a hotel in Gulshan 2 is left uncovered and exposed to insects.",food,high,en,synthetic_showcase,food:en:6
+"তাৎক্ষণিক ব্যবস্থা প্রয়োজন: প্রতিদিন, মিরপুর ১০ এলাকার বৈদ্যুতিক তার ছিঁড়ে রাস্তার ওপর পড়ে আছে।",electricity,high,bn,synthetic_showcase,electricity:bn:4
+"A small service issue: for several hours, The pedestrian overpass stairs and handrails near Motijheel are damaged.",road_transport,low,en,synthetic_showcase,road_transport:en:2
+"Immediate action dorkar: bristir por theke, Khilgaon elakay stagnant water-e mosquito breed hocche, dengue risk barche.",healthcare,high,bl,synthetic_showcase,healthcare:bl:2
+"Ektu shomossha hocche: goto rat theke, Gulshan 2 er stormwater drain-e silt jome water flow bondho.",drainage,low,bl,synthetic_showcase,drainage:bl:6
+"Choto ekta problem: bristir por theke, Panchlaish er connecting road-er asphalt uthe geche, onek gorto ache.",road_transport,low,bl,synthetic_showcase,road_transport:bl:4
+"বারবার সমস্যা হচ্ছে: বৃষ্টির পর থেকে, মোহাম্মদপুর এলাকায় পাইপলাইন ফেটে ফুটপাত ও রাস্তা ভিজে যাচ্ছে, ওয়াসার মেরামত দরকার।",water,medium,bn,synthetic_showcase,water:bn:4
+"বারবার সমস্যা হচ্ছে: আজ সকাল থেকে, গুলশান ২ এলাকায় বৃষ্টির পানি নিষ্কাশন না হওয়ায় জলাবদ্ধতা তৈরি হয়েছে।",drainage,medium,bn,synthetic_showcase,drainage:bn:4
+"ছোট একটি সমস্যা: আজ সকাল থেকে, উত্তরা সেক্টর ৭ এলাকায় ট্রাফিক সিগন্যাল কাজ করছে না, যানবাহন আটকে যাচ্ছে।",road_transport,low,bn,synthetic_showcase,road_transport:bn:6
+"Ektu shomossha hocche: aj shokal theke, Mohammadpur er transformer-er pashe exposed wire dangerous.",electricity,low,bl,synthetic_showcase,electricity:bl:6
+"জরুরি সমস্যা: এক সপ্তাহ ধরে, উত্তরা সেক্টর ৭ এলাকার হোটেলে খাবার ঢেকে রাখা হয় না এবং পোকামাকড় রয়েছে।",food,high,bn,synthetic_showcase,food:bn:6
+"এলাকাবাসী ভোগান্তিতে আছেন: বৃষ্টির পর থেকে, গুলশান ২ এলাকার প্রধান ড্রেনের মুখ প্লাস্টিক ও ময়লায় বন্ধ হয়ে পানি নামছে না।",drainage,medium,bn,synthetic_showcase,drainage:bn:0
+"তাৎক্ষণিক ব্যবস্থা প্রয়োজন: প্রতিদিন, ধানমন্ডি ২৭ এলাকার ভাঙা ড্রেন স্ল্যাব দিয়ে নর্দমা দেখা যাচ্ছে এবং দুর্গন্ধ ছড়াচ্ছে।",drainage,high,bn,synthetic_showcase,drainage:bn:3
+"Dangerous obostha: goto rat theke, Khilgaon er transformer-er pashe exposed wire dangerous.",electricity,high,bl,synthetic_showcase,electricity:bl:6
+"Regular issue: last three days dhore, Gulshan 2 elakay bashay pani ashe na, tap khulleo supply pachhi na.",water,medium,bl,synthetic_showcase,water:bl:1
+"Elakar manush bhugchhen: bristir por theke, Chandgaon er highway damaged, accident-er risk bere geche.",road_transport,medium,bl,synthetic_showcase,road_transport:bl:5
+"Urgent issue: for the last three days, Open dumping near Motijheel is polluting the surrounding public space.",waste,high,en,synthetic_showcase,waste:en:6
+"A small service issue: every day, A complaint reports food adulteration and harmful chemical use in Gulshan 2.",food,low,en,synthetic_showcase,food:en:2
+"Immediate action dorkar: bristir por theke, Panchlaish elakay pani pressure onek kom, residents-ra pani pachhen na.",water,high,bl,synthetic_showcase,water:bl:3
+"Immediate action is required: since this morning, A low-hanging live electrical wire near Uttara Sector 7 is creating a serious pedestrian hazard.",electricity,high,en,synthetic_showcase,electricity:en:0
+"A small service issue: after the rainfall, Sewage is overflowing from a manhole near Khilgaon onto the public street.",drainage,low,en,synthetic_showcase,drainage:en:7
+"ছোট একটি সমস্যা: গতকাল রাত থেকে, গুলশান ২ এলাকায় বিদ্যুৎ সরবরাহ বন্ধ, দীর্ঘ সময় ধরে লোডশেডিং হচ্ছে।",electricity,low,bn,synthetic_showcase,electricity:bn:3
+"Minor issue: every day, Food is being prepared and served in unhygienic conditions at a restaurant in Motijheel.",food,low,en,synthetic_showcase,food:en:0
+"Choto ekta problem: ek shoptaho dhore, Uttara Sector 7 er connecting road-er asphalt uthe geche, onek gorto ache.",road_transport,low,bl,synthetic_showcase,road_transport:bl:4
+"A small service issue: after the rainfall, A broken drain cover in Khilgaon exposes the open sewer and causes a foul smell.",drainage,low,en,synthetic_showcase,drainage:en:3
+"Dangerous obostha: koyek ghonta dhore, Chandgaon er transformer theke spark hocche, pora gondho asche.",electricity,high,bl,synthetic_showcase,electricity:bl:2
+"Choto ekta problem: ek shoptaho dhore, Panchlaish elakay stagnant water-e mosquito breed hocche, dengue risk barche.",healthcare,low,bl,synthetic_showcase,healthcare:bl:2
+"আংশিকভাবে সমস্যা হচ্ছে: গত তিন দিন ধরে, চান্দগাঁও এলাকার নির্ধারিত ডাস্টবিন উপচে ময়লা রাস্তায় ছড়িয়ে আছে।",waste,low,bn,synthetic_showcase,waste:bn:0
+"Minor issue: last three days dhore, Banani er hospital-er emergency service o cleanliness inspect kora dorkar.",healthcare,low,bl,synthetic_showcase,healthcare:bl:7
+"বিপজ্জনক অবস্থা: গত তিন দিন ধরে, ধানমন্ডি ২৭ এলাকার রাস্তার পাশে পচা বর্জ্যের স্তূপ থেকে দুর্গন্ধ ছড়াচ্ছে।",waste,high,bn,synthetic_showcase,waste:bn:3
+"Minor issue: koyek ghonta dhore, Panchlaish er community bin full, cleaner-ra garbage remove koreni.",waste,low,bl,synthetic_showcase,waste:bl:4
+"আংশিকভাবে সমস্যা হচ্ছে: বৃষ্টির পর থেকে, মিরপুর ১০ এলাকার বাসাবাড়িতে পানির সরবরাহ বন্ধ, কল খুললেও পানি আসছে না।",water,low,bn,synthetic_showcase,water:bn:1
+"Minor issue: since last night, Tap water around Dhanmondi 27 smells unpleasant and contains visible dirt, making it unsafe to drink.",water,low,en,synthetic_showcase,water:en:2
+"বারবার সমস্যা হচ্ছে: এক সপ্তাহ ধরে, মোহাম্মদপুর এলাকায় নিয়মিত বর্জ্য অপসারণ ও ডাস্টবিন খালি করা প্রয়োজন।",waste,medium,bn,synthetic_showcase,waste:bn:7
+"Ongoing service disruption: every day, Rainwater is not draining in Mohammadpur, causing severe street waterlogging.",drainage,medium,en,synthetic_showcase,drainage:en:4
+"Ektu shomossha hocche: last three days dhore, Uttara Sector 7 bazar-er shamne koyek din dhore waste collection hoyni.",waste,low,bl,synthetic_showcase,waste:bl:1
+"Regular issue: aj shokal theke, Khilgaon er open manhole-er cover nei, pedestrian fall hazard ache.",drainage,medium,bl,synthetic_showcase,drainage:bl:2
+"তাৎক্ষণিক ব্যবস্থা প্রয়োজন: এক সপ্তাহ ধরে, খিলগাঁও এলাকায় মশার উপদ্রব বেড়েছে, জনস্বাস্থ্য বিভাগকে ব্যবস্থা নিতে হবে।",healthcare,high,bn,synthetic_showcase,healthcare:bn:6
+"ছোট একটি সমস্যা: আজ সকাল থেকে, উত্তরা সেক্টর ৭ এলাকার স্টর্মওয়াটার ড্রেন পলি জমে বন্ধ, পানি প্রবাহ থেমে গেছে।",drainage,low,bn,synthetic_showcase,drainage:bn:6
+"এলাকাবাসী ভোগান্তিতে আছেন: গত তিন দিন ধরে, মতিঝিল এলাকার পানির ট্যাংকে দূষিত পানি জমেছে, সরবরাহ পরীক্ষা করা প্রয়োজন।",water,medium,bn,synthetic_showcase,water:bn:5
+"Minor issue: for the last three days, A burst water pipeline is flooding the footpath near Gulshan 2 and needs repair.",water,low,en,synthetic_showcase,water:en:4
+"Elakar manush bhugchhen: goto rat theke, Panchlaish er broken drain slab diye open sewer dekha jacche, durgondho hocche.",drainage,medium,bl,synthetic_showcase,drainage:bl:3
+"বিপজ্জনক অবস্থা: এক সপ্তাহ ধরে, মতিঝিল এলাকায় পানির লাইনে চাপ খুব কম, বাসিন্দারা প্রয়োজনীয় পানি পাচ্ছেন না।",water,high,bn,synthetic_showcase,water:bn:3
+"Elakar manush bhugchhen: ek shoptaho dhore, Uttara Sector 7 er open manhole-er cover nei, pedestrian fall hazard ache.",drainage,medium,bl,synthetic_showcase,drainage:bl:2
+"Immediate action dorkar: goto rat theke, Dhanmondi 27 elakay damaged lamp post o bulb replace kora dorkar.",electricity,high,bl,synthetic_showcase,electricity:bl:5
+"Urgent issue: since this morning, Silt has blocked the stormwater drainage channel in Mirpur 10, stopping runoff flow.",drainage,high,en,synthetic_showcase,drainage:en:6
+"সামান্য সমস্যা: প্রতিদিন, পাঁচলাইশ এলাকায় ভোল্টেজ ওঠানামা করছে এবং বিদ্যুৎ সংযোগ অনিরাপদ।",electricity,low,bn,synthetic_showcase,electricity:bn:7
+"Dangerous situation: for a week, A complaint reports food adulteration and harmful chemical use in Uttara Sector 7.",food,high,en,synthetic_showcase,food:en:2
+"Choto ekta problem: goto rat theke, Chandgaon elakay moshar upodrob bereche, public health action dorkar.",healthcare,low,bl,synthetic_showcase,healthcare:bl:6
+"A small service issue: since this morning, There is suspected formalin or artificial colouring in food sold in Banani.",food,low,en,synthetic_showcase,food:en:5
+"Dangerous obostha: aj shokal theke, Banani er dustbin overflow kore garbage rastay choriye poreche.",waste,high,bl,synthetic_showcase,waste:bl:0
+"Part of the service is affected: since last night, Food at a hotel in Khilgaon is left uncovered and exposed to insects.",food,low,en,synthetic_showcase,food:en:6
+"Dangerous obostha: ek shoptaho dhore, Motijheel er pipeline fete footpath vije jacche, WASA repair dorkar.",water,high,bl,synthetic_showcase,water:bl:4
+"সামান্য সমস্যা: গত তিন দিন ধরে, মিরপুর ১০ এলাকার ক্লিনিকে বর্জ্য ব্যবস্থাপনা ও জীবাণুনাশক পরিষ্কার দরকার।",healthcare,low,bn,synthetic_showcase,healthcare:bn:5
+"বিপজ্জনক অবস্থা: গত তিন দিন ধরে, চান্দগাঁও এলাকার সড়কবাতি কয়েক রাত ধরে জ্বলছে না, রাস্তা অন্ধকার।",electricity,high,bn,synthetic_showcase,electricity:bn:1
+"Residents are repeatedly affected: for the last three days, Mosquitoes are breeding in stagnant water around Uttara Sector 7, increasing dengue risk.",healthcare,medium,en,synthetic_showcase,healthcare:en:2
+"A small service issue: for the last three days, The traffic signal near Khilgaon is not working and vehicles are getting stuck.",road_transport,low,en,synthetic_showcase,road_transport:en:6
+"Immediate action is required: since this morning, A sewer overflow near Mohammadpur is spreading dirty wastewater onto the road.",drainage,high,en,synthetic_showcase,drainage:en:1
+"Bar bar problem hocche: goto rat theke, Mirpur 10 bazar-er shamne koyek din dhore waste collection hoyni.",waste,medium,bl,synthetic_showcase,waste:bl:1
+"Urgent issue: for a week, Water supply has stopped in homes around Gulshan 2; no water comes from the taps.",water,high,en,synthetic_showcase,water:en:1
+"Elakar manush bhugchhen: koyek ghonta dhore, Mohammadpur er restaurant-e unhygienic environment-e food prepare o serve hocche.",food,medium,bl,synthetic_showcase,food:bl:0
+"Regular issue: protodin, Uttara Sector 7 elakay rainwater drain hocche na, waterlogging hoyeche.",drainage,medium,bl,synthetic_showcase,drainage:bl:4
+"Immediate action dorkar: last three days dhore, Dhanmondi 27 er clinic-e medical waste handling o disinfection dorkar.",healthcare,high,bl,synthetic_showcase,healthcare:bl:5
+"Minor issue: for a week, The health centre in Mirpur 10 is short of essential vaccines and medicines.",healthcare,low,en,synthetic_showcase,healthcare:en:4
+"বারবার সমস্যা হচ্ছে: এক সপ্তাহ ধরে, মিরপুর ১০ এলাকার খাদ্য প্রতিষ্ঠানে রান্নাঘর অপরিষ্কার এবং নিরাপদ সংরক্ষণ নেই।",food,medium,bn,synthetic_showcase,food:bn:4
+"Choto ekta problem: ek shoptaho dhore, Chandgaon er khabar-e adulteration o harmful chemical use-er complaint ache.",food,low,bl,synthetic_showcase,food:bl:2
+"জরুরি সমস্যা: এক সপ্তাহ ধরে, গুলশান ২ বাজারে ফল ও খাদ্যে ফরমালিন বা কৃত্রিম রং ব্যবহারের সন্দেহ রয়েছে।",food,high,bn,synthetic_showcase,food:bn:5
+"Joruri issue: last three days dhore, Khilgaon er clinic-e medical waste handling o disinfection dorkar.",healthcare,high,bl,synthetic_showcase,healthcare:bl:5
+"আংশিকভাবে সমস্যা হচ্ছে: বৃষ্টির পর থেকে, চান্দগাঁও এলাকার পানির সংযোগ থেকে অবিরাম পানি ঝরছে এবং অপচয় হচ্ছে।",water,low,bn,synthetic_showcase,water:bn:7
+"সামান্য সমস্যা: আজ সকাল থেকে, চান্দগাঁও এলাকার স্যুয়ারেজ লাইন বন্ধ হয়ে নোংরা পানি ফুটপাত দিয়ে বের হচ্ছে।",drainage,low,bn,synthetic_showcase,drainage:bn:5
+"A small service issue: since this morning, Mosquito control and fogging are needed in Motijheel to reduce dengue transmission.",healthcare,low,en,synthetic_showcase,healthcare:en:3
+"আংশিকভাবে সমস্যা হচ্ছে: এক সপ্তাহ ধরে, গুলশান ২ এলাকার প্রধান সড়কে বড় গর্ত তৈরি হয়েছে, যানবাহন চলাচল ঝুঁকিপূর্ণ।",road_transport,low,bn,synthetic_showcase,road_transport:bn:0
+"Immediate action dorkar: goto rat theke, Chandgaon er tap water-e gondho o moyla ache, drinking water safe na.",water,high,bl,synthetic_showcase,water:bl:2
+"নিয়মিত সমস্যা: গত তিন দিন ধরে, বনানী এলাকার পানির সংযোগ থেকে অবিরাম পানি ঝরছে এবং অপচয় হচ্ছে।",water,medium,bn,synthetic_showcase,water:bn:7
+"Residents are repeatedly affected: every day, Road resurfacing and sidewalk repairs are urgently needed in Khilgaon.",road_transport,medium,en,synthetic_showcase,road_transport:en:7
+"নিয়মিত সমস্যা: প্রতিদিন, পাঁচলাইশ এলাকায় খোলা জায়গায় অবৈধভাবে আবর্জনা ফেলা হচ্ছে।",waste,medium,bn,synthetic_showcase,waste:bn:2
+"Ektu shomossha hocche: koyek ghonta dhore, Mohammadpur er pipeline fete footpath vije jacche, WASA repair dorkar.",water,low,bl,synthetic_showcase,water:bl:4
+"Elakar manush bhugchhen: last three days dhore, Uttara Sector 7 bazar-e expired packaged food sell kora hocche.",food,medium,bl,synthetic_showcase,food:bl:1
+"বারবার সমস্যা হচ্ছে: এক সপ্তাহ ধরে, উত্তরা সেক্টর ৭ বাজারের সামনে কয়েক দিন ধরে পৌরসভার বর্জ্য সংগ্রহ করা হয়নি।",waste,medium,bn,synthetic_showcase,waste:bn:1
+"সামান্য সমস্যা: এক সপ্তাহ ধরে, খিলগাঁও এলাকায় নর্দমা উপচে নোংরা পানি রাস্তায় ছড়িয়ে পড়ছে।",drainage,low,bn,synthetic_showcase,drainage:bn:1
+"Minor issue: goto rat theke, Panchlaish elakay dengue control-er jonno mosquito fogging dorkar.",healthcare,low,bl,synthetic_showcase,healthcare:bl:3
+"Urgent issue: for several hours, Mosquito control and fogging are needed in Chandgaon to reduce dengue transmission.",healthcare,high,en,synthetic_showcase,healthcare:en:3
+"Ektu shomossha hocche: last three days dhore, Khilgaon elakay road repair o footpath maintenance dorkar.",road_transport,low,bl,synthetic_showcase,road_transport:bl:7
+"Minor issue: after the rainfall, Damaged lamp posts and streetlight bulbs need replacement in Mohammadpur.",electricity,low,en,synthetic_showcase,electricity:en:5
+"এলাকাবাসী ভোগান্তিতে আছেন: প্রতিদিন, বনানী এলাকার ট্রান্সফরমারের কাছে খোলা তার ও বৈদ্যুতিক ঝুঁকি রয়েছে।",electricity,medium,bn,synthetic_showcase,electricity:bn:6
+"বিপজ্জনক অবস্থা: গত কয়েক ঘণ্টা ধরে, উত্তরা সেক্টর ৭ এলাকায় বিদ্যুৎ সরবরাহ বন্ধ, দীর্ঘ সময় ধরে লোডশেডিং হচ্ছে।",electricity,high,bn,synthetic_showcase,electricity:bn:3
+"এলাকাবাসী ভোগান্তিতে আছেন: বৃষ্টির পর থেকে, মোহাম্মদপুর এলাকার খাদ্য বিক্রেতারা মূল্যতালিকা ও ওজনের নিয়ম মানছেন না।",food,medium,bn,synthetic_showcase,food:bn:7
+"Dangerous obostha: ek shoptaho dhore, Gulshan 2 er open manhole-er cover nei, pedestrian fall hazard ache.",drainage,high,bl,synthetic_showcase,drainage:bl:2
+"জরুরি সমস্যা: আজ সকাল থেকে, গুলশান ২ এলাকায় ট্রাফিক সিগন্যাল কাজ করছে না, যানবাহন আটকে যাচ্ছে।",road_transport,high,bn,synthetic_showcase,road_transport:bn:6
+"Bar bar problem hocche: protodin, Mirpur 10 elakay road repair o footpath maintenance dorkar.",road_transport,medium,bl,synthetic_showcase,road_transport:bl:7
+"Part of the service is affected: since last night, Exposed wiring beside the transformer in Motijheel poses an electrical risk.",electricity,low,en,synthetic_showcase,electricity:en:6
+"Minor issue: for several hours, The WASA water main is leaking near Gulshan 2, and clean water is flowing onto the sidewalk.",water,low,en,synthetic_showcase,water:en:0
+"Joruri issue: last three days dhore, Mohammadpur er electric wire chire rastay pore ache.",electricity,high,bl,synthetic_showcase,electricity:bl:4
+"বারবার সমস্যা হচ্ছে: গত তিন দিন ধরে, মিরপুর ১০ এলাকার খাবারে ভেজাল ও ক্ষতিকর রাসায়নিক ব্যবহারের অভিযোগ রয়েছে।",food,medium,bn,synthetic_showcase,food:bn:2
+"বিপজ্জনক অবস্থা: বৃষ্টির পর থেকে, গুলশান ২ এলাকার বাসাবাড়িতে পানির সরবরাহ বন্ধ, কল খুললেও পানি আসছে না।",water,high,bn,synthetic_showcase,water:bn:1
+"Bar bar problem hocche: protodin, Gulshan 2 elakay rainwater drain hocche na, waterlogging hoyeche.",drainage,medium,bl,synthetic_showcase,drainage:bl:4
+"Minor issue: ek shoptaho dhore, Panchlaish er food vendor-ra price list o weight rules follow korche na.",food,low,bl,synthetic_showcase,food:bl:7
+"A small service issue: for a week, Open dumping near Mirpur 10 is polluting the surrounding public space.",waste,low,en,synthetic_showcase,waste:en:6
+"তাৎক্ষণিক ব্যবস্থা প্রয়োজন: গতকাল রাত থেকে, মিরপুর ১০ এলাকার ভাঙা ড্রেন স্ল্যাব দিয়ে নর্দমা দেখা যাচ্ছে এবং দুর্গন্ধ ছড়াচ্ছে।",drainage,high,bn,synthetic_showcase,drainage:bn:3
+"Choto ekta problem: bristir por theke, Mirpur 10 er tap water-e gondho o moyla ache, drinking water safe na.",water,low,bl,synthetic_showcase,water:bl:2
+"Choto ekta problem: goto rat theke, Dhanmondi 27 er food vendor-ra price list o weight rules follow korche na.",food,low,bl,synthetic_showcase,food:bl:7
+"ছোট একটি সমস্যা: গত কয়েক ঘণ্টা ধরে, মিরপুর ১০ এলাকার প্রধান ড্রেনের মুখ প্লাস্টিক ও ময়লায় বন্ধ হয়ে পানি নামছে না।",drainage,low,bn,synthetic_showcase,drainage:bn:0
+"নিয়মিত সমস্যা: প্রতিদিন, পাঁচলাইশ এলাকার রাস্তার পাশে পচা বর্জ্যের স্তূপ থেকে দুর্গন্ধ ছড়াচ্ছে।",waste,medium,bn,synthetic_showcase,waste:bn:3
+"Elakar manush bhugchhen: last three days dhore, Khilgaon er highway damaged, accident-er risk bere geche.",road_transport,medium,bl,synthetic_showcase,road_transport:bl:5
+"Ongoing service disruption: for several hours, A broken electric cable has fallen across the road near Gulshan 2.",electricity,medium,en,synthetic_showcase,electricity:en:4
+"সামান্য সমস্যা: এক সপ্তাহ ধরে, উত্তরা সেক্টর ৭ এলাকায় জমে থাকা পানিতে মশার প্রজনন হচ্ছে, ডেঙ্গুর ঝুঁকি বাড়ছে।",healthcare,low,bn,synthetic_showcase,healthcare:bn:2
+"Ektu shomossha hocche: bristir por theke, Khilgaon elakay bashay pani ashe na, tap khulleo supply pachhi na.",water,low,bl,synthetic_showcase,water:bl:1
+"Dangerous situation: for the last three days, Voltage is fluctuating in Mirpur 10, making the power connection unsafe.",electricity,high,en,synthetic_showcase,electricity:en:7
+"এলাকাবাসী ভোগান্তিতে আছেন: প্রতিদিন, বনানী এলাকায় জমে থাকা পানিতে মশার প্রজনন হচ্ছে, ডেঙ্গুর ঝুঁকি বাড়ছে।",healthcare,medium,bn,synthetic_showcase,healthcare:bn:2
+"এলাকাবাসী ভোগান্তিতে আছেন: গত কয়েক ঘণ্টা ধরে, চান্দগাঁও এলাকার সড়ক সংস্কার ও ফুটপাত মেরামত জরুরি হয়ে পড়েছে।",road_transport,medium,bn,synthetic_showcase,road_transport:bn:7
+"Bar bar problem hocche: aj shokal theke, Banani er community bin full, cleaner-ra garbage remove koreni.",waste,medium,bl,synthetic_showcase,waste:bl:4
+"Minor issue: for a week, Mosquito infestation has increased in Motijheel, requiring public-health action.",healthcare,low,en,synthetic_showcase,healthcare:en:6
+"Choto ekta problem: goto rat theke, Gulshan 2 elakay pani pressure onek kom, residents-ra pani pachhen na.",water,low,bl,synthetic_showcase,water:bl:3
+"আংশিকভাবে সমস্যা হচ্ছে: প্রতিদিন, মিরপুর ১০ এলাকায় কলের পানিতে দুর্গন্ধ ও ময়লা দেখা যাচ্ছে, পানীয় পানি নিরাপদ নয়।",water,low,bn,synthetic_showcase,water:bn:2
+"Ongoing service disruption: since this morning, A damaged highway surface near Motijheel is increasing the risk of road accidents.",road_transport,medium,en,synthetic_showcase,road_transport:en:5
+"Minor issue: bristir por theke, Mirpur 10 elakay open place-e illegal garbage dumping hocche.",waste,low,bl,synthetic_showcase,waste:bl:2
+"জরুরি সমস্যা: গত তিন দিন ধরে, মিরপুর ১০ এলাকার পানির ট্যাংকে দূষিত পানি জমেছে, সরবরাহ পরীক্ষা করা প্রয়োজন।",water,high,bn,synthetic_showcase,water:bn:5
+"বিপজ্জনক অবস্থা: প্রতিদিন, খিলগাঁও এলাকার স্বাস্থ্যকেন্দ্রে প্রয়োজনীয় টিকা ও ওষুধের ঘাটতি রয়েছে।",healthcare,high,bn,synthetic_showcase,healthcare:bn:4
+"সামান্য সমস্যা: গত তিন দিন ধরে, উত্তরা সেক্টর ৭ এলাকার কমিউনিটি ক্লিনিকে অপরিচ্ছন্ন পরিবেশ ও চিকিৎসা বর্জ্য জমে আছে।",healthcare,low,bn,synthetic_showcase,healthcare:bn:0
+"Urgent issue: since this morning, Food vendors in Motijheel are not following price-display and accurate-weight rules.",food,high,en,synthetic_showcase,food:en:7
+"Bar bar problem hocche: last three days dhore, Gulshan 2 er khabar-e adulteration o harmful chemical use-er complaint ache.",food,medium,bl,synthetic_showcase,food:bl:2
+"Bar bar problem hocche: ek shoptaho dhore, Motijheel elakay damaged lamp post o bulb replace kora dorkar.",electricity,medium,bl,synthetic_showcase,electricity:bl:5
+"Part of the service is affected: every day, Power supply is interrupted in Mirpur 10, with prolonged load shedding.",electricity,low,en,synthetic_showcase,electricity:en:3
+"Residents are repeatedly affected: for several hours, Tap water around Khilgaon smells unpleasant and contains visible dirt, making it unsafe to drink.",water,medium,en,synthetic_showcase,water:en:2
+"Residents are repeatedly affected: for several hours, The community waste container in Dhanmondi 27 is full and has not been emptied.",waste,medium,en,synthetic_showcase,waste:en:4
+"এলাকাবাসী ভোগান্তিতে আছেন: প্রতিদিন, পাঁচলাইশ এলাকায় ভোল্টেজ ওঠানামা করছে এবং বিদ্যুৎ সংযোগ অনিরাপদ।",electricity,medium,bn,synthetic_showcase,electricity:bn:7
+"তাৎক্ষণিক ব্যবস্থা প্রয়োজন: গত কয়েক ঘণ্টা ধরে, ধানমন্ডি ২৭ এলাকার খাবারে ভেজাল ও ক্ষতিকর রাসায়নিক ব্যবহারের অভিযোগ রয়েছে।",food,high,bn,synthetic_showcase,food:bn:2
+"Joruri issue: goto rat theke, Uttara Sector 7 er rastar pashe rotten waste-er pile theke durgondho asche.",waste,high,bl,synthetic_showcase,waste:bl:3
+"বিপজ্জনক অবস্থা: বৃষ্টির পর থেকে, খিলগাঁও এলাকায় জমে থাকা পানিতে মশার প্রজনন হচ্ছে, ডেঙ্গুর ঝুঁকি বাড়ছে।",healthcare,high,bn,synthetic_showcase,healthcare:bn:2
+"Minor issue: since last night, Sanitation in the toilets and wards of the public hospital in Panchlaish is inadequate.",healthcare,low,en,synthetic_showcase,healthcare:en:1
+"তাৎক্ষণিক ব্যবস্থা প্রয়োজন: প্রতিদিন, ধানমন্ডি ২৭ এলাকার নির্ধারিত ডাস্টবিন উপচে ময়লা রাস্তায় ছড়িয়ে আছে।",waste,high,bn,synthetic_showcase,waste:bn:0
+"Urgent issue: for several hours, Street sweeping is missing in Mohammadpur, leaving plastic and litter on the pavement.",waste,high,en,synthetic_showcase,waste:en:5
+"Part of the service is affected: for a week, Open dumping near Uttara Sector 7 is polluting the surrounding public space.",waste,low,en,synthetic_showcase,waste:en:6
+"Urgent issue: for the last three days, The pedestrian overpass stairs and handrails near Chandgaon are damaged.",road_transport,high,en,synthetic_showcase,road_transport:en:2
+"সামান্য সমস্যা: আজ সকাল থেকে, চান্দগাঁও এলাকার স্বাস্থ্যকেন্দ্রে প্রয়োজনীয় টিকা ও ওষুধের ঘাটতি রয়েছে।",healthcare,low,bn,synthetic_showcase,healthcare:bn:4
+"Joruri issue: ek shoptaho dhore, Gulshan 2 er sewer line block hoye wastewater footpath diye ber hocche.",drainage,high,bl,synthetic_showcase,drainage:bl:5
+"Recurring issue: every day, An uncovered manhole in Gulshan 2 has no safety lid and poses a serious fall hazard.",drainage,medium,en,synthetic_showcase,drainage:en:2
+"Dangerous obostha: protodin, Uttara Sector 7 er community bin full, cleaner-ra garbage remove koreni.",waste,high,bl,synthetic_showcase,waste:bl:4
+"জরুরি সমস্যা: প্রতিদিন, ধানমন্ডি ২৭ এলাকার ট্রান্সফরমারের কাছে খোলা তার ও বৈদ্যুতিক ঝুঁকি রয়েছে।",electricity,high,bn,synthetic_showcase,electricity:bn:6
+"নিয়মিত সমস্যা: এক সপ্তাহ ধরে, মতিঝিল এলাকায় নষ্ট ল্যাম্পপোস্ট ও বাল্ব বদলানো প্রয়োজন।",electricity,medium,bn,synthetic_showcase,electricity:bn:5
+"জরুরি সমস্যা: এক সপ্তাহ ধরে, মিরপুর ১০ এলাকার ট্রান্সফরমারের কাছে খোলা তার ও বৈদ্যুতিক ঝুঁকি রয়েছে।",electricity,high,bn,synthetic_showcase,electricity:bn:6
+"সামান্য সমস্যা: প্রতিদিন, মিরপুর ১০ এলাকার রাস্তার পাশে পচা বর্জ্যের স্তূপ থেকে দুর্গন্ধ ছড়াচ্ছে।",waste,low,bn,synthetic_showcase,waste:bn:3
+"সামান্য সমস্যা: প্রতিদিন, পাঁচলাইশ এলাকায় খোলা জায়গায় অবৈধভাবে আবর্জনা ফেলা হচ্ছে।",waste,low,bn,synthetic_showcase,waste:bn:2
+"বিপজ্জনক অবস্থা: গত তিন দিন ধরে, মিরপুর ১০ এলাকার সরকারি হাসপাতালে টয়লেট ও ওয়ার্ডের স্বাস্থ্যবিধি মানা হচ্ছে না।",healthcare,high,bn,synthetic_showcase,healthcare:bn:1
+"Choto ekta problem: ek shoptaho dhore, Chandgaon er rastar pashe rotten waste-er pile theke durgondho asche.",waste,low,bl,synthetic_showcase,waste:bl:3
+"Choto ekta problem: protodin, Mirpur 10 elakay footpath-er slab venge geche, pedestrian pore jete pare.",road_transport,low,bl,synthetic_showcase,road_transport:bl:1
+"Residents are repeatedly affected: for a week, A service connection near Chandgaon is continuously leaking and wasting water.",water,medium,en,synthetic_showcase,water:en:7
+"Ongoing service disruption: for the last three days, The water storage tank serving Banani appears contaminated and needs inspection.",water,medium,en,synthetic_showcase,water:en:5
+"জরুরি সমস্যা: আজ সকাল থেকে, খিলগাঁও এলাকার কমিউনিটি ক্লিনিকে অপরিচ্ছন্ন পরিবেশ ও চিকিৎসা বর্জ্য জমে আছে।",healthcare,high,bn,synthetic_showcase,healthcare:bn:0
+"Minor issue: for a week, Food vendors in Uttara Sector 7 are not following price-display and accurate-weight rules.",food,low,en,synthetic_showcase,food:en:7
+"Choto ekta problem: goto rat theke, Banani elakay electric pole theke live wire jhule pedestrian risk hocche.",electricity,low,bl,synthetic_showcase,electricity:bl:0
+"Joruri issue: last three days dhore, Uttara Sector 7 bazar-er shamne koyek din dhore waste collection hoyni.",waste,high,bl,synthetic_showcase,waste:bl:1
+"জরুরি সমস্যা: গত তিন দিন ধরে, পাঁচলাইশ এলাকায় ম্যানহোল থেকে পয়ঃনিষ্কাশনের পানি উপচে পড়ছে।",drainage,high,bn,synthetic_showcase,drainage:bn:7
+"Minor issue: ek shoptaho dhore, Mohammadpur te illegal parking-er jonno road narrow hoye traffic jam hocche.",road_transport,low,bl,synthetic_showcase,road_transport:bl:3
+"Regular issue: last three days dhore, Mirpur 10 er stormwater drain-e silt jome water flow bondho.",drainage,medium,bl,synthetic_showcase,drainage:bl:6
+"Part of the service is affected: since this morning, Food vendors in Mohammadpur are not following price-display and accurate-weight rules.",food,low,en,synthetic_showcase,food:en:7
+"Dangerous situation: since this morning, An uncovered manhole in Uttara Sector 7 has no safety lid and poses a serious fall hazard.",drainage,high,en,synthetic_showcase,drainage:en:2
+"Choto ekta problem: protodin, Mohammadpur elakay regular garbage collection dorkar.",waste,low,bl,synthetic_showcase,waste:bl:7
+"Residents are repeatedly affected: every day, Mosquito control and fogging are needed in Chandgaon to reduce dengue transmission.",healthcare,medium,en,synthetic_showcase,healthcare:en:3
+"Ongoing service disruption: for several hours, Sanitation in the toilets and wards of the public hospital in Mohammadpur is inadequate.",healthcare,medium,en,synthetic_showcase,healthcare:en:1
+"Elakar manush bhugchhen: protodin, Panchlaish er electric wire chire rastay pore ache.",electricity,medium,bl,synthetic_showcase,electricity:bl:4
+"Immediate action dorkar: bristir por theke, Motijheel elakay moshar upodrob bereche, public health action dorkar.",healthcare,high,bl,synthetic_showcase,healthcare:bl:6
+"Recurring issue: for a week, A large pothole has formed on the main road near Gulshan 2, making traffic unsafe.",road_transport,medium,en,synthetic_showcase,road_transport:en:0
+"Residents are repeatedly affected: for several hours, The pedestrian overpass stairs and handrails near Mohammadpur are damaged.",road_transport,medium,en,synthetic_showcase,road_transport:en:2
+"Immediate action dorkar: protodin, Motijheel elakay moshar upodrob bereche, public health action dorkar.",healthcare,high,bl,synthetic_showcase,healthcare:bl:6
+"Immediate action dorkar: ek shoptaho dhore, Chandgaon er water tank-e dirty pani, supply check korte hobe.",water,high,bl,synthetic_showcase,water:bl:5
+"Ongoing service disruption: since this morning, Spoiled meat and stale meals are being sold by shops in Chandgaon.",food,medium,en,synthetic_showcase,food:en:3
+"A small service issue: for several hours, The WASA water main is leaking near Mirpur 10, and clean water is flowing onto the sidewalk.",water,low,en,synthetic_showcase,water:en:0
+"Choto ekta problem: protodin, Mirpur 10 er dokane rotten meat o stale food bikri hocche.",food,low,bl,synthetic_showcase,food:bl:3
+"Regular issue: koyek ghonta dhore, Mirpur 10 elakay electric pole theke live wire jhule pedestrian risk hocche.",electricity,medium,bl,synthetic_showcase,electricity:bl:0
+"সামান্য সমস্যা: এক সপ্তাহ ধরে, মতিঝিল এলাকার সড়কবাতি কয়েক রাত ধরে জ্বলছে না, রাস্তা অন্ধকার।",electricity,low,bn,synthetic_showcase,electricity:bn:1
+"Residents are repeatedly affected: after the rainfall, Food vendors in Khilgaon are not following price-display and accurate-weight rules.",food,medium,en,synthetic_showcase,food:en:7
+"Regular issue: bristir por theke, Chandgaon er food shop-er kitchen dirty, safe storage nei.",food,medium,bl,synthetic_showcase,food:bl:4
+"Choto ekta problem: koyek ghonta dhore, Motijheel er water tank-e dirty pani, supply check korte hobe.",water,low,bl,synthetic_showcase,water:bl:5
+"Minor issue: ek shoptaho dhore, Mohammadpur er health centre-e vaccine o medicine shortage ache.",healthcare,low,bl,synthetic_showcase,healthcare:bl:4
+"Residents are repeatedly affected: for the last three days, The health centre in Chandgaon is short of essential vaccines and medicines.",healthcare,medium,en,synthetic_showcase,healthcare:en:4
+"Joruri issue: aj shokal theke, Panchlaish er broken drain slab diye open sewer dekha jacche, durgondho hocche.",drainage,high,bl,synthetic_showcase,drainage:bl:3
+"ছোট একটি সমস্যা: এক সপ্তাহ ধরে, মতিঝিল এলাকার রাস্তার পাশে পচা বর্জ্যের স্তূপ থেকে দুর্গন্ধ ছড়াচ্ছে।",waste,low,bn,synthetic_showcase,waste:bn:3
+"ছোট একটি সমস্যা: বৃষ্টির পর থেকে, পাঁচলাইশ সংযোগ সড়কের পিচ উঠে গেছে এবং অনেক জায়গায় খানাখন্দ তৈরি হয়েছে।",road_transport,low,bn,synthetic_showcase,road_transport:bn:4
+"Ektu shomossha hocche: koyek ghonta dhore, Mirpur 10 er food shop-er kitchen dirty, safe storage nei.",food,low,bl,synthetic_showcase,food:bl:4
+"Minor issue: koyek ghonta dhore, Banani elakay road repair o footpath maintenance dorkar.",road_transport,low,bl,synthetic_showcase,road_transport:bl:7
+"বারবার সমস্যা হচ্ছে: আজ সকাল থেকে, পাঁচলাইশ এলাকায় মশার উপদ্রব বেড়েছে, জনস্বাস্থ্য বিভাগকে ব্যবস্থা নিতে হবে।",healthcare,medium,bn,synthetic_showcase,healthcare:bn:6
+"জরুরি সমস্যা: আজ সকাল থেকে, বনানী এলাকার খোলা ম্যানহোলের ঢাকনা নেই, পথচারীদের দুর্ঘটনার ঝুঁকি।",drainage,high,bn,synthetic_showcase,drainage:bn:2
+"তাৎক্ষণিক ব্যবস্থা প্রয়োজন: প্রতিদিন, পাঁচলাইশ এলাকায় ফুটপাতের স্ল্যাব ভেঙে গেছে, পথচারীরা পড়ে যেতে পারেন।",road_transport,high,bn,synthetic_showcase,road_transport:bn:1
+"Bar bar problem hocche: aj shokal theke, Motijheel elakay sewer overflow hoye dirty water rastay choriye jacche.",drainage,medium,bl,synthetic_showcase,drainage:bl:1
+"Urgent issue: for several hours, Street sweeping is missing in Uttara Sector 7, leaving plastic and litter on the pavement.",waste,high,en,synthetic_showcase,waste:en:5
+"Recurring issue: for a week, Voltage is fluctuating in Banani, making the power connection unsafe.",electricity,medium,en,synthetic_showcase,electricity:en:7
+"নিয়মিত সমস্যা: গতকাল রাত থেকে, মতিঝিল এলাকায় ট্রাফিক সিগন্যাল কাজ করছে না, যানবাহন আটকে যাচ্ছে।",road_transport,medium,bn,synthetic_showcase,road_transport:bn:6
+"Dangerous situation: since this morning, There is suspected formalin or artificial colouring in food sold in Banani.",food,high,en,synthetic_showcase,food:en:5
+"এলাকাবাসী ভোগান্তিতে আছেন: এক সপ্তাহ ধরে, ধানমন্ডি ২৭ এলাকার সড়ক সংস্কার ও ফুটপাত মেরামত জরুরি হয়ে পড়েছে।",road_transport,medium,bn,synthetic_showcase,road_transport:bn:7
+"Urgent issue: for a week, Water pressure is very low in Gulshan 2, leaving residents without enough supply.",water,high,en,synthetic_showcase,water:en:3
+"Residents are repeatedly affected: for several hours, Street sweeping is missing in Khilgaon, leaving plastic and litter on the pavement.",waste,medium,en,synthetic_showcase,waste:en:5
+"Minor issue: for several hours, Municipal bins are overflowing near Mohammadpur, with garbage scattered across the road.",waste,low,en,synthetic_showcase,waste:en:0
+"Residents are repeatedly affected: for a week, Mosquito infestation has increased in Uttara Sector 7, requiring public-health action.",healthcare,medium,en,synthetic_showcase,healthcare:en:6
+"Minor issue: for several hours, Expired packaged food is being sold in the market near Dhanmondi 27.",food,low,en,synthetic_showcase,food:en:1
+"Ektu shomossha hocche: ek shoptaho dhore, Gulshan 2 elakay WASA-r main pani pipe leak kore rastay pani porchhe.",water,low,bl,synthetic_showcase,water:bl:0
+"Residents are repeatedly affected: for the last three days, Food at a hotel in Panchlaish is left uncovered and exposed to insects.",food,medium,en,synthetic_showcase,food:en:6
+"Elakar manush bhugchhen: bristir por theke, Motijheel er traffic signal kaj korche na, gari atke jacche.",road_transport,medium,bl,synthetic_showcase,road_transport:bl:6
+"সামান্য সমস্যা: গত কয়েক ঘণ্টা ধরে, বনানী এলাকায় ডেঙ্গু নিয়ন্ত্রণে মশক নিধন ও ফগিং কার্যক্রম প্রয়োজন।",healthcare,low,bn,synthetic_showcase,healthcare:bn:3
+"Dangerous situation: for the last three days, The community clinic in Panchlaish has poor hygiene and accumulated medical waste.",healthcare,high,en,synthetic_showcase,healthcare:en:0
+"Bar bar problem hocche: last three days dhore, Dhanmondi 27 elakay regular garbage collection dorkar.",waste,medium,bl,synthetic_showcase,waste:bl:7
+"এলাকাবাসী ভোগান্তিতে আছেন: বৃষ্টির পর থেকে, খিলগাঁও এলাকার খাদ্য বিক্রেতারা মূল্যতালিকা ও ওজনের নিয়ম মানছেন না।",food,medium,bn,synthetic_showcase,food:bn:7
+"Residents are repeatedly affected: after the rainfall, A broken drain cover in Mohammadpur exposes the open sewer and causes a foul smell.",drainage,medium,en,synthetic_showcase,drainage:en:3
+"নিয়মিত সমস্যা: প্রতিদিন, চান্দগাঁও এলাকায় কয়েকটি বাড়িতে সুপেয় পানির সংকট দেখা দিয়েছে।",water,medium,bn,synthetic_showcase,water:bn:6
+"Ongoing service disruption: for several hours, Water pressure is very low in Panchlaish, leaving residents without enough supply.",water,medium,en,synthetic_showcase,water:en:3
+"সামান্য সমস্যা: গত কয়েক ঘণ্টা ধরে, মোহাম্মদপুর এলাকার খোলা ডাম্পিং পয়েন্টে গৃহস্থালি বর্জ্য জমে পরিবেশ নষ্ট হচ্ছে।",waste,low,bn,synthetic_showcase,waste:bn:6
+"নিয়মিত সমস্যা: গত কয়েক ঘণ্টা ধরে, পাঁচলাইশ এলাকায় ম্যানহোল থেকে পয়ঃনিষ্কাশনের পানি উপচে পড়ছে।",drainage,medium,bn,synthetic_showcase,drainage:bn:7
+"তাৎক্ষণিক ব্যবস্থা প্রয়োজন: গতকাল রাত থেকে, মিরপুর ১০ এলাকার হোটেলে খাবার ঢেকে রাখা হয় না এবং পোকামাকড় রয়েছে।",food,high,bn,synthetic_showcase,food:bn:6
+"বারবার সমস্যা হচ্ছে: প্রতিদিন, উত্তরা সেক্টর ৭ এলাকার ক্লিনিকে বর্জ্য ব্যবস্থাপনা ও জীবাণুনাশক পরিষ্কার দরকার।",healthcare,medium,bn,synthetic_showcase,healthcare:bn:5
+"Immediate action dorkar: goto rat theke, Khilgaon er open dumping point-e household waste jome poribesh noshto hocche.",waste,high,bl,synthetic_showcase,waste:bl:6
+"Minor issue: bristir por theke, Uttara Sector 7 er transformer-er pashe exposed wire dangerous.",electricity,low,bl,synthetic_showcase,electricity:bl:6
+"জরুরি সমস্যা: গত কয়েক ঘণ্টা ধরে, মিরপুর ১০ সংযোগ সড়কের পিচ উঠে গেছে এবং অনেক জায়গায় খানাখন্দ তৈরি হয়েছে।",road_transport,high,bn,synthetic_showcase,road_transport:bn:4
+"নিয়মিত সমস্যা: প্রতিদিন, মিরপুর ১০ এলাকার হোটেলে খাবার ঢেকে রাখা হয় না এবং পোকামাকড় রয়েছে।",food,medium,bn,synthetic_showcase,food:bn:6
+"Minor issue: every day, The community clinic in Panchlaish has poor hygiene and accumulated medical waste.",healthcare,low,en,synthetic_showcase,healthcare:en:0
+"Bar bar problem hocche: ek shoptaho dhore, Khilgaon er public hospital-er toilet o ward porishkar na.",healthcare,medium,bl,synthetic_showcase,healthcare:bl:1
+"A small service issue: for the last three days, Voltage is fluctuating in Khilgaon, making the power connection unsafe.",electricity,low,en,synthetic_showcase,electricity:en:7
+"Dangerous obostha: koyek ghonta dhore, Mirpur 10 elakay dengue control-er jonno mosquito fogging dorkar.",healthcare,high,bl,synthetic_showcase,healthcare:bl:3
+"Elakar manush bhugchhen: goto rat theke, Uttara Sector 7 er street light koyek rat dhore jole na, road ondhokar.",electricity,medium,bl,synthetic_showcase,electricity:bl:1
+"Residents are repeatedly affected: for a week, Food vendors in Dhanmondi 27 are not following price-display and accurate-weight rules.",food,medium,en,synthetic_showcase,food:en:7
+"নিয়মিত সমস্যা: আজ সকাল থেকে, মোহাম্মদপুর এলাকার স্যুয়ারেজ লাইন বন্ধ হয়ে নোংরা পানি ফুটপাত দিয়ে বের হচ্ছে।",drainage,medium,bn,synthetic_showcase,drainage:bn:5
+"Dangerous obostha: last three days dhore, Motijheel elakay street sweeping hocche na, plastic jome ache.",waste,high,bl,synthetic_showcase,waste:bl:5
+"Part of the service is affected: since this morning, Food at a hotel in Chandgaon is left uncovered and exposed to insects.",food,low,en,synthetic_showcase,food:en:6
+"বারবার সমস্যা হচ্ছে: এক সপ্তাহ ধরে, গুলশান ২ এলাকায় কলের পানিতে দুর্গন্ধ ও ময়লা দেখা যাচ্ছে, পানীয় পানি নিরাপদ নয়।",water,medium,bn,synthetic_showcase,water:bn:2
+"A small service issue: for a week, Power supply is interrupted in Mohammadpur, with prolonged load shedding.",electricity,low,en,synthetic_showcase,electricity:en:3
+"Recurring issue: since this morning, There is suspected formalin or artificial colouring in food sold in Uttara Sector 7.",food,medium,en,synthetic_showcase,food:en:5
+"Elakar manush bhugchhen: bristir por theke, Banani elakay safe drinking water shortage dekha diyeche.",water,medium,bl,synthetic_showcase,water:bl:6
+"সামান্য সমস্যা: এক সপ্তাহ ধরে, গুলশান ২ এলাকার প্রধান ড্রেনের মুখ প্লাস্টিক ও ময়লায় বন্ধ হয়ে পানি নামছে না।",drainage,low,bn,synthetic_showcase,drainage:bn:0
+"Part of the service is affected: for a week, A service connection near Chandgaon is continuously leaking and wasting water.",water,low,en,synthetic_showcase,water:en:7
+"বারবার সমস্যা হচ্ছে: গত তিন দিন ধরে, পাঁচলাইশ এলাকার প্রধান সড়কে বড় গর্ত তৈরি হয়েছে, যানবাহন চলাচল ঝুঁকিপূর্ণ।",road_transport,medium,bn,synthetic_showcase,road_transport:bn:0
+"Dangerous obostha: protodin, Khilgaon elakay rainwater drain hocche na, waterlogging hoyeche.",drainage,high,bl,synthetic_showcase,drainage:bl:4
+"A small service issue: since last night, Road resurfacing and sidewalk repairs are urgently needed in Gulshan 2.",road_transport,low,en,synthetic_showcase,road_transport:en:7
+"Regular issue: ek shoptaho dhore, Gulshan 2 bazar-er shamne koyek din dhore waste collection hoyni.",waste,medium,bl,synthetic_showcase,waste:bl:1
+"Choto ekta problem: aj shokal theke, Banani er electric wire chire rastay pore ache.",electricity,low,bl,synthetic_showcase,electricity:bl:4
+"Choto ekta problem: ek shoptaho dhore, Uttara Sector 7 er broken drain slab diye open sewer dekha jacche, durgondho hocche.",drainage,low,bl,synthetic_showcase,drainage:bl:3
+"Ongoing service disruption: since last night, Expired packaged food is being sold in the market near Chandgaon.",food,medium,en,synthetic_showcase,food:en:1
+"Ongoing service disruption: for a week, Regular garbage collection and bin clearance are needed in Dhanmondi 27.",waste,medium,en,synthetic_showcase,waste:en:7
+"বারবার সমস্যা হচ্ছে: বৃষ্টির পর থেকে, গুলশান ২ এলাকার বাসাবাড়িতে পানির সরবরাহ বন্ধ, কল খুললেও পানি আসছে না।",water,medium,bn,synthetic_showcase,water:bn:1
+"সামান্য সমস্যা: গত তিন দিন ধরে, মোহাম্মদপুর এলাকার স্টর্মওয়াটার ড্রেন পলি জমে বন্ধ, পানি প্রবাহ থেমে গেছে।",drainage,low,bn,synthetic_showcase,drainage:bn:6
+"Ongoing service disruption: for a week, Street sweeping is missing in Gulshan 2, leaving plastic and litter on the pavement.",waste,medium,en,synthetic_showcase,waste:en:5
+"Immediate action dorkar: aj shokal theke, Gulshan 2 er restaurant-e unhygienic environment-e food prepare o serve hocche.",food,high,bl,synthetic_showcase,food:bl:0
+"Dangerous situation: since last night, The health centre in Banani is short of essential vaccines and medicines.",healthcare,high,en,synthetic_showcase,healthcare:en:4
+"Minor issue: since last night, The main storm drain near Khilgaon is blocked by plastic and garbage, so water cannot flow.",drainage,low,en,synthetic_showcase,drainage:en:0
+"Ongoing service disruption: every day, Illegal parking is narrowing the road around Khilgaon and causing severe congestion.",road_transport,medium,en,synthetic_showcase,road_transport:en:3
+"Urgent issue: for the last three days, The food premises in Uttara Sector 7 have an unclean kitchen and unsafe storage.",food,high,en,synthetic_showcase,food:en:4
