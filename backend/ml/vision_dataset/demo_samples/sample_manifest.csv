@@ -1,0 +1,22 @@
+﻿category,file,source,variant
+water,water/water_01.jpg,a_realistic_documentary_style_outdoor_urban_scene.png,AI-generated source photo
+water,water/water_02.jpg,a_realistic_documentary_style_close_up_outdoor_ur.png,AI-generated source photo
+water,water/water_03.jpg,a_realistic_documentary_style_daytime_street_scen.png,AI-generated source photo
+road_transport,road_transport/road_transport_01.jpg,a_wide_street_level_urban_scene_in_daylight_shot.png,AI-generated source photo
+road_transport,road_transport/road_transport_02.jpg,a_realistic_documentary_street_photograph_of_a_bu.png,AI-generated source photo
+road_transport,road_transport/road_transport_03.jpg,a_realistic_documentary_style_street_scene_in_a_b.png,AI-generated source photo
+waste,waste/waste_01.jpg,a_realistic_documentary_style_urban_street_scene.png,AI-generated source photo
+waste,waste/waste_02.jpg,a_realistic_documentary_style_urban_street_scene.png,augmented view of the same source photo
+waste,waste/waste_03.jpg,a_realistic_documentary_style_urban_street_scene.png,augmented view of the same source photo
+electricity,electricity/electricity_01.jpg,a_realistic_detailed_urban_street_scene_at_dusk_d.png,AI-generated source photo
+electricity,electricity/electricity_02.jpg,a_realistic_detailed_urban_street_scene_at_dusk_d.png,augmented view of the same source photo
+electricity,electricity/electricity_03.jpg,a_realistic_detailed_urban_street_scene_at_dusk_d.png,augmented view of the same source photo
+healthcare,healthcare/healthcare_01.jpg,a_realistic_documentary_style_wide_angle_photo_of.png,AI-generated source photo
+healthcare,healthcare/healthcare_02.jpg,a_realistic_documentary_style_wide_angle_photo_of.png,augmented view of the same source photo
+healthcare,healthcare/healthcare_03.jpg,a_realistic_documentary_style_wide_angle_photo_of.png,augmented view of the same source photo
+food,food/food_01.jpg,a_gritty_realistic_street_food_stall_scene_in_a_b.png,AI-generated source photo
+food,food/food_02.jpg,a_gritty_realistic_street_food_stall_scene_in_a_b.png,augmented view of the same source photo
+food,food/food_03.jpg,a_gritty_realistic_street_food_stall_scene_in_a_b.png,augmented view of the same source photo
+drainage,drainage/drainage_01.jpg,generated drainage illustration,synthetic drainage illustration
+drainage,drainage/drainage_02.jpg,generated drainage illustration,augmented view of synthetic drainage illustration
+drainage,drainage/drainage_03.jpg,generated drainage illustration,augmented view of synthetic drainage illustration
