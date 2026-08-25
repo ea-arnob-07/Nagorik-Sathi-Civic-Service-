@@ -1,0 +1,21 @@
+{
+  "name": "Nagorik Sathi",
+  "short_name": "Nagorik Sathi",
+  "description": "Civic services and issue resolution platform.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0f766e",
+  "icons": [
+    {
+      "src": "/favicon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
