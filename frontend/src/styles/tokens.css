@@ -1,0 +1,135 @@
+/*
+ * Nagorik Sathi — Centralized Design System Tokens
+ * Minimal Black-and-White Civic Technology Design System
+ * Built according to UI/UX Pro Max guidelines for Accessible & Ethical Civic Tech
+ */
+
+:root {
+  /* Core Theme: Minimal Civic Black & White */
+  --bg: #f4f7fb;
+  --paper: #ffffff;
+  --paper-elevated: #edf3f8;
+  --paper-subtle: #f7f9fc;
+  --ink: #172c46;
+  --ink-secondary: #304861;
+  --muted: #5c7086;
+  --muted-light: #7d8fa2;
+  --line: #dce6ef;
+  --line-subtle: #edf2f7;
+
+  /* Monochromatic Civic Primary & Accent */
+  --accent: #0f766e;
+  --accent-hover: #115e59;
+  --accent-fg: #ffffff;
+  --accent-soft: #e6f6f2;
+  --ring: #0f766e;
+
+  /* Compatibility Aliases for Monochromatic Civic Tech */
+  --green: #0f766e;
+  --green-dark: #115e59;
+  --green-light: #e6f6f2;
+  --gold: #b7791f;
+
+  /* Civic Brand Signature Subtle Tones */
+  --civic-dark: #0f766e;
+  --civic-gray: #71849a;
+  --civic-border: #dce6ef;
+
+  /* Strict Semantic Status Tokens (Accessible & Ethical) */
+  --status-emergency: #b91c1c;
+  --status-emergency-bg: #fef2f2;
+  --status-emergency-border: #fecaca;
+  --status-high: #b45309;
+  --status-high-bg: #fffbeb;
+  --status-high-border: #fde68a;
+  --status-medium: #374151;
+  --status-medium-bg: #f3f4f6;
+  --status-medium-border: #e5e7eb;
+  --status-low: #15803d;
+  --status-low-bg: #f0fdf4;
+  --status-low-border: #bbf7d0;
+  --status-resolved: #15803d;
+  --status-resolved-bg: #f0fdf4;
+  --status-resolved-border: #bbf7d0;
+
+  /* Typography Stack */
+  --font-editorial: 'Hind Siliguri', 'Noto Sans Bengali', 'Atkinson Hyperlegible', 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-bangla: 'Hind Siliguri', 'Noto Sans Bengali', sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+
+  /* Spacing Scale (8dp rhythm) */
+  --space-xs: 0.25rem;  /* 4px */
+  --space-sm: 0.5rem;   /* 8px */
+  --space-md: 1rem;     /* 16px */
+  --space-lg: 1.5rem;   /* 24px */
+  --space-xl: 2rem;     /* 32px */
+  --space-2xl: 3rem;    /* 48px */
+  --space-3xl: 4rem;    /* 64px */
+
+  /* Radii */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-xl: 18px;
+  --radius-full: 9999px;
+
+  /* Subtle Clean Shadows (Restrained, No Muddy Gradients) */
+  --shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --shadow-card: 0 1px 3px rgba(0, 0, 0, 0.05), 0 1px 2px rgba(0, 0, 0, 0.03);
+  --shadow-lux: 0 4px 16px rgba(0, 0, 0, 0.06);
+  --shadow-overlay: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.05);
+}
+
+/* Dark Minimal Civic Mode */
+body[data-theme="dark"],
+html[data-theme="dark"] {
+  --bg: #0b1726;
+  --paper: #122338;
+  --paper-elevated: #172c43;
+  --paper-subtle: #122338;
+  --ink: #f4f8fc;
+  --ink-secondary: #dbe7f2;
+  --muted: #a8bacb;
+  --muted-light: #8299af;
+  --line: #294056;
+  --line-subtle: #20364b;
+
+  /* Monochromatic Inverted for Dark Theme */
+  --accent: #34d399;
+  --accent-hover: #6ee7b7;
+  --accent-fg: #06251f;
+  --accent-soft: #173d3a;
+  --ring: #34d399;
+
+  --civic-dark: #34d399;
+  --civic-gray: #9ab0c4;
+  --civic-border: #294056;
+
+  /* Compatibility Aliases for Monochromatic Civic Tech (Dark) */
+  --green: #34d399;
+  --green-dark: #6ee7b7;
+  --green-light: #173d3a;
+  --gold: #f2c46d;
+
+  /* Semantic Status Tokens (High Contrast Dark Backgrounds) */
+  --status-emergency: #f87171;
+  --status-emergency-bg: #2b1416;
+  --status-emergency-border: #4c1d24;
+  --status-high: #fbbf24;
+  --status-high-bg: #2d2010;
+  --status-high-border: #4e3512;
+  --status-medium: #9ca3af;
+  --status-medium-bg: #181f29;
+  --status-medium-border: #2c3545;
+  --status-low: #4ade80;
+  --status-low-bg: #112317;
+  --status-low-border: #1d3e28;
+  --status-resolved: #4ade80;
+  --status-resolved-bg: #112317;
+  --status-resolved-border: #1d3e28;
+
+  --shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.3);
+  --shadow-card: 0 1px 3px rgba(0, 0, 0, 0.4), 0 1px 2px rgba(0, 0, 0, 0.3);
+  --shadow-lux: 0 4px 20px rgba(0, 0, 0, 0.5);
+  --shadow-overlay: 0 20px 25px -5px rgba(0, 0, 0, 0.6), 0 8px 10px -6px rgba(0, 0, 0, 0.4);
+}
