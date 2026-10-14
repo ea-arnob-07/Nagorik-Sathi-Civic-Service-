@@ -1,0 +1,710 @@
+import React, { useState, useEffect, useRef } from 'react';
+import { Link, useSearchParams } from 'react-router-dom';
+import L from 'leaflet';
+import {
+  MapPin,
+  Filter,
+  Layers,
+  Clock,
+  CheckCircle2,
+  AlertTriangle,
+  Eye,
+  ShieldCheck,
+  Sparkles,
+  Maximize2,
+  Compass,
+  ArrowRight,
+  Flame,
+  Globe,
+  Navigation,
+  ZoomIn,
+  ZoomOut
+} from 'lucide-react';
+import { toBanglaNumber } from '../../utils/formatters';
+import { useLanguage } from '../../context/LanguageContext';
+
+interface MapIncident {
+  id: string;
+  category: 'drainage' | 'waste' | 'roads' | 'streetlights' | 'water' | 'healthcare' | 'food';
+  categoryBn: string;
+  titleBn: string;
+  wardBn: string;
+  wardId: number;
+  priority: 'emergency' | 'high' | 'medium' | 'low';
+  priorityBn: string;
+  status: 'in_progress' | 'resolved' | 'submitted';
+  statusBn: string;
+  deptName: string;
+  slaRemaining: string;
+  lat: number;
+  lng: number;
+  isHotspot?: boolean;
+}
+
+const MAP_INCIDENTS: MapIncident[] = [
+  {
+    id: 'NS-2026-W03-1001',
+    category: 'drainage',
+    categoryBn: 'ড্রেনেজ ও জলাবদ্ধতা',
+    titleBn: 'প্রধান সড়কে বর্জ্য জমে ড্রেন ভরাট ও জলাবদ্ধতা সৃষ্টি',
+    wardBn: 'ওয়ার্ড ৩ (মিরপুর ১০)',
+    wardId: 3,
+    priority: 'emergency',
+    priorityBn: 'জরুরি',
+    status: 'in_progress',
+    statusBn: 'সমন্বিত সমাধান চলমান',
+    deptName: 'ড্রেনেজ ও পয়ঃনিষ্কাশন বিভাগ',
+    slaRemaining: '২ ঘণ্টা ১৮ মি.',
+    lat: 23.8068,
+    lng: 90.3687,
+    isHotspot: true
+  },
+  {
+    id: 'NS-2026-W12-0842',
+    category: 'waste',
+    categoryBn: 'কঠিন বর্জ্য ব্যবস্থাপনা',
+    titleBn: 'বাজার সংলগ্ন সেকেন্ডারি পয়েন্ট উপচে ময়লা ফেলা',
+    wardBn: 'ওয়ার্ড ১২ (ধানমন্ডি ২৭)',
+    wardId: 12,
+    priority: 'high',
+    priorityBn: 'উচ্চ অগ্রাধিকার',
+    status: 'in_progress',
+    statusBn: 'কমপ্যাক্টর ট্রাক নির্ধারিত',
+    deptName: 'বর্জ্য ব্যবস্থাপনা বিভাগ',
+    slaRemaining: '৫ ঘণ্টা ৪৫ মি.',
+    lat: 23.7465,
+    lng: 90.3762,
+    isHotspot: true
+  },
+  {
+    id: 'NS-2026-W08-0719',
+    category: 'roads',
+    categoryBn: 'সড়ক ও অবকাঠামো',
+    titleBn: 'কালভার্ট সংযোগে গভীর গর্ত ও খোয়া সরে যাওয়া',
+    wardBn: 'ওয়ার্ড ৮ (গুলশান ২)',
+    wardId: 8,
+    priority: 'medium',
+    priorityBn: 'মাঝারি',
+    status: 'resolved',
+    statusBn: 'সমাধান সম্পন্ন (যাচাইকৃত)',
+    deptName: 'সিভিল ও সড়ক সংস্কার বিভাগ',
+    slaRemaining: 'সম্পন্ন',
+    lat: 23.7925,
+    lng: 90.4078
+  },
+  {
+    id: 'NS-2026-W19-0520',
+    category: 'streetlights',
+    categoryBn: 'সড়ক বাতি মেরামত',
+    titleBn: 'প্রধান সড়কের ৫টি এলইডি পোল অকেজো ও অন্ধকার',
+    wardBn: 'ওয়ার্ড ১৯ (বনানী ১১)',
+    wardId: 19,
+    priority: 'medium',
+    priorityBn: 'মাঝারি',
+    status: 'in_progress',
+    statusBn: 'মেরামত দল নিয়োজিত',
+    deptName: 'বিদ্যুৎ ও আলোকায়ন বিভাগ',
+    slaRemaining: '১০ ঘণ্টা ১২ মি.',
+    lat: 23.7940,
+    lng: 90.4043
+  },
+  {
+    id: 'NS-2026-W03-0914',
+    category: 'drainage',
+    categoryBn: 'ড্রেনেজ ও পয়ঃনিষ্কাশন',
+    titleBn: 'স্কুল সংলগ্ন খোলা ড্রেনের স্লাব ভাঙা',
+    wardBn: 'ওয়ার্ড ৩ (মিরপুর ২)',
+    wardId: 3,
+    priority: 'high',
+    priorityBn: 'উচ্চ অগ্রাধিকার',
+    status: 'in_progress',
+    statusBn: 'ব্যারিকেড স্থাপনকৃত',
+    deptName: 'ড্রেনেজ বিভাগ',
+    slaRemaining: '৪ ঘণ্টা ২০ মি.',
+    lat: 23.8110,
+    lng: 90.3650,
+    isHotspot: true
+  },
+  {
+    id: 'NS-2026-W01-0311',
+    category: 'waste',
+    categoryBn: 'বর্জ্য অপসারণ',
+    titleBn: 'উত্তরা রবীন্দ্র সরণি বর্জ্য স্তূপ ও দুর্গন্ধ',
+    wardBn: 'ওয়ার্ড ১ (উত্তরা সেক্টর ৭)',
+    wardId: 1,
+    priority: 'high',
+    priorityBn: 'উচ্চ অগ্রাধিকার',
+    status: 'in_progress',
+    statusBn: 'পরিচ্ছন্নতাকর্মী দল পাঠানো হয়েছে',
+    deptName: 'বর্জ্য ব্যবস্থাপনা বিভাগ',
+    slaRemaining: '৩ ঘণ্টা ৫০ মি.',
+    lat: 23.8720,
+    lng: 90.3980
+  },
+  {
+    id: 'NS-2026-W04-0412',
+    category: 'water',
+    categoryBn: 'পানি সরবরাহ ও পাইপলাইন',
+    titleBn: 'ওয়াসা মেইন পাইপলাইন লিকেজ ও রাস্তা প্লাবিত',
+    wardBn: 'ওয়ার্ড ৪ (মিরপুর ১০)',
+    wardId: 4,
+    priority: 'emergency',
+    priorityBn: 'জরুরি',
+    status: 'in_progress',
+    statusBn: 'জরুরি মেরামত টিম ঘটনাস্থলে',
+    deptName: 'পানি সরবরাহ ও পয়ঃনিষ্কাশন বিভাগ (ওয়াসা)',
+    slaRemaining: '১ ঘণ্টা ৪৫ মি.',
+    lat: 23.8055,
+    lng: 90.3695,
+    isHotspot: true
+  },
+  {
+    id: 'NS-2026-W06-0819',
+    category: 'healthcare',
+    categoryBn: 'জনস্বাস্থ্য ও মশক নিধন',
+    titleBn: 'হাসপাতাল প্রাঙ্গণে ডেঙ্গু লার্ভা ও জমা পানি',
+    wardBn: 'ওয়ার্ড ৬ (মোহাম্মদপুর)',
+    wardId: 6,
+    priority: 'high',
+    priorityBn: 'উচ্চ অগ্রাধিকার',
+    status: 'in_progress',
+    statusBn: 'লার্ভিসাইড স্প্রে চলমান',
+    deptName: 'জনস্বাস্থ্য ও রোগ নিয়ন্ত্রণ বিভাগ',
+    slaRemaining: '৩ ঘণ্টা ১৫ মি.',
+    lat: 23.7660,
+    lng: 90.3580,
+    isHotspot: true
+  },
+  {
+    id: 'NS-2026-W02-0925',
+    category: 'food',
+    categoryBn: 'খাদ্য নিরাপত্তা ও ভেজাল দমন',
+    titleBn: 'বাজার রেস্তোরাঁয় বাসি পচা খাবার ও নোংরা পরিবেশ',
+    wardBn: 'ওয়ার্ড ২ (মিরপুর ১)',
+    wardId: 2,
+    priority: 'high',
+    priorityBn: 'উচ্চ অগ্রাধিকার',
+    status: 'in_progress',
+    statusBn: 'মোবাইল কোর্ট ও স্যানিটারি টিম নিয়োজিত',
+    deptName: 'খাদ্য নিরাপত্তা ও ভোক্তা অধিকার শাখা',
+    slaRemaining: '৪ ঘণ্টা ৩০ মি.',
+    lat: 23.7950,
+    lng: 90.3530
+  }
+];
+
+type TileLayerType = 'satellite' | 'esri' | 'google' | 'osm' | 'dark';
+
+export const CivicMapPage: React.FC = () => {
+  const [searchParams] = useSearchParams();
+  // Satellite view is the default view as requested
+  const initialLayer = (searchParams.get('layer') as TileLayerType) || 'satellite';
+
+  const [selectedCategory, setSelectedCategory] = useState<string>('all');
+  const [selectedPriority, setSelectedPriority] = useState<string>('all');
+  const [selectedIncident, setSelectedIncident] = useState<MapIncident | null>(MAP_INCIDENTS[0]);
+  const [activeTileLayer, setActiveTileLayer] = useState<TileLayerType>(initialLayer);
+  const [showHotspots, setShowHotspots] = useState(true);
+
+  const mapContainerRef = useRef<HTMLDivElement>(null);
+  const mapRef = useRef<L.Map | null>(null);
+  const tileLayerGroupRef = useRef<L.TileLayer | null>(null);
+  const markersGroupRef = useRef<L.LayerGroup | null>(null);
+  const hotspotsGroupRef = useRef<L.LayerGroup | null>(null);
+  const { t } = useLanguage();
+
+  const filteredIncidents = MAP_INCIDENTS.filter(item => {
+    if (selectedCategory !== 'all' && item.category !== selectedCategory) return false;
+    if (selectedPriority !== 'all' && item.priority !== selectedPriority) return false;
+    return true;
+  });
+
+  const getPinColor = (priority: string) => {
+    switch (priority) {
+      case 'emergency': return '#c66e60';
+      case 'high': return '#d8a155';
+      case 'resolved': return '#4b9e78';
+      default: return '#899fb4';
+    }
+  };
+
+  // Helper to get tile URL and config by type
+  const getTileConfig = (type: TileLayerType) => {
+    switch (type) {
+      case 'satellite':
+        return {
+          url: 'https://{s}.google.com/vt/lyrs=y&x={x}&y={y}&z={z}',
+          options: {
+            subdomains: ['mt0', 'mt1', 'mt2', 'mt3'],
+            maxZoom: 20,
+            attribution: '&copy; Google Maps Satellite Imagery'
+          }
+        };
+      case 'esri':
+        return {
+          url: 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
+          options: {
+            maxZoom: 19,
+            attribution: 'Tiles &copy; Esri &mdash; Earthstar Geographics'
+          }
+        };
+      case 'google':
+        return {
+          url: 'https://{s}.google.com/vt/lyrs=m&x={x}&y={y}&z={z}',
+          options: {
+            subdomains: ['mt0', 'mt1', 'mt2', 'mt3'],
+            maxZoom: 20,
+            attribution: '&copy; Google Maps'
+          }
+        };
+      case 'dark':
+        return {
+          url: 'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png',
+          options: {
+            subdomains: 'abcd',
+            maxZoom: 20,
+            attribution: '&copy; OpenStreetMap &copy; CARTO'
+          }
+        };
+      case 'osm':
+      default:
+        return {
+          url: 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+          options: {
+            maxZoom: 19,
+            attribution: '&copy; OpenStreetMap contributors'
+          }
+        };
+    }
+  };
+
+  // 1. Initialize Map on Mount
+  useEffect(() => {
+    if (!mapContainerRef.current || mapRef.current) return;
+
+    // Center on Dhaka Metropolitan
+    const map = L.map(mapContainerRef.current, {
+      center: [23.785, 90.395],
+      zoom: 12,
+      zoomControl: false
+    });
+
+    // Custom Zoom Control top-right
+    L.control.zoom({ position: 'topright' }).addTo(map);
+
+    // Initial Tile Layer (defaults to satellite)
+    const tileConfig = getTileConfig(activeTileLayer);
+    const tileLayer = L.tileLayer(tileConfig.url, tileConfig.options).addTo(map);
+
+    tileLayerGroupRef.current = tileLayer;
+    markersGroupRef.current = L.layerGroup().addTo(map);
+    hotspotsGroupRef.current = L.layerGroup().addTo(map);
+    mapRef.current = map;
+
+    // Invalidate size to ensure zero blank spots
+    setTimeout(() => {
+      map.invalidateSize();
+    }, 250);
+
+    return () => {
+      map.remove();
+      mapRef.current = null;
+    };
+  }, []);
+
+  // 2. Handle Layer Switching
+  useEffect(() => {
+    if (!mapRef.current || !tileLayerGroupRef.current) return;
+
+    mapRef.current.removeLayer(tileLayerGroupRef.current);
+    const tileConfig = getTileConfig(activeTileLayer);
+    const newTileLayer = L.tileLayer(tileConfig.url, tileConfig.options).addTo(mapRef.current);
+
+    tileLayerGroupRef.current = newTileLayer;
+    // ensure underneath markers
+    newTileLayer.bringToBack();
+  }, [activeTileLayer]);
+
+  // 3. Render Incident Markers & Hotspots
+  useEffect(() => {
+    if (!mapRef.current || !markersGroupRef.current || !hotspotsGroupRef.current) return;
+
+    markersGroupRef.current.clearLayers();
+    hotspotsGroupRef.current.clearLayers();
+
+    // Render Hotspot Circles
+    if (showHotspots) {
+      const hotspots = [
+        { lat: 23.8068, lng: 90.3687, name: 'হটস্পট: মিরপুর ১০ ড্রেনেজ', color: '#d8a155' },
+        { lat: 23.7465, lng: 90.3762, name: 'হটস্পট: ধানমন্ডি ২৭ বর্জ্য', color: '#c66e60' }
+      ];
+
+      hotspots.forEach(h => {
+        const circle = L.circle([h.lat, h.lng], {
+          color: h.color,
+          fillColor: h.color,
+          fillOpacity: 0.18,
+          weight: 2,
+          dashArray: '6, 6',
+          radius: 650
+        }).addTo(hotspotsGroupRef.current!);
+
+        circle.bindTooltip(h.name, {
+          permanent: false,
+          direction: 'top',
+          className: 'civic-map-tooltip'
+        });
+      });
+    }
+
+    // Render Incident Markers
+    filteredIncidents.forEach(item => {
+      const color = getPinColor(item.priority);
+      const isSelected = selectedIncident?.id === item.id;
+
+      const markerHtml = `
+        <div style="position: relative; width: 34px; height: 34px; display: flex; align-items: center; justify-content: center;">
+          ${
+            item.priority === 'emergency'
+              ? `<div style="position: absolute; inset: -4px; border-radius: 50%; background-color: rgba(198, 110, 96, 0.4); animation: ping 1.5s cubic-bezier(0, 0, 0.2, 1) infinite;"></div>`
+              : ''
+          }
+          <div style="
+            background-color: ${isSelected ? '#d4c19a' : '#0d100e'};
+            border: 2.5px solid ${color};
+            color: ${isSelected ? '#0d100e' : color};
+            width: 32px;
+            height: 32px;
+            border-radius: 50% 50% 50% 0;
+            transform: rotate(-45deg);
+            box-shadow: 0 4px 14px rgba(0,0,0,0.5);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.2s ease;
+          ">
+            <div style="
+              width: 10px;
+              height: 10px;
+              background-color: ${isSelected ? '#0d100e' : color};
+              border-radius: 50%;
+              transform: rotate(45deg);
+            "></div>
+          </div>
+        </div>
+      `;
+
+      const customIcon = L.divIcon({
+        html: markerHtml,
+        className: 'civic-incident-pin',
+        iconSize: [34, 34],
+        iconAnchor: [17, 34]
+      });
+
+      const marker = L.marker([item.lat, item.lng], { icon: customIcon }).addTo(markersGroupRef.current!);
+
+      marker.on('click', () => {
+        setSelectedIncident(item);
+        if (mapRef.current) {
+          mapRef.current.flyTo([item.lat, item.lng], 15, { duration: 0.8 });
+        }
+      });
+
+      marker.bindPopup(`
+        <div style="font-family: inherit; color: #111; padding: 4px; max-width: 240px;">
+          <div style="font-size: 11px; font-weight: bold; color: #555; text-transform: uppercase;">${item.id}</div>
+          <div style="font-size: 13px; font-weight: bold; margin-top: 2px;">${item.titleBn}</div>
+          <div style="font-size: 12px; color: #333; margin-top: 4px;">ওয়ার্ড: <strong>${item.wardBn}</strong></div>
+          <div style="font-size: 11px; margin-top: 4px; padding: 2px 6px; border-radius: 4px; display: inline-block; background-color: #f0eee4; font-weight: bold; color: ${color};">
+            ${item.priorityBn} · ${item.statusBn}
+          </div>
+        </div>
+      `);
+    });
+  }, [filteredIncidents, selectedIncident, showHotspots]);
+
+  const handleFlyToIncident = (incident: MapIncident) => {
+    setSelectedIncident(incident);
+    if (mapRef.current) {
+      mapRef.current.flyTo([incident.lat, incident.lng], 15, { duration: 1 });
+    }
+  };
+
+  const handleResetFit = () => {
+    if (!mapRef.current || filteredIncidents.length === 0) return;
+    const bounds = L.latLngBounds(filteredIncidents.map(i => [i.lat, i.lng]));
+    mapRef.current.fitBounds(bounds, { padding: [50, 50] });
+  };
+
+  const handleLocateMe = () => {
+    if ('geolocation' in navigator) {
+      navigator.geolocation.getCurrentPosition(pos => {
+        const { latitude, longitude } = pos.coords;
+        if (mapRef.current) {
+          mapRef.current.flyTo([latitude, longitude], 15, { duration: 1.2 });
+          L.circle([latitude, longitude], {
+            radius: 80,
+            color: '#4b9e78',
+            fillColor: '#4b9e78',
+            fillOpacity: 0.35
+          }).addTo(mapRef.current).bindPopup('আপনার বর্তমান অবস্থান').openPopup();
+        }
+      });
+    }
+  };
+
+  return (
+    <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8 py-6 space-y-6 animate-in fade-in duration-200">
+      {/* Top Header */}
+      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-5 border-b border-[var(--line)]">
+        <div>
+          <div className="flex items-center gap-2.5 mb-2">
+            <span className="text-xs font-mono tracking-widest text-[var(--muted)] bg-[var(--paper)] px-3.5 py-1 rounded-full border border-[var(--line)] uppercase font-semibold">
+              GEOSPATIAL TRANSPARENCY & LIVE INCIDENT RADAR
+            </span>
+          </div>
+          <h1 className="text-2xl sm:text-3xl font-extrabold text-[var(--ink)] tracking-tight">
+            নগর জনসেবা মানচিত্র · <span className="font-light text-[var(--muted)]">Live Dhaka City Map</span>
+          </h1>
+          <p className="text-sm text-[var(--muted)] mt-1.5 leading-relaxed">
+            {t('গুগল ম্যাপ ও স্যাটেলাইট ভিউতে ওয়ার্ডভিত্তিক নাগরিক সমস্যা, অগ্রাধিকার ও তাৎক্ষণিক সমাধান স্থিতি।', 'Ward-level civic issues, priorities, and real-time resolution status across Google Maps & Satellite imagery.')}
+          </p>
+        </div>
+
+        {/* Legend Quick Count */}
+        <div className="flex items-center gap-3 bg-[var(--paper)] border border-[var(--line)] px-4 py-2.5 rounded-2xl text-sm shadow-xs">
+          <span className="flex items-center gap-1.5 text-[var(--status-emergency)]">
+            <span className="w-3 h-3 rounded-full bg-[var(--status-emergency)]" />
+            <span>{t('জরুরি', 'Emergency')} ({toBanglaNumber(MAP_INCIDENTS.filter(i => i.priority === 'emergency').length)})</span>
+          </span>
+          <span className="text-[var(--line)]">|</span>
+          <span className="flex items-center gap-1.5 text-[var(--status-high)]">
+            <span className="w-3 h-3 rounded-full bg-[var(--status-high)]" />
+            <span>{t('উচ্চ', 'High')} ({toBanglaNumber(MAP_INCIDENTS.filter(i => i.priority === 'high').length)})</span>
+          </span>
+          <span className="text-[var(--line)]">|</span>
+          <span className="flex items-center gap-1.5 text-[var(--status-low)]">
+            <span className="w-3 h-3 rounded-full bg-[var(--status-low)]" />
+            <span>{t('সমাধান', 'Resolved')} ({toBanglaNumber(MAP_INCIDENTS.filter(i => i.status === 'resolved').length)})</span>
+          </span>
+        </div>
+      </div>
+
+      {/* Filter & Map Layer Switcher Toolbar */}
+      <div className="flex flex-wrap items-center justify-between gap-4 bg-[var(--paper)] border border-[var(--line)] p-4 rounded-2xl shadow-xs">
+        {/* Category Filter Chips */}
+        <div className="flex flex-wrap items-center gap-2.5">
+          <span className="text-sm font-bold text-[var(--ink)] flex items-center gap-1.5 mr-1">
+            <Filter className="w-4 h-4 text-[var(--muted)]" />
+            <span>{t('ফিল্টার:', 'Filter:')}</span>
+          </span>
+
+          {[
+            { id: 'all', label: t('সকল সেবা', 'All Services') },
+            { id: 'water', label: t('পানি সরবরাহ', 'Water') },
+            { id: 'roads', label: t('সড়ক ও পরিবহন', 'Road & Transport') },
+            { id: 'waste', label: t('বর্জ্য', 'Waste') },
+            { id: 'streetlights', label: t('বিদ্যুৎ ও বাতি', 'Electricity') },
+            { id: 'healthcare', label: t('স্বাস্থ্যসেবা', 'Healthcare') },
+            { id: 'food', label: t('খাদ্য নিরাপত্তা', 'Food Safety') },
+            { id: 'drainage', label: t('ড্রেনেজ', 'Drainage') }
+          ].map(cat => (
+            <button
+              key={cat.id}
+              type="button"
+              onClick={() => setSelectedCategory(cat.id)}
+              className={`px-4 py-2 rounded-xl text-sm font-semibold transition cursor-pointer ${
+                selectedCategory === cat.id
+                  ? 'bg-[var(--ink)] text-[var(--bg)] shadow-xs'
+                  : 'bg-[var(--bg)] text-[var(--muted)] border border-[var(--line)] hover:text-[var(--ink)]'
+              }`}
+            >
+              {cat.label}
+            </button>
+          ))}
+        </div>
+
+        {/* Tile Layer Selector (Satellite Default / Esri HD / Google / OSM / Dark) */}
+        <div className="flex flex-wrap items-center gap-3">
+          <span className="text-sm text-[var(--muted)] flex items-center gap-1.5 font-medium">
+            <Globe className="w-4 h-4 text-emerald-500" />
+            <span>{t('মানচিত্র প্রকার:', 'Map View:')}</span>
+          </span>
+
+          <div className="flex flex-wrap items-center rounded-xl bg-[var(--bg)] border border-[var(--line)] p-1 gap-1">
+            {[
+              { id: 'satellite', label: t('স্যাটেলাইট ভিউ (ডিফল্ট)', 'Satellite (Default)') },
+              { id: 'esri', label: t('এসরি স্যাটেলাইট এইচডি', 'Esri Satellite HD') },
+              { id: 'google', label: t('গুগল রোডম্যাপ', 'Google Roadmap') },
+              { id: 'osm', label: t('ওপেনস্ট্রিটম্যাপ', 'OpenStreetMap') },
+              { id: 'dark', label: t('ডার্ক মোড', 'Dark Mode') }
+            ].map(layer => (
+              <button
+                key={layer.id}
+                type="button"
+                onClick={() => setActiveTileLayer(layer.id as TileLayerType)}
+                className={`px-3 py-1.5 text-xs sm:text-sm font-semibold rounded-lg transition cursor-pointer ${
+                  activeTileLayer === layer.id
+                    ? 'bg-emerald-600 text-white font-bold shadow-md'
+                    : 'text-[var(--muted)] hover:text-[var(--ink)] hover:bg-[var(--paper-elevated)]'
+                }`}
+              >
+                {layer.label}
+              </button>
+            ))}
+          </div>
+
+          {/* Hotspots Toggle */}
+          <button
+            type="button"
+            onClick={() => setShowHotspots(!showHotspots)}
+            className={`px-3.5 py-2 text-xs sm:text-sm font-semibold rounded-xl border transition flex items-center gap-2 cursor-pointer shadow-xs ${
+              showHotspots
+                ? 'bg-[var(--ink)] text-[var(--bg)] border-[var(--ink)] font-bold'
+                : 'bg-[var(--bg)] text-[var(--muted)] border-[var(--line)]'
+            }`}
+          >
+            <Flame className="w-4 h-4 text-rose-500" />
+            <span>{t('হটস্পট জোন', 'Hotspot Zones')}</span>
+          </button>
+        </div>
+      </div>
+
+      {/* Main Map + Incident Details Split View */}
+      <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
+        {/* Left Column: Interactive Visual Map Canvas */}
+        <div className="lg:col-span-8 rounded-2xl overflow-hidden border border-[var(--line)] bg-[var(--bg)] min-h-[580px] relative flex flex-col justify-between shadow-sm">
+          {/* Top Quick Action Floating Bar */}
+          <div className="absolute top-4 left-4 z-[400] flex items-center gap-2.5">
+            <div className="bg-[var(--paper)]/95 backdrop-blur-md border border-[var(--line)] px-3.5 py-2 rounded-xl text-xs sm:text-sm text-[var(--muted)] flex items-center gap-2 shadow-xs">
+              <Compass className="w-4.5 h-4.5 text-[var(--ink)]" />
+              <span className="text-[var(--ink)] font-semibold">{t('ঢাকা সিটি কর্পোরেশন সিভিক জোন', 'Dhaka City Corporation Civic Zone')}</span>
+            </div>
+
+            <button
+              type="button"
+              onClick={handleLocateMe}
+              className="civic-btn-secondary px-3 py-2 text-xs sm:text-sm font-semibold flex items-center gap-2 shadow-xs cursor-pointer"
+              title={t('আমার অবস্থান চিহ্নিত করুন', 'Locate My Position')}
+            >
+              <Navigation className="w-4 h-4 text-emerald-500" />
+              <span className="hidden sm:inline">{t('আমার অবস্থান', 'My Location')}</span>
+            </button>
+
+            <button
+              type="button"
+              onClick={handleResetFit}
+              className="civic-btn-secondary px-3 py-2 text-xs sm:text-sm font-semibold flex items-center gap-2 shadow-xs cursor-pointer"
+              title={t('সকল কেস দৃশ্যমান করুন', 'Fit All Cases')}
+            >
+              <Maximize2 className="w-4 h-4 text-teal-500" />
+              <span className="hidden sm:inline">{t('সব কেস দেখুন', 'Fit All Cases')}</span>
+            </button>
+          </div>
+
+          {/* Leaflet Map DOM Container */}
+          <div
+            ref={mapContainerRef}
+            className="w-full h-[580px] z-0 focus:outline-none"
+          />
+
+          {/* Bottom Privacy Safeguard Footer */}
+          <div className="bg-[var(--paper)]/95 border-t border-[var(--line)] px-5 py-3 flex flex-col sm:flex-row sm:items-center justify-between gap-2 text-xs text-[var(--muted)] z-10">
+            <div className="flex items-center gap-2">
+              <ShieldCheck className="w-4.5 h-4.5 text-[var(--status-low)]" />
+              <span>{t('নাগরিকের ব্যক্তিগত গোপনীয়তা সুরক্ষায় জিপিএস অবস্থান ক্লাস্টার বা ১০০ মিটার রেডিয়াসে সংরক্ষিত।', 'Citizen privacy protected: GPS locations are clustered within a 100m radius.')}</span>
+            </div>
+            <span className="font-mono text-[var(--ink)] flex items-center gap-1.5 text-xs">
+              <span className="w-2.5 h-2.5 rounded-full bg-[var(--status-low)] animate-pulse" />
+              <span>LIVE: {toBanglaNumber(filteredIncidents.length)} {t('কেস সক্রিয়', 'Incidents Active')}</span>
+            </span>
+          </div>
+        </div>
+
+        {/* Right Column: Selected Incident Inspection Card */}
+        <div className="lg:col-span-4 space-y-4">
+          {selectedIncident ? (
+            <div className="rounded-2xl p-6 sm:p-7 civic-card shadow-sm space-y-5 sticky top-24">
+              <div className="flex items-center justify-between pb-3.5 border-b border-[var(--line)]">
+                <div>
+                  <span className="text-xs font-mono text-[var(--muted)]">SELECTED INCIDENT</span>
+                  <h3 className="text-base font-bold text-[var(--ink)] font-mono">#{selectedIncident.id}</h3>
+                </div>
+                <span
+                  style={{
+                    backgroundColor: `${getPinColor(selectedIncident.priority)}22`,
+                    color: getPinColor(selectedIncident.priority),
+                    borderColor: getPinColor(selectedIncident.priority)
+                  }}
+                  className="px-3 py-1 rounded-full text-xs font-bold border"
+                >
+                  {selectedIncident.priorityBn}
+                </span>
+              </div>
+
+              <div className="space-y-1.5">
+                <span className="text-sm text-[var(--muted)] font-bold block">
+                  {selectedIncident.categoryBn} · {selectedIncident.wardBn}
+                </span>
+                <p className="text-base font-semibold text-[var(--ink)] leading-snug">
+                  {selectedIncident.titleBn}
+                </p>
+              </div>
+
+              <div className="p-4 rounded-xl bg-[var(--bg)] border border-[var(--line)] space-y-2.5 text-sm">
+                <div className="flex items-center justify-between">
+                  <span className="text-[var(--muted)]">{t('দায়িত্বপ্রাপ্ত বিভাগ:', 'Department:')}</span>
+                  <strong className="text-[var(--ink)] font-semibold">{selectedIncident.deptName}</strong>
+                </div>
+                <div className="flex items-center justify-between">
+                  <span className="text-[var(--muted)]">{t('বর্তমান স্থিতি:', 'Current Status:')}</span>
+                  <span className="text-[var(--ink)] font-semibold">{selectedIncident.statusBn}</span>
+                </div>
+                <div className="flex items-center justify-between">
+                  <span className="text-[var(--muted)]">{t('এসএলএ লক্ষ্যমাত্রা:', 'SLA Target:')}</span>
+                  <span className="text-[var(--ink)] font-bold flex items-center gap-1.5 font-mono">
+                    <Clock className="w-4 h-4 text-[var(--muted)]" />
+                    <span>{selectedIncident.slaRemaining}</span>
+                  </span>
+                </div>
+              </div>
+
+              {selectedIncident.isHotspot && (
+                <div className="p-3.5 rounded-xl bg-[var(--status-medium-bg)] border border-[var(--status-medium-line)] text-[var(--status-medium)] text-sm flex items-center gap-2.5">
+                  <Flame className="w-5 h-5 shrink-0" />
+                  <span className="leading-relaxed">{t('দীর্ঘস্থায়ী হটস্পট: এই এলাকায় সাম্প্রতিককালে একাধিক সমস্যার পুনরাবৃত্তি চিহ্নিত হয়েছে।', 'Chronic Hotspot: Recurring issues detected in this cluster over recent periods.')}</span>
+                </div>
+              )}
+
+              <div className="pt-2 flex flex-col gap-3">
+                <button
+                  type="button"
+                  onClick={() => handleFlyToIncident(selectedIncident)}
+                  className="civic-btn-secondary w-full py-3 text-sm flex items-center justify-center gap-2 cursor-pointer"
+                >
+                  <MapPin className="w-4 h-4" />
+                  <span>{t('মানচিত্রে ফোকাস করুন', 'Focus on Map')}</span>
+                </button>
+
+                <Link
+                  to={`/cases/${selectedIncident.id}`}
+                  className="civic-btn-primary w-full py-3.5 text-sm flex items-center justify-center gap-2 shadow-xs cursor-pointer"
+                >
+                  <Eye className="w-4.5 h-4.5" />
+                  <span>{t('সম্পূর্ণ টাইমলাইন ও সমাধান প্রমাণ', 'Full Timeline & Resolution Proof')}</span>
+                  <ArrowRight className="w-4.5 h-4.5" />
+                </Link>
+              </div>
+            </div>
+          ) : (
+            <div className="rounded-2xl p-10 text-center text-[var(--muted)] civic-card space-y-2">
+              <MapPin className="w-10 h-10 mx-auto text-[var(--muted)] mb-2" />
+              <p className="text-sm font-semibold">{t('মানচিত্রে কোনো পিনে ক্লিক করে বিস্তারিত তথ্য দেখুন', 'Click any map pin to view detailed incident telemetry')}</p>
+            </div>
+          )}
+        </div>
+      </div>
+    </div>
+  );
+};
