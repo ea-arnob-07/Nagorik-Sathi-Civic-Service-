@@ -318,3 +318,5 @@ sequenceDiagram
     API->>DB: UPDATE incident {status=verified, priority=EMERGENCY}
     Note over API: SLA timer: Emergency response time\nescalation if missed
 ```
+
+<!-- Document revision audit -->
