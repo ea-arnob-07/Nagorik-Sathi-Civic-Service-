@@ -399,3 +399,5 @@ flowchart TD
 - **Restart-Resilient Queue**: `task_waiting_queue` persists state directly in PostgreSQL/SQLite. Upon service startup, the queue state is fully recovered.
 - **Prerequisite Locking Guard**: Dependent tasks (e.g., Road repair) cannot be transitioned out of `BLOCKED` queue status until the upstream prerequisite task (Drain cleaning) completes with verified evidence.
 
+
+<!-- Document revision audit -->
