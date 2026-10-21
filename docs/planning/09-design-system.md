@@ -426,3 +426,5 @@ AI unavailable:
 - No component-specific colour overrides; only token references
 - Dark mode: not planned for v1; token system supports future addition
 - RTL: not planned for v1 (Bangla is LTR); token system is directional-safe
+
+<!-- Document revision audit -->
