@@ -313,3 +313,5 @@ To ensure fair, predictable and auditable field task distribution, officer recom
    - Every recommendation generates concise, human-readable rationale in Bangla explaining the exact factors considered.
    - Dispatch confirmation or automated dispatch events are recorded immutably in `task_assignment_history`.
 
+
+<!-- Document revision audit -->
