@@ -315,3 +315,5 @@
 | T17 | Restart Persistence | Tasks held in `task_waiting_queue` survive backend restarts with position and metadata intact | `test_officer_workflow.py` |
 | T18 | Full Compound Scenario | Waste → Drain → Road end-to-end multi-department flow completes with evidence, objection, and closure | `test_case_workflow.py` |
 
+
+<!-- Document revision audit -->
