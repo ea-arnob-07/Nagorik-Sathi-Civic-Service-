@@ -285,3 +285,5 @@ To uphold separation of powers:
 - When administrative accounts browse the Account Directory, citizen contact information is automatically masked (e.g. `c***@domain.com`, `017****5678`).
 - Technical administrators cannot access raw citizen contact details or case evidence merely by virtue of having account-management authority.
 
+
+<!-- Document revision audit -->
