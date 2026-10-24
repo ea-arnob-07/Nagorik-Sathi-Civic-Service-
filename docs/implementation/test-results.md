@@ -126,3 +126,5 @@ Tested against live uvicorn server running with local database (`nagoriksathi_lo
 | Frontend Unit Tests | `node --test tests/*.test.mjs` | **PASS (3/3)** |
 | Backend API & Workflow | `pytest` (23 test cases) | **PASS (23/23)** |
 | WCAG 2.1 AA Accessibility | Focus rings, contrast ratios, text-scaling classes | **PASS** |
+
+<!-- Document revision audit -->
