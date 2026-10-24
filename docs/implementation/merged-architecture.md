@@ -24,3 +24,5 @@ The text ensemble is trained from 60 demo rows and its recorded held-out Categor
 ## Media storage
 
 Local media files are written to `backend/uploads`. Docker Compose mounts this folder as `backend_uploads`. For production, replace local file storage with authenticated object storage and configure retention, rate limiting, malware scanning and access control.
+
+<!-- Document revision audit -->
