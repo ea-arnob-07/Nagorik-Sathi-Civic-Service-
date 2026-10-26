@@ -46,3 +46,5 @@ def upgrade():
 
 def downgrade():
     op.drop_table('policy_change_requests')
+
+# Refined module integration
