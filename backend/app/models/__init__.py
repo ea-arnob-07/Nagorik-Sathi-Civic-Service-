@@ -31,3 +31,5 @@ __all__ = [
     "SystemConfig", "ApprovalRequest", "ApprovalStatusEnum",
     "PolicyChangeRequest", "PolicyChangeCategoryEnum", "PolicyApprovalStateEnum", "PolicyImplementationStateEnum"
 ]
+
+# Refined module integration
