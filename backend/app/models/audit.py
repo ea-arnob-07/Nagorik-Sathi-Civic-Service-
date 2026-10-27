@@ -20,3 +20,5 @@ class AuditLog(BaseModel):
     # Tamper-Evident SHA-256 Hash Chaining
     previous_hash = Column(String(64), nullable=True)
     current_hash = Column(String(64), nullable=False, unique=True)
+
+# Refined module integration
