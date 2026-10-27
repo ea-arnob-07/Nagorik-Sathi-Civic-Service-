@@ -39,3 +39,5 @@ class AIPrediction(BaseModel):
     feature_contributions = Column(JSON, default=dict)
     
     job = relationship("AIJob", back_populates="predictions")
+
+# Refined module integration
