@@ -63,3 +63,5 @@ class CaseObjection(BaseModel):
     reviewer_decision_notes = Column(Text, nullable=True)
     
     case = relationship("Case", back_populates="objections")
+
+# Refined module integration
