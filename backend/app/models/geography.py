@@ -48,3 +48,5 @@ class Asset(BaseModel):
     
     ward = relationship("Ward", back_populates="assets")
     department = relationship("Department", back_populates="assets")
+
+# Refined module integration
