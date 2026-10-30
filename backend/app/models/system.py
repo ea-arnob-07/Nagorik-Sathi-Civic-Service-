@@ -80,3 +80,5 @@ class PolicyChangeRequest(BaseModel):
     effective_time = Column(DateTime, nullable=True)
     rollback_details = Column(JSON, nullable=True)
 
+
+# Refined module integration
