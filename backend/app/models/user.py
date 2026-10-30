@@ -109,3 +109,5 @@ class PrivilegedRoleRequest(BaseModel):
     target_user = relationship("User", foreign_keys=[target_user_id])
     requesting_admin = relationship("User", foreign_keys=[requesting_admin_id])
     approved_by_governance_head = relationship("User", foreign_keys=[approved_by_governance_head_id])
+
+# Refined module integration
