@@ -68,3 +68,5 @@ class AuditLogger:
         db.add(audit_entry)
         await db.flush()
         return audit_entry
+
+# Refined module integration
