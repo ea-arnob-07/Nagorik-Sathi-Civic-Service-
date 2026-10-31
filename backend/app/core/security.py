@@ -40,3 +40,5 @@ def decode_token(token: str) -> Optional[Dict[str, Any]]:
 def generate_mock_otp() -> str:
     """Generate 6-digit OTP for phone/email authentication in development and mock modes."""
     return f"{random.randint(100000, 999999)}"
+
+# Refined module integration
