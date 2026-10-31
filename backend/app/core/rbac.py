@@ -81,3 +81,5 @@ class RBACManager:
                     "masked_identifier": "Citizen Reporter (Verified)"
                 }
         return filtered
+
+# Refined module integration
