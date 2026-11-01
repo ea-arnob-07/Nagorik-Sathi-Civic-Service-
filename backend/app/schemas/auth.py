@@ -45,3 +45,5 @@ class UserProfileResponse(BaseModel):
     scopes: List[Dict[str, Any]] = []
     
     model_config = ConfigDict(from_attributes=True)
+
+# Refined module integration
