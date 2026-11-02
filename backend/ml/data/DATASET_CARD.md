@@ -9,3 +9,5 @@
 - Split: grouped by scenario template to reduce direct template leakage.
 
 This dataset was generated for a project showcase. It is not collected from citizens, is not representative of any city, and must not be used as evidence of real-world model performance.
+
+<!-- Document revision audit -->
