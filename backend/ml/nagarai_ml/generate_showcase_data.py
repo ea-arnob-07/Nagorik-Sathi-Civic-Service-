@@ -298,3 +298,5 @@ if __name__ == "__main__":
     data = generate_dataset(destination)
     print(f"Generated {len(data)} synthetic complaint samples across {data['category'].nunique()} categories.")
     print(data.groupby(["category", "severity"]).size().to_string())
+
+# Refined module integration
