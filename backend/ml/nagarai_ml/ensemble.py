@@ -309,3 +309,5 @@ class SixModelTextEnsemble:
                 probabilities[winner_index] < 0.58 or agreeing < 4
             ),
         }
+
+# Refined module integration
