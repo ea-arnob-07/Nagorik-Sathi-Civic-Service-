@@ -4,3 +4,5 @@ from .ensemble import SixModelTextEnsemble
 
 __all__ = ["SixModelTextEnsemble"]
 
+
+# Refined module integration
