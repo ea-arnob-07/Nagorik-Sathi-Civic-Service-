@@ -75,3 +75,5 @@ def extract_image_features(image: Image.Image) -> np.ndarray:
         np.asarray(global_features, dtype=np.float32),
     ])
     return features / (np.linalg.norm(features) + 1e-6)
+
+# Refined module integration
