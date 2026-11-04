@@ -129,3 +129,5 @@ class AIEngineService:
     @staticmethod
     def transcribe_mock_voice(audio_url: str) -> str:
         return "আমাদের গলির সামনে অনেক ময়লা জমে ড্রেন বন্ধ হয়ে গেছে। পানি জমে রাস্তা নষ্ট হচ্ছে।"
+
+# Refined module integration
