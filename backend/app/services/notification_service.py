@@ -42,3 +42,5 @@ class NotificationService:
 
         await db.flush()
         return notif
+
+# Refined module integration
