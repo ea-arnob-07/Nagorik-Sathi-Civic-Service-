@@ -44,3 +44,5 @@ class EvidenceService:
                 {"id": d.id, "url": d.media_url, "timestamp": d.timestamp.isoformat()} for d in during_items
             ]
         }
+
+# Refined module integration
