@@ -125,3 +125,5 @@ def predict_text(text: str) -> dict[str, Any]:
         ),
         "disclaimer": "Synthetic showcase text model. A human reviewer owns the final action."
     }
+
+# Refined module integration
