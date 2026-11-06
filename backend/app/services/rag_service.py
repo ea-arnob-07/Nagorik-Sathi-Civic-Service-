@@ -77,3 +77,5 @@ class RAGService:
             "citations": citations,
             "disclaimer_bn": "উক্ত তথ্য সিটি কর্পোরেশনের অনুমোদিত সেবা সনদ থেকে সংগৃহীত। পরিবর্তনযোগ্য বিধিমালার জন্য মূল গেজেট অনুসরণীয়।"
         }
+
+# Refined module integration
