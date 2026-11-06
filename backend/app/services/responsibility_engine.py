@@ -183,3 +183,5 @@ class ResponsibilityEngineService:
             "passed_gate": passed_gate,
             "requires_staff_verification": not passed_gate,
         }
+
+# Refined module integration
