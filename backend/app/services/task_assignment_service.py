@@ -749,3 +749,5 @@ class TaskAssignmentService:
             q_item.status = "queued" if prereqs_completed else "blocked"
 
         return q_item
+
+# Refined module integration
