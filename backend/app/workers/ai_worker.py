@@ -33,3 +33,5 @@ class AIWorker:
         }
 
 ai_worker = AIWorker()
+
+# Refined module integration
