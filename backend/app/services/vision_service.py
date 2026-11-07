@@ -116,3 +116,5 @@ def predict_image(content: bytes) -> dict[str, Any]:
             "It is not validated for real-world citizen photos. Human verification is mandatory."
         ),
     }
+
+# Refined module integration
