@@ -96,3 +96,5 @@ async def root():
         "docs": "/docs",
         "api_v1": settings.API_V1_STR
     }
+
+# Refined module integration
