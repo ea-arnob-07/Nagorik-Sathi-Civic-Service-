@@ -8,3 +8,5 @@ from app.models.department import Department, Officer
 from app.models.service import ResponsibilityRule
 
 __all__ = ["ResponsibilityEngine", "Ward", "Asset", "Department", "Officer", "ResponsibilityRule"]
+
+# Refined module integration
