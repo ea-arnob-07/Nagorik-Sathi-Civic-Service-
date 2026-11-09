@@ -7,3 +7,5 @@ from app.services.routing_gate import RoutingConfidenceGate
 from app.models.ai import AIJob, AIPrediction
 
 __all__ = ["AIEngine", "RoutingConfidenceGate", "AIJob", "AIPrediction"]
+
+# Refined module integration
