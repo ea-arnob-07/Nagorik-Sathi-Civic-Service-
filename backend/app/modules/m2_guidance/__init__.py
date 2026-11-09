@@ -6,3 +6,5 @@ from app.services.rag_service import RAGService
 from app.models.service import ServiceCatalog, ServiceDocument, ServiceDocumentChunk
 
 __all__ = ["RAGService", "ServiceCatalog", "ServiceDocument", "ServiceDocumentChunk"]
+
+# Refined module integration
