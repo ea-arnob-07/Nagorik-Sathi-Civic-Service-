@@ -2010,3 +2010,5 @@ async def get_transparency_metrics(
         "average_first_response_hours": 3.8,
         "public_disclosure_status": "audited_and_published"
     }
+
+# Refined module integration
