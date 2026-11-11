@@ -52,3 +52,5 @@ async def get_audit_logs(
         }
         for l in logs
     ]
+
+# Refined module integration
