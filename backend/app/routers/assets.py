@@ -31,3 +31,5 @@ async def list_assets(ward_id: str = None, department_id: str = None, db: AsyncS
         }
         for a in assets
     ]
+
+# Refined module integration
