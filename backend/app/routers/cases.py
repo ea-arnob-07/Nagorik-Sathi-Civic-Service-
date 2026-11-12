@@ -960,3 +960,5 @@ async def get_coordinator_objections(
         })
     return output
 
+
+# Refined module integration
