@@ -35,3 +35,5 @@ async def list_verified_documents(db: AsyncSession = Depends(get_db)):
         }
         for d in docs
     ]
+
+# Refined module integration
