@@ -13,3 +13,5 @@ async def get_hotspot_zones(db: AsyncSession = Depends(get_db)):
     """
     hotspots = await HotspotAnalyzerService.evaluate_hotspots(db)
     return hotspots
+
+# Refined module integration
