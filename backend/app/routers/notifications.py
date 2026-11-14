@@ -53,3 +53,5 @@ async def update_consent(req: ConsentUpdateRequest, db: AsyncSession = Depends(g
         consent.is_granted = req.is_granted
     await db.commit()
     return {"message_bn": "সম্মতি সেটিংস সফলভাবে হালনাগাদ হয়েছে।"}
+
+# Refined module integration
