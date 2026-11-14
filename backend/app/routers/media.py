@@ -77,3 +77,5 @@ async def get_media(file_id: str):
     if not path.is_file():
         raise HTTPException(status_code=404, detail="ফাইল পাওয়া যায়নি।")
     return FileResponse(path)
+
+# Refined module integration
