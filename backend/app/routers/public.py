@@ -157,3 +157,5 @@ async def get_transparency_metrics(db: AsyncSession = Depends(get_db)):
         "department_statistics": dept_stats,
         "ward_statistics": ward_stats
     }
+
+# Refined module integration
