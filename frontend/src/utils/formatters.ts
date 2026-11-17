@@ -78,3 +78,5 @@ export const calculateSlaCountdown = (deadlineIso: string): { text: string; isBr
     return { text: 'এসএলএ নির্ধারিত নয়', isBreached: false };
   }
 };
+
+// Refined component integration
