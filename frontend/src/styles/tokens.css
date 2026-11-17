@@ -133,3 +133,5 @@ html[data-theme="dark"] {
   --shadow-lux: 0 4px 20px rgba(0, 0, 0, 0.5);
   --shadow-overlay: 0 20px 25px -5px rgba(0, 0, 0, 0.6), 0 8px 10px -6px rgba(0, 0, 0, 0.4);
 }
+
+/* Refined layout rules */
