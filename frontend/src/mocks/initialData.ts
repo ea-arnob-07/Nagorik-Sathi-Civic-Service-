@@ -1206,3 +1206,5 @@ export const INITIAL_NOTIFICATIONS: AppNotification[] = [
     actionLink: '/cases/NS-2026-000170'
   }
 ];
+
+// Refined component integration
