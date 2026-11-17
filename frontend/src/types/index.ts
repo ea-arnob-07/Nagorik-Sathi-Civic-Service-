@@ -280,3 +280,5 @@ export interface ResponsibilityRule {
   status: 'active' | 'draft' | 'archived';
   effectiveDate: string;
 }
+
+// Refined component integration
