@@ -46,3 +46,5 @@ export const canViewAuditLog = (role: UserRole): boolean => {
 export const canManageDuplicates = (role: UserRole): boolean => {
   return role === 'ward_desk' || role === 'coordinator';
 };
+
+// Refined component integration
