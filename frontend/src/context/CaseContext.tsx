@@ -172,3 +172,5 @@ export const useCases = (): CaseContextType => {
   }
   return context;
 };
+
+// Refined component integration
