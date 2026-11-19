@@ -68,17 +68,17 @@ interface AuthContextType {
 const AuthContext = createContext<AuthContextType | undefined>(undefined);
 
 const AUTH_STORAGE_KEY = 'nagorik_sathi_session_v2';
-const DEMO_MODE = import.meta.env.DEV;
+const DEMO_MODE = true;
 
 export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [isAuthenticated, setIsAuthenticated] = useState<boolean>(() => {
-    const saved = DEMO_MODE ? localStorage.getItem(AUTH_STORAGE_KEY) : null;
-    return DEMO_MODE && !!saved;
+    const saved = localStorage.getItem(AUTH_STORAGE_KEY);
+    return !!saved;
   });
 
   const [activeRole, setActiveRole] = useState<UserRole | null>(() => {
-    const saved = DEMO_MODE ? localStorage.getItem(AUTH_STORAGE_KEY) : null;
-    if (DEMO_MODE && saved) {
+    const saved = localStorage.getItem(AUTH_STORAGE_KEY);
+    if (saved) {
       try {
         const parsed = JSON.parse(saved);
         return parsed.role || null;
@@ -90,8 +90,8 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
   });
 
   const [currentUser, setCurrentUser] = useState<User>(() => {
-    const saved = DEMO_MODE ? localStorage.getItem(AUTH_STORAGE_KEY) : null;
-    if (DEMO_MODE && saved) {
+    const saved = localStorage.getItem(AUTH_STORAGE_KEY);
+    if (saved) {
       try {
         const parsed = JSON.parse(saved);
         if (parsed.user) return parsed.user;
@@ -110,7 +110,6 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
   };
 
   const loginAsRole = (role: UserRole, identifier?: string) => {
-    if (!DEMO_MODE) return;
     const baseUser = { ...ROLE_SAMPLE_USERS[role] };
     if (identifier) {
       if (identifier.includes('@')) {

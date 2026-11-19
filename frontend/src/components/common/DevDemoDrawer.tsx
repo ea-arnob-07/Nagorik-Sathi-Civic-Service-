@@ -13,7 +13,7 @@ export const DevDemoDrawer: React.FC = () => {
   const { t } = useLanguage();
   const navigate = useNavigate();
 
-  if (!import.meta.env.DEV || !isDevDemoDrawerOpen) return null;
+  if (!isDevDemoDrawerOpen) return null;
 
   const roleCopy: Record<UserRole, { title: string; subtitle: string }> = {
     citizen: {
