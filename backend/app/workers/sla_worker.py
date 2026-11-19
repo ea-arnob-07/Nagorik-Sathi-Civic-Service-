@@ -20,5 +20,3 @@ class SLAWorker:
         return []
 
 sla_worker = SLAWorker()
-
-# Refined module integration

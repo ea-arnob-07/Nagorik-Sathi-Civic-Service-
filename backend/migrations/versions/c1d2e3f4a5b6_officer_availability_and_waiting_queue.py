@@ -74,5 +74,3 @@ def downgrade():
     op.drop_column('officers', 'current_active_tasks')
     op.drop_column('officers', 'max_concurrent_tasks')
     op.drop_column('officers', 'availability_status')
-
-# Refined module integration

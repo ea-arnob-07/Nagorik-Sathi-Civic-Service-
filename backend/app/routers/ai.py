@@ -171,5 +171,3 @@ async def predict_image_category(file: UploadFile = File(...)):
         raise HTTPException(status_code=503, detail="Vision model চালাতে Pillow ও scikit-learn install করতে হবে।") from exc
     except (OSError, ValueError, RuntimeError) as exc:
         raise HTTPException(status_code=422, detail="ছবিটি পড়া যায়নি বা model artifact-এর সঙ্গে মেলেনি।") from exc
-
-# Refined module integration

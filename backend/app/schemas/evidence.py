@@ -29,5 +29,3 @@ class ObjectionReviewRequest(BaseModel):
     objection_id: str
     decision: str # "accept" (reopen task) or "reject" (maintain closure with explanation)
     decision_notes: str
-
-# Refined module integration

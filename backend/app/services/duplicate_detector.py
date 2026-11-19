@@ -73,5 +73,3 @@ class DuplicateDetectorService:
                     })
 
         return candidates
-
-# Refined module integration

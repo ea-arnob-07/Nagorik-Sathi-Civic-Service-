@@ -66,5 +66,3 @@ class RoutingGateService:
             "can_propose": can_propose,
             "message_bn": message_bn
         }
-
-# Refined module integration

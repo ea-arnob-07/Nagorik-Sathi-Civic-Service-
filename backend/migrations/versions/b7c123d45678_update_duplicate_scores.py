@@ -27,5 +27,3 @@ def downgrade():
     op.drop_column('duplicate_candidates', 'time_score')
     op.drop_column('duplicate_candidates', 'category_score')
     op.drop_column('duplicate_candidates', 'distance_score')
-
-# Refined module integration

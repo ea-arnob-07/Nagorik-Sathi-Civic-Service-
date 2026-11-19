@@ -206,5 +206,3 @@ async def get_my_profile(current_user: User = Depends(get_current_user)):
         accessibility_mode=current_user.accessibility_mode or {},
         scopes=scopes_data
     )
-
-# Refined module integration

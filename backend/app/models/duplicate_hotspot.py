@@ -47,5 +47,3 @@ class Hotspot(BaseModel):
     is_reviewed_by_engineer = Column(Boolean, default=False, nullable=False)
     engineer_user_id = Column(String(36), ForeignKey("users.id", ondelete="SET NULL"), nullable=True)
     engineer_feedback = Column(Text, nullable=True)
-
-# Refined module integration

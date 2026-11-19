@@ -1005,5 +1005,3 @@ def downgrade() -> None:
     op.drop_table('departments')
     op.drop_table('audit_events')
     # ### end Alembic commands ###
-
-# Refined module integration

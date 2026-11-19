@@ -61,5 +61,3 @@ export const useLanguage = (): LanguageContextType => {
   }
   return context;
 };
-
-// Refined component integration

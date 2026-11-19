@@ -44,5 +44,3 @@ class Officer(BaseModel):
     
     department = relationship("Department", back_populates="officers")
     ward = relationship("Ward", back_populates="officers")
-
-# Refined module integration

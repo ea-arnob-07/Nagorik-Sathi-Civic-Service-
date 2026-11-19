@@ -61,5 +61,3 @@ export const useTheme = (): ThemeContextType => {
   }
   return ctx;
 };
-
-// Refined component integration

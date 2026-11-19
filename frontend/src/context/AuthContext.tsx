@@ -171,5 +171,3 @@ export const useAuth = (): AuthContextType => {
   }
   return context;
 };
-
-// Refined component integration

@@ -648,5 +648,3 @@ erDiagram
 | officer.backup_officer_id | SPECIFIED (R&D Table 24) | Included |
 | citizen_profiles.display_name_encrypted | PROPOSED | R&D does not specify citizen name storage; proposed optional encrypted field |
 | reports.reported_duration | PROPOSED | R&D says system asks "how long"; stored as citizen's text description |
-
-<!-- Document revision audit -->

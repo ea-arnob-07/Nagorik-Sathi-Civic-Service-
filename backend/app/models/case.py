@@ -159,5 +159,3 @@ class CasePriorityHistory(BaseModel):
     reason = Column(Text, nullable=False)
     
     case = relationship("Case", back_populates="priority_history")
-
-# Refined module integration

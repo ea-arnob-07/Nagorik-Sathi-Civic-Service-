@@ -203,5 +203,3 @@ This distinction is critical and must not be confused in implementation:
 - **Staff Allocation Policy**: As the original R&D did not specify an algorithmic or statistical ML model for staff allocation, a transparent, deterministic multi-factor ranking model is implemented and documented, avoiding black-box or fabricated ML claims.
 - **Scope Isolation**: Officers only view tasks belonging to their assigned department and ward coverage unless granted supervisor/dispatcher permissions.
 
-
-<!-- Document revision audit -->

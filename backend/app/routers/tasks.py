@@ -423,5 +423,3 @@ async def update_task_status(
         "task_status": task.status.value,
         "case_status": task.case.status.value
     }
-
-# Refined module integration

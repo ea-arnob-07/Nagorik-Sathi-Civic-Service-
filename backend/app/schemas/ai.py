@@ -48,5 +48,3 @@ class AIIntakeAnalysisResponse(BaseModel):
 
 class EnsemblePredictionRequest(BaseModel):
     text: str
-
-# Refined module integration

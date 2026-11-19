@@ -71,5 +71,3 @@ def require_roles(allowed_roles: List[UserRoleEnum]):
             )
         return current_user
     return role_checker
-
-# Refined module integration

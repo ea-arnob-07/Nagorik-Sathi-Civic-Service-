@@ -42,5 +42,3 @@
 - **Phone Number Masking:** In all public feeds, open311 exports, and staff task listings, citizen phone numbers and names are masked (`0171****001`).
 - **Location Fuzzing on Public Maps:** The public incident map (`/api/public/map/incidents`) exposes only aggregated ward-level and category-level coordinates without identifying private addresses.
 - **Media Protection:** Media files are validated for permitted MIME types (image/jpeg, image/png, video/mp4) and file size limits (10MB image, 50MB video) with signed URL access control.
-
-<!-- Document revision audit -->

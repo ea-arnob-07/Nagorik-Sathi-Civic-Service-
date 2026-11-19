@@ -37,5 +37,3 @@ class ApplicationReadinessResponse(BaseModel):
     readiness_score_pct: float
     official_portal_url: Optional[str] = None
     guidance_notes_bn: List[str]
-
-# Refined module integration

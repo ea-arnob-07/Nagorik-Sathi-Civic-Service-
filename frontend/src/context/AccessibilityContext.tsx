@@ -97,5 +97,3 @@ export const useAccessibility = (): AccessibilityContextType => {
   }
   return context;
 };
-
-// Refined component integration

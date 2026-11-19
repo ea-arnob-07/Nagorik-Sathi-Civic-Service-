@@ -94,5 +94,3 @@ class SLAService:
             "waiting_reason_bn": active_waiting_reason,
             "is_paused": active_waiting_reason is not None
         }
-
-# Refined module integration

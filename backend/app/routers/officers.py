@@ -120,5 +120,3 @@ async def get_department_workload_summary(
         "average_utilization_pct": avg_utilization,
         "officers": workload
     }
-
-# Refined module integration

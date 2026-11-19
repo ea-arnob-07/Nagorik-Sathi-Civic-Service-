@@ -61,5 +61,3 @@ async def open311_get_requests(
         }
         for c in cases
     ]
-
-# Refined module integration

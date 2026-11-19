@@ -231,5 +231,3 @@ The original R&D report v1.2 (§11, Table 30) defined five operational roles: Ci
 - (-) Introduces an additional administrative role that requires distinct authentication credentials and onboarding in production municipal deployments.
 
 
-
-<!-- Document revision audit -->

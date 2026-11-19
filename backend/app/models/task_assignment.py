@@ -36,5 +36,3 @@ class TaskWaitingQueue(BaseModel):
     task = relationship("CaseTask")
     case = relationship("Case")
     department = relationship("Department")
-
-# Refined module integration

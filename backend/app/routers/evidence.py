@@ -182,5 +182,3 @@ async def submit_citizen_objection(
         "message_bn": "আপনার আপত্তি নথিভুক্ত হয়েছে এবং কাজটি পুনঃপর্যালোচনার জন্য উন্মুক্ত করা হয়েছে।",
         "case_status": case.status.value
     }
-
-# Refined module integration

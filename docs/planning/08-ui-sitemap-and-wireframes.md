@@ -384,5 +384,3 @@ Nagorik Sathi PWA
 - AI-generated content is always labelled as AI-proposed
 - Confidence percentage shown alongside every AI proposal
 - Source and verification date shown alongside every RAG answer
-
-<!-- Document revision audit -->

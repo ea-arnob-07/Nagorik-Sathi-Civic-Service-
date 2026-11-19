@@ -17,5 +17,3 @@ The split groups examples by source scenario template. Reported metrics are only
 `vision_train.py` trains a lightweight HOG + RBF SVM classifier from `vision_dataset/demo_samples/`. The folder contains 21 generated/augmented images, three per category. The trained artifact is stored in `vision/`.
 
 The vision model is for demonstrating the upload-to-department-suggestion workflow only. Every image prediction is marked for human review.
-
-<!-- Document revision audit -->

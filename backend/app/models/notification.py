@@ -30,5 +30,3 @@ class SMSMockLog(BaseModel):
     case_tracking_number = Column(String(50), nullable=True)
     is_simulated = Column(Boolean, default=True, nullable=False)
     gateway_response = Column(String(100), default="SIMULATED_SUCCESS_200", nullable=False)
-
-# Refined module integration

@@ -18,5 +18,3 @@
 - Production SMS/OTP, email delivery, object storage, and live 333/telecom integrations require provider credentials and deployment configuration.
 - The local media endpoint stores files on the application host. Production should move media to managed object storage and configure retention, rate limiting, antivirus scanning and access controls.
 - PostgreSQL/PostGIS, Redis and MinIO are supported by the Docker Compose setup; local runs must configure the matching database driver and environment variables.
-
-<!-- Document revision audit -->

@@ -37,5 +37,3 @@ class SLAEvent(BaseModel):
     escalated_to_role = Column(String(50), nullable=True)
     escalated_to_user_id = Column(String(36), ForeignKey("users.id", ondelete="SET NULL"), nullable=True)
     notes = Column(Text, nullable=True)
-
-# Refined module integration

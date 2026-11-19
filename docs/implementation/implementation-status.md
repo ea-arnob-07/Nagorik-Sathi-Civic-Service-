@@ -104,5 +104,3 @@ npm run build
 - **Design Tokens:** Centralized in `frontend/src/styles/tokens.css` with dark cinematic variables (`--bg: #0d100e`, `--paper: #151a16`, `--green: #4b9e78`, `--gold: #d4c19a`) and ivory light mode (`--bg: #f0eee4`, `--paper: #faf9f2`).
 - **Typography:** Google Fonts (`Manrope`, `DM Sans`, and `Noto Sans Bengali`).
 - **Universal Application:** Applied across public landing, unified login/demo access, and all five role workspaces (`Citizen`, `Ward Desk`, `Department Officer`, `Case Coordinator`, `Administrator`), ensuring visual and architectural cohesion throughout the platform.
-
-<!-- Document revision audit -->

@@ -48,5 +48,3 @@ def downgrade() -> None:
     sa.PrimaryKeyConstraint('srid', name='spatial_ref_sys_pkey')
     )
     # ### end Alembic commands ###
-
-# Refined module integration

@@ -666,5 +666,3 @@ data: {"case_id": "uuid", "incident_id": "uuid"}
 **Auth required:** JWT (`coordinator`, `admin`, or scheduled worker)  
 **Purpose:** Concurrency-safe atomic queue evaluation and dispatch of ready tasks to eligible officers.
 
-
-<!-- Document revision audit -->

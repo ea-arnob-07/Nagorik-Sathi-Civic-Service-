@@ -111,5 +111,3 @@ async def get_ward_stats(
         "sla_at_risk": sla_at_risk,
         "category_breakdown": category_counts
     }
-
-# Refined module integration

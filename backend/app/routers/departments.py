@@ -24,5 +24,3 @@ async def list_departments(db: AsyncSession = Depends(get_db)):
         }
         for d in depts
     ]
-
-# Refined module integration

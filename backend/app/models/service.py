@@ -62,5 +62,3 @@ class ResponsibilityRule(BaseModel):
     is_active = Column(Boolean, default=True, nullable=False)
     
     department = relationship("Department", back_populates="responsibility_rules")
-
-# Refined module integration

@@ -71,5 +71,3 @@ async def check_application_readiness(req: ApplicationReadinessRequest, db: Asyn
         official_portal_url=service.official_portal_url,
         guidance_notes_bn=guidance
     )
-
-# Refined module integration

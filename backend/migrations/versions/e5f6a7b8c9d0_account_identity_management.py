@@ -66,5 +66,3 @@ def downgrade():
     op.drop_column('users', 'last_password_changed_at')
     op.drop_column('users', 'must_change_password')
     op.drop_column('users', 'account_status')
-
-# Refined module integration

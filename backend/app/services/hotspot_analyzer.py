@@ -89,5 +89,3 @@ class HotspotAnalyzerService:
             })
 
         return detected_hotspots
-
-# Refined module integration

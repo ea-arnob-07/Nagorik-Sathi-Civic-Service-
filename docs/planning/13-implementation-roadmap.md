@@ -414,5 +414,3 @@ graph TD
 | AI model latency exceeds 8 s target | P2 | Medium | ONNX quantisation; cache; document if target not met |
 | CloudApper integration feasibility unverified | P3 | Low | Core architecture does not depend on CloudApper |
 | City corporation department approval for real connection | All | High | Demo with illustrative data until approval; explicitly label |
-
-<!-- Document revision audit -->

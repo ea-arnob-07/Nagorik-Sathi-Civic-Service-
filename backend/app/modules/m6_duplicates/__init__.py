@@ -7,5 +7,3 @@ from app.services.hotspot_analyzer import HotspotAnalyzer
 from app.models.duplicate_hotspot import DuplicateCandidate, DuplicateLink, Hotspot
 
 __all__ = ["DuplicateDetector", "HotspotAnalyzer", "DuplicateCandidate", "DuplicateLink", "Hotspot"]
-
-# Refined module integration

@@ -166,5 +166,3 @@ async def get_duplicate_clusters(
                     "status": "merged" if c.status == CaseStatusEnum.MERGED or cand.get("is_already_merged") else "pending_review"
                 })
     return clusters
-
-# Refined module integration
