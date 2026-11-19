@@ -22,8 +22,8 @@ class Settings(BaseSettings):
     
     # Database
     # Standard PostgreSQL + PostGIS URL. In local dev/test if Postgres is offline, fallback SQLite/memory engine is supported safely.
-    DATABASE_URL: str = os.getenv("DATABASE_URL", "postgresql+asyncpg://postgres:postgres@localhost:5432/nagorik_sathi_db")
-    DATABASE_SYNC_URL: str = os.getenv("DATABASE_SYNC_URL", "postgresql://postgres:postgres@localhost:5432/nagorik_sathi_db")
+    DATABASE_URL: str = os.getenv("DATABASE_URL", "sqlite+aiosqlite:///./nagorik_sathi.db")
+    DATABASE_SYNC_URL: str = os.getenv("DATABASE_SYNC_URL", "sqlite:///./nagorik_sathi.db")
     
     # Redis
     REDIS_URL: str = os.getenv("REDIS_URL", "redis://localhost:6379/0")
