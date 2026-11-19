@@ -127,9 +127,6 @@ async def analyze_intake_async_endpoint(
         text_model_review_required=ml_advisory["review_required"] if ml_advisory else True,
         latency_ms=latency_ms,
     )
-e"],
-        latency_ms=latency_ms
-    )
 
 @router.get("/model-status")
 async def get_text_model_status():
