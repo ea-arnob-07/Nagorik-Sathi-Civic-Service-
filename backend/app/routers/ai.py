@@ -9,7 +9,9 @@ from app.services.responsibility_engine import ResponsibilityEngineService
 from app.services.routing_gate import RoutingGateService
 from app.schemas.ai import AIIntakeAnalysisRequest, AIIntakeAnalysisResponse, EnsemblePredictionRequest
 
-router = APIR@router.post("/analyze-intake", response_model=AIIntakeAnalysisResponse)
+router = APIRouter(prefix="/ai", tags=["AI Engine & ML"])
+
+@router.post("/analyze-intake", response_model=AIIntakeAnalysisResponse)
 async def analyze_intake_async_endpoint(
     req: AIIntakeAnalysisRequest,
     db: AsyncSession = Depends(get_db)
